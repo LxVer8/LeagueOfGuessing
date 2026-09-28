@@ -1,0 +1,1488 @@
+{
+  "Aatrox": {
+    "Deathbringer Stance": "https://wiki.leagueoflegends.com/en-us/images/Aatrox_Deathbringer_Stance_HD.png",
+    "Infernal Chains": "https://wiki.leagueoflegends.com/en-us/images/Aatrox_Infernal_Chains_HD.png",
+    "The Darkin Blade": "https://wiki.leagueoflegends.com/en-us/images/Aatrox_The_Darkin_Blade_HD.png",
+    "The Darkin Blade 2": "https://wiki.leagueoflegends.com/en-us/images/Aatrox_The_Darkin_Blade_2_HD.png",
+    "The Darkin Blade 3": "https://wiki.leagueoflegends.com/en-us/images/Aatrox_The_Darkin_Blade_3_HD.png",
+    "Umbral Dash": "https://wiki.leagueoflegends.com/en-us/images/Aatrox_Umbral_Dash_HD.png",
+    "World Ender": "https://wiki.leagueoflegends.com/en-us/images/Aatrox_World_Ender_HD.png"
+  },
+  "Ahri": {
+    "Charm": "https://wiki.leagueoflegends.com/en-us/images/Ahri_Charm_HD.png",
+    "Essence Theft": "https://wiki.leagueoflegends.com/en-us/images/Ahri_Essence_Theft_HD.png",
+    "Fox-Fire": "https://wiki.leagueoflegends.com/en-us/images/Ahri_Fox-Fire_HD.png",
+    "Orb of Deception": "https://wiki.leagueoflegends.com/en-us/images/Ahri_Orb_of_Deception_HD.png",
+    "Spirit Rush": "https://wiki.leagueoflegends.com/en-us/images/Ahri_Spirit_Rush_HD.png"
+  },
+  "Akali": {
+    "Assassin's Mark": "https://wiki.leagueoflegends.com/en-us/images/Akali_Assassin's_Mark_HD.jpg",
+    "Five Point Strike": "https://wiki.leagueoflegends.com/en-us/images/Akali_Five_Point_Strike_HD.jpg",
+    "Five Point Strike 2": "https://wiki.leagueoflegends.com/en-us/images/Akali_Five_Point_Strike_2_HD.png",
+    "Perfect Execution": "https://wiki.leagueoflegends.com/en-us/images/Akali_Perfect_Execution_HD.jpg",
+    "Perfect Execution 2": "https://wiki.leagueoflegends.com/en-us/images/Akali_Perfect_Execution_2_HD.png",
+    "Shuriken Flip": "https://wiki.leagueoflegends.com/en-us/images/Akali_Shuriken_Flip_HD.jpg",
+    "Shuriken Flip 2": "https://wiki.leagueoflegends.com/en-us/images/Akali_Shuriken_Flip_2_HD.png",
+    "Twilight Shroud": "https://wiki.leagueoflegends.com/en-us/images/Akali_Twilight_Shroud_HD.jpg"
+  },
+  "Akshan": {
+    "Avengerang": "https://wiki.leagueoflegends.com/en-us/images/Akshan_Avengerang_HD.png",
+    "Comeuppance": "https://wiki.leagueoflegends.com/en-us/images/Akshan_Comeuppance_HD.png",
+    "Dirty Fighting": "https://wiki.leagueoflegends.com/en-us/images/Akshan_Dirty_Fighting_HD.png",
+    "Going Rogue": "https://wiki.leagueoflegends.com/en-us/images/Akshan_Going_Rogue_HD.png",
+    "Heroic Swing": "https://wiki.leagueoflegends.com/en-us/images/Akshan_Heroic_Swing_HD.png",
+    "Heroic Swing 2": "https://wiki.leagueoflegends.com/en-us/images/Akshan_Heroic_Swing_2_HD.png"
+  },
+  "Alistar": {
+    "Headbutt": "https://wiki.leagueoflegends.com/en-us/images/Alistar_Headbutt_HD.png",
+    "Pulverize": "https://wiki.leagueoflegends.com/en-us/images/Alistar_Pulverize_HD.png",
+    "Trample": "https://wiki.leagueoflegends.com/en-us/images/Alistar_Trample_HD.png",
+    "Triumphant Roar": "https://wiki.leagueoflegends.com/en-us/images/Alistar_Triumphant_Roar_HD.png",
+    "Unbreakable Will": "https://wiki.leagueoflegends.com/en-us/images/Alistar_Unbreakable_Will_HD.png"
+  },
+  "Ambessa": {
+    "Cunning Sweep": "https://wiki.leagueoflegends.com/en-us/images/Ambessa_Cunning_Sweep_HD.png",
+    "Drakehound's Step": "https://wiki.leagueoflegends.com/en-us/images/Ambessa_Drakehound's_Step_HD.png",
+    "Lacerate": "https://wiki.leagueoflegends.com/en-us/images/Ambessa_Lacerate_HD.png",
+    "Public Execution": "https://wiki.leagueoflegends.com/en-us/images/Ambessa_Public_Execution_HD.png",
+    "Repudiation": "https://wiki.leagueoflegends.com/en-us/images/Ambessa_Repudiation_HD.png",
+    "Sundering Slam": "https://wiki.leagueoflegends.com/en-us/images/Ambessa_Sundering_Slam_HD.png"
+  },
+  "Amumu": {
+    "Bandage Toss": "https://wiki.leagueoflegends.com/en-us/images/Amumu_Bandage_Toss_HD.png",
+    "Curse of the Sad Mummy": "https://wiki.leagueoflegends.com/en-us/images/Amumu_Curse_of_the_Sad_Mummy_HD.png",
+    "Cursed Touch": "https://wiki.leagueoflegends.com/en-us/images/Amumu_Cursed_Touch_HD.png",
+    "Despair": "https://wiki.leagueoflegends.com/en-us/images/Amumu_Despair_HD.png",
+    "Tantrum": "https://wiki.leagueoflegends.com/en-us/images/Amumu_Tantrum_HD.png"
+  },
+  "Anivia": {
+    "Crystallize": "https://wiki.leagueoflegends.com/en-us/images/Anivia_Crystallize_HD.png",
+    "Flash Frost": "https://wiki.leagueoflegends.com/en-us/images/Anivia_Flash_Frost_HD.png",
+    "Frostbite": "https://wiki.leagueoflegends.com/en-us/images/Anivia_Frostbite_HD.png",
+    "Glacial Storm": "https://wiki.leagueoflegends.com/en-us/images/Anivia_Glacial_Storm_HD.png",
+    "Rebirth": "https://wiki.leagueoflegends.com/en-us/images/Anivia_Rebirth_HD.png"
+  },
+  "Annie": {
+    "Disintegrate": "https://wiki.leagueoflegends.com/en-us/images/Annie_Disintegrate_HD.png",
+    "Incinerate": "https://wiki.leagueoflegends.com/en-us/images/Annie_Incinerate_HD.png",
+    "Molten Shield": "https://wiki.leagueoflegends.com/en-us/images/Annie_Molten_Shield_HD.png",
+    "Pyromania": "https://wiki.leagueoflegends.com/en-us/images/Annie_Pyromania_HD.png",
+    "Summon- Tibbers": "https://wiki.leagueoflegends.com/en-us/images/Annie_Summon-_Tibbers_HD.png",
+    "Summon- Tibbers 2": "https://wiki.leagueoflegends.com/en-us/images/Annie_Summon-_Tibbers_2_HD.png"
+  },
+  "Ashe": {
+    "Enchanted Crystal Arrow": "https://wiki.leagueoflegends.com/en-us/images/Ashe_Enchanted_Crystal_Arrow_HD.png",
+    "Frost Shot": "https://wiki.leagueoflegends.com/en-us/images/Ashe_Frost_Shot_HD.png",
+    "Frost Shot 2": "https://wiki.leagueoflegends.com/en-us/images/Ashe_Frost_Shot_2_HD.png",
+    "Hawkshot": "https://wiki.leagueoflegends.com/en-us/images/Ashe_Hawkshot_HD.png",
+    "Ranger's Focus": "https://wiki.leagueoflegends.com/en-us/images/Ashe_Ranger's_Focus_HD.png",
+    "Ranger's Focus 2": "https://wiki.leagueoflegends.com/en-us/images/Ashe_Ranger's_Focus_2_HD.png",
+    "Volley": "https://wiki.leagueoflegends.com/en-us/images/Ashe_Volley_HD.png"
+  },
+  "Aurelion Sol": {
+    "Astral Flight": "https://wiki.leagueoflegends.com/en-us/images/Aurelion_Sol_Astral_Flight_HD.png",
+    "Astral Flight 2": "https://wiki.leagueoflegends.com/en-us/images/Aurelion_Sol_Astral_Flight_2_HD.png",
+    "Breath of Light": "https://wiki.leagueoflegends.com/en-us/images/Aurelion_Sol_Breath_of_Light_HD.png",
+    "Cosmic Creator": "https://wiki.leagueoflegends.com/en-us/images/Aurelion_Sol_Cosmic_Creator_HD.png",
+    "Falling Star": "https://wiki.leagueoflegends.com/en-us/images/Aurelion_Sol_Falling_Star_HD.png",
+    "Singularity": "https://wiki.leagueoflegends.com/en-us/images/Aurelion_Sol_Singularity_HD.png",
+    "The Skies Descend": "https://wiki.leagueoflegends.com/en-us/images/Aurelion_Sol_The_Skies_Descend_HD.png"
+  },
+  "Aurora": {
+    "Across the Veil": "https://wiki.leagueoflegends.com/en-us/images/Aurora_Across_the_Veil_HD.png",
+    "Between Worlds": "https://wiki.leagueoflegends.com/en-us/images/Aurora_Between_Worlds_HD.png",
+    "Spirit Abjuration": "https://wiki.leagueoflegends.com/en-us/images/Aurora_Spirit_Abjuration_HD.png",
+    "The Weirding": "https://wiki.leagueoflegends.com/en-us/images/Aurora_The_Weirding_HD.png",
+    "Twofold Hex": "https://wiki.leagueoflegends.com/en-us/images/Aurora_Twofold_Hex_HD.png",
+    "Twofold Hex 2": "https://wiki.leagueoflegends.com/en-us/images/Aurora_Twofold_Hex_2_HD.png"
+  },
+  "Azir": {
+    "Arise!": "https://wiki.leagueoflegends.com/en-us/images/Azir_Arise!_HD.png",
+    "Conquering Sands": "https://wiki.leagueoflegends.com/en-us/images/Azir_Conquering_Sands_HD.png",
+    "Emperor's Divide": "https://wiki.leagueoflegends.com/en-us/images/Azir_Emperor's_Divide_HD.png",
+    "Shifting Sands": "https://wiki.leagueoflegends.com/en-us/images/Azir_Shifting_Sands_HD.png",
+    "Shurima's Legacy": "https://wiki.leagueoflegends.com/en-us/images/Azir_Shurima's_Legacy_HD.png"
+  },
+  "Bard": {
+    "Caretaker's Shrine": "https://wiki.leagueoflegends.com/en-us/images/Bard_Caretaker's_Shrine_HD.png",
+    "Cosmic Binding": "https://wiki.leagueoflegends.com/en-us/images/Bard_Cosmic_Binding_HD.png",
+    "Magical Journey": "https://wiki.leagueoflegends.com/en-us/images/Bard_Magical_Journey_HD.png",
+    "Tempered Fate": "https://wiki.leagueoflegends.com/en-us/images/Bard_Tempered_Fate_HD.png",
+    "Traveler's Call": "https://wiki.leagueoflegends.com/en-us/images/Bard_Traveler's_Call_HD.png",
+    "Traveler's Call 2": "https://wiki.leagueoflegends.com/en-us/images/Bard_Traveler's_Call_2_HD.png"
+  },
+  "Bel'Veth": {
+    "Above and Below": "https://wiki.leagueoflegends.com/en-us/images/Bel'Veth_Above_and_Below_HD.png",
+    "Death in Lavender": "https://wiki.leagueoflegends.com/en-us/images/Bel'Veth_Death_in_Lavender_HD.png",
+    "Endless Banquet": "https://wiki.leagueoflegends.com/en-us/images/Bel'Veth_Endless_Banquet_HD.png",
+    "Royal Maelstrom": "https://wiki.leagueoflegends.com/en-us/images/Bel'Veth_Royal_Maelstrom_HD.png",
+    "Void Surge": "https://wiki.leagueoflegends.com/en-us/images/Bel'Veth_Void_Surge_HD.png"
+  },
+  "Blitzcrank": {
+    "Mana Barrier": "https://wiki.leagueoflegends.com/en-us/images/Blitzcrank_Mana_Barrier_HD.png",
+    "Mana Barrier 2": "https://wiki.leagueoflegends.com/en-us/images/Blitzcrank_Mana_Barrier_2_HD.png",
+    "Overdrive": "https://wiki.leagueoflegends.com/en-us/images/Blitzcrank_Overdrive_HD.png",
+    "Power Fist": "https://wiki.leagueoflegends.com/en-us/images/Blitzcrank_Power_Fist_HD.png",
+    "Rocket Grab": "https://wiki.leagueoflegends.com/en-us/images/Blitzcrank_Rocket_Grab_HD.png",
+    "Static Field": "https://wiki.leagueoflegends.com/en-us/images/Blitzcrank_Static_Field_HD.png"
+  },
+  "Brand": {
+    "Blaze": "https://wiki.leagueoflegends.com/en-us/images/Brand_Blaze_HD.jpg",
+    "Blaze 2": "https://wiki.leagueoflegends.com/en-us/images/Brand_Blaze_2_HD.jpg",
+    "Conflagration": "https://wiki.leagueoflegends.com/en-us/images/Brand_Conflagration_HD.jpg",
+    "Pillar of Flame": "https://wiki.leagueoflegends.com/en-us/images/Brand_Pillar_of_Flame_HD.jpg",
+    "Pyroclasm": "https://wiki.leagueoflegends.com/en-us/images/Brand_Pyroclasm_HD.jpg",
+    "Sear": "https://wiki.leagueoflegends.com/en-us/images/Brand_Sear_HD.jpg"
+  },
+  "Braum": {
+    "Concussive Blows": "https://wiki.leagueoflegends.com/en-us/images/Braum_Concussive_Blows_HD.png",
+    "Glacial Fissure": "https://wiki.leagueoflegends.com/en-us/images/Braum_Glacial_Fissure_HD.png",
+    "Stand Behind Me": "https://wiki.leagueoflegends.com/en-us/images/Braum_Stand_Behind_Me_HD.png",
+    "Unbreakable": "https://wiki.leagueoflegends.com/en-us/images/Braum_Unbreakable_HD.png",
+    "Winter's Bite": "https://wiki.leagueoflegends.com/en-us/images/Braum_Winter's_Bite_HD.png"
+  },
+  "Briar": {
+    "Blood Frenzy": "https://wiki.leagueoflegends.com/en-us/images/Briar_Blood_Frenzy_HD.png",
+    "Certain Death": "https://wiki.leagueoflegends.com/en-us/images/Briar_Certain_Death_HD.png",
+    "Certain Death 2": "https://wiki.leagueoflegends.com/en-us/images/Briar_Certain_Death_2_HD.png",
+    "Chilling Scream": "https://wiki.leagueoflegends.com/en-us/images/Briar_Chilling_Scream_HD.png",
+    "Crimson Curse": "https://wiki.leagueoflegends.com/en-us/images/Briar_Crimson_Curse_HD.png",
+    "Head Rush": "https://wiki.leagueoflegends.com/en-us/images/Briar_Head_Rush_HD.png",
+    "Snack Attack": "https://wiki.leagueoflegends.com/en-us/images/Briar_Snack_Attack_HD.png"
+  },
+  "Caitlyn": {
+    "90 Caliber Net": "https://wiki.leagueoflegends.com/en-us/images/Caitlyn_90_Caliber_Net_HD.png",
+    "Ace in the Hole.png?ae3c0": "https://wiki.leagueoflegends.com/en-us/images/Caitlyn_Ace_in_the_Hole.png?ae3c0",
+    "Headshot": "https://wiki.leagueoflegends.com/en-us/images/Caitlyn_Headshot_HD.png",
+    "Piltover Peacemaker": "https://wiki.leagueoflegends.com/en-us/images/Caitlyn_Piltover_Peacemaker_HD.png",
+    "Yordle Snap Trap": "https://wiki.leagueoflegends.com/en-us/images/Caitlyn_Yordle_Snap_Trap_HD.png"
+  },
+  "Camille": {
+    "Adaptive Defenses": "https://wiki.leagueoflegends.com/en-us/images/Camille_Adaptive_Defenses_HD.png",
+    "Hookshot": "https://wiki.leagueoflegends.com/en-us/images/Camille_Hookshot_HD.png",
+    "Precision Protocol": "https://wiki.leagueoflegends.com/en-us/images/Camille_Precision_Protocol_HD.png",
+    "Precision Protocol 2": "https://wiki.leagueoflegends.com/en-us/images/Camille_Precision_Protocol_2_HD.png",
+    "Precision Protocol 3": "https://wiki.leagueoflegends.com/en-us/images/Camille_Precision_Protocol_3_HD.png",
+    "Tactical Sweep": "https://wiki.leagueoflegends.com/en-us/images/Camille_Tactical_Sweep_HD.png",
+    "The Hextech Ultimatum": "https://wiki.leagueoflegends.com/en-us/images/Camille_The_Hextech_Ultimatum_HD.png",
+    "Wall Dive": "https://wiki.leagueoflegends.com/en-us/images/Camille_Wall_Dive_HD.png"
+  },
+  "Cassiopeia": {
+    "Miasma": "https://wiki.leagueoflegends.com/en-us/images/Cassiopeia_Miasma_HD.png",
+    "Noxious Blast": "https://wiki.leagueoflegends.com/en-us/images/Cassiopeia_Noxious_Blast_HD.png",
+    "Petrifying Gaze": "https://wiki.leagueoflegends.com/en-us/images/Cassiopeia_Petrifying_Gaze_HD.png",
+    "Serpentine Grace": "https://wiki.leagueoflegends.com/en-us/images/Cassiopeia_Serpentine_Grace_HD.png",
+    "Twin Fang": "https://wiki.leagueoflegends.com/en-us/images/Cassiopeia_Twin_Fang_HD.png"
+  },
+  "Cho'Gath": {
+    "Carnivore": "https://wiki.leagueoflegends.com/en-us/images/Cho'Gath_Carnivore_HD.png",
+    "Feast": "https://wiki.leagueoflegends.com/en-us/images/Cho'Gath_Feast_HD.png",
+    "Feral Scream": "https://wiki.leagueoflegends.com/en-us/images/Cho'Gath_Feral_Scream_HD.png",
+    "Rupture": "https://wiki.leagueoflegends.com/en-us/images/Cho'Gath_Rupture_HD.png",
+    "Vorpal Spikes": "https://wiki.leagueoflegends.com/en-us/images/Cho'Gath_Vorpal_Spikes_HD.png"
+  },
+  "Corki": {
+    "Big One": "https://wiki.leagueoflegends.com/en-us/images/Corki_Big_One_HD.png",
+    "Gatling Gun": "https://wiki.leagueoflegends.com/en-us/images/Corki_Gatling_Gun_HD.png",
+    "Hextech Munitions": "https://wiki.leagueoflegends.com/en-us/images/Corki_Hextech_Munitions_HD.png",
+    "Missile Barrage": "https://wiki.leagueoflegends.com/en-us/images/Corki_Missile_Barrage_HD.png",
+    "Phosphorus Bomb": "https://wiki.leagueoflegends.com/en-us/images/Corki_Phosphorus_Bomb_HD.png",
+    "Valkyrie": "https://wiki.leagueoflegends.com/en-us/images/Corki_Valkyrie_HD.png"
+  },
+  "Darius": {
+    "Apprehend": "https://wiki.leagueoflegends.com/en-us/images/Darius_Apprehend_HD.png",
+    "Crippling Strike": "https://wiki.leagueoflegends.com/en-us/images/Darius_Crippling_Strike_HD.png",
+    "Decimate": "https://wiki.leagueoflegends.com/en-us/images/Darius_Decimate_HD.png",
+    "Hemorrhage": "https://wiki.leagueoflegends.com/en-us/images/Darius_Hemorrhage_HD.png",
+    "Hemorrhage 2": "https://wiki.leagueoflegends.com/en-us/images/Darius_Hemorrhage_2_HD.png",
+    "Noxian Guillotine": "https://wiki.leagueoflegends.com/en-us/images/Darius_Noxian_Guillotine_HD.png"
+  },
+  "Diana": {
+    "Crescent Strike": "https://wiki.leagueoflegends.com/en-us/images/Diana_Crescent_Strike_HD.png",
+    "Lunar Rush": "https://wiki.leagueoflegends.com/en-us/images/Diana_Lunar_Rush_HD.png",
+    "Moonfall": "https://wiki.leagueoflegends.com/en-us/images/Diana_Moonfall_HD.png",
+    "Moonsilver Blade": "https://wiki.leagueoflegends.com/en-us/images/Diana_Moonsilver_Blade_HD.png",
+    "Pale Cascade": "https://wiki.leagueoflegends.com/en-us/images/Diana_Pale_Cascade_HD.png",
+    "Pale Cascade 2": "https://wiki.leagueoflegends.com/en-us/images/Diana_Pale_Cascade_2_HD.png"
+  },
+  "Dr. Mundo": {
+    "Blunt Force Trauma": "https://wiki.leagueoflegends.com/en-us/images/Dr._Mundo_Blunt_Force_Trauma_HD.png",
+    "Goes Where He Pleases": "https://wiki.leagueoflegends.com/en-us/images/Dr._Mundo_Goes_Where_He_Pleases_HD.png",
+    "Heart Zapper": "https://wiki.leagueoflegends.com/en-us/images/Dr._Mundo_Heart_Zapper_HD.png",
+    "Heart Zapper 2": "https://wiki.leagueoflegends.com/en-us/images/Dr._Mundo_Heart_Zapper_2_HD.png",
+    "Infected Bonesaw": "https://wiki.leagueoflegends.com/en-us/images/Dr._Mundo_Infected_Bonesaw_HD.png",
+    "Maximum Dosage": "https://wiki.leagueoflegends.com/en-us/images/Dr._Mundo_Maximum_Dosage_HD.png"
+  },
+  "Draven": {
+    "Blood Rush": "https://wiki.leagueoflegends.com/en-us/images/Draven_Blood_Rush_HD.png",
+    "League of Draven": "https://wiki.leagueoflegends.com/en-us/images/Draven_League_of_Draven_HD.png",
+    "Spinning Axe": "https://wiki.leagueoflegends.com/en-us/images/Draven_Spinning_Axe_HD.png",
+    "Stand Aside": "https://wiki.leagueoflegends.com/en-us/images/Draven_Stand_Aside_HD.png",
+    "Whirling Death": "https://wiki.leagueoflegends.com/en-us/images/Draven_Whirling_Death_HD.png",
+    "Whirling Death 2": "https://wiki.leagueoflegends.com/en-us/images/Draven_Whirling_Death_2_HD.png"
+  },
+  "Ekko": {
+    "Chronobreak": "https://wiki.leagueoflegends.com/en-us/images/Ekko_Chronobreak_HD.png",
+    "Parallel Convergence": "https://wiki.leagueoflegends.com/en-us/images/Ekko_Parallel_Convergence_HD.png",
+    "Phase Dive": "https://wiki.leagueoflegends.com/en-us/images/Ekko_Phase_Dive_HD.png",
+    "Timewinder": "https://wiki.leagueoflegends.com/en-us/images/Ekko_Timewinder_HD.png",
+    "Z-Drive Resonance": "https://wiki.leagueoflegends.com/en-us/images/Ekko_Z-Drive_Resonance_HD.png",
+    "Z-Drive Resonance 2": "https://wiki.leagueoflegends.com/en-us/images/Ekko_Z-Drive_Resonance_2_HD.png"
+  },
+  "Elise": {
+    "Cocoon": "https://wiki.leagueoflegends.com/en-us/images/Elise_Cocoon_HD.png",
+    "Neurotoxin": "https://wiki.leagueoflegends.com/en-us/images/Elise_Neurotoxin_HD.png",
+    "Rappel": "https://wiki.leagueoflegends.com/en-us/images/Elise_Rappel_HD.png",
+    "Skittering Frenzy": "https://wiki.leagueoflegends.com/en-us/images/Elise_Skittering_Frenzy_HD.png",
+    "Spider Form": "https://wiki.leagueoflegends.com/en-us/images/Elise_Spider_Form_HD.png",
+    "Spider Queen": "https://wiki.leagueoflegends.com/en-us/images/Elise_Spider_Queen_HD.png",
+    "Venomous Bite": "https://wiki.leagueoflegends.com/en-us/images/Elise_Venomous_Bite_HD.png",
+    "Volatile Spiderling": "https://wiki.leagueoflegends.com/en-us/images/Elise_Volatile_Spiderling_HD.png"
+  },
+  "Evelynn": {
+    "Allure": "https://wiki.leagueoflegends.com/en-us/images/Evelynn_Allure_HD.jpg",
+    "Demon Shade": "https://wiki.leagueoflegends.com/en-us/images/Evelynn_Demon_Shade_HD.jpg",
+    "Empowered Whiplash": "https://wiki.leagueoflegends.com/en-us/images/Evelynn_Empowered_Whiplash_HD.jpg",
+    "Hate Spike": "https://wiki.leagueoflegends.com/en-us/images/Evelynn_Hate_Spike_HD.jpg",
+    "Hate Spike 2": "https://wiki.leagueoflegends.com/en-us/images/Evelynn_Hate_Spike_2_HD.jpg",
+    "Last Caress": "https://wiki.leagueoflegends.com/en-us/images/Evelynn_Last_Caress_HD.jpg",
+    "Whiplash": "https://wiki.leagueoflegends.com/en-us/images/Evelynn_Whiplash_HD.jpg",
+    "Whiplash 2": "https://wiki.leagueoflegends.com/en-us/images/Evelynn_Whiplash_2_HD.jpg"
+  },
+  "Ezreal": {
+    "Arcane Shift": "https://wiki.leagueoflegends.com/en-us/images/Ezreal_Arcane_Shift_HD.png",
+    "Essence Flux": "https://wiki.leagueoflegends.com/en-us/images/Ezreal_Essence_Flux_HD.png",
+    "Mystic Shot": "https://wiki.leagueoflegends.com/en-us/images/Ezreal_Mystic_Shot_HD.png",
+    "Rising Spell Force": "https://wiki.leagueoflegends.com/en-us/images/Ezreal_Rising_Spell_Force_HD.png",
+    "Trueshot Barrage": "https://wiki.leagueoflegends.com/en-us/images/Ezreal_Trueshot_Barrage_HD.png"
+  },
+  "Fiddlesticks": {
+    "A Harmless Scarecrow": "https://wiki.leagueoflegends.com/en-us/images/Fiddlesticks_A_Harmless_Scarecrow_HD.jpg",
+    "A Harmless Scarecrow Surprise Party": "https://wiki.leagueoflegends.com/en-us/images/Fiddlesticks_A_Harmless_Scarecrow_Surprise_Party_HD.jpg",
+    "Bountiful Harvest": "https://wiki.leagueoflegends.com/en-us/images/Fiddlesticks_Bountiful_Harvest_HD.jpg",
+    "Bountiful Harvest Surprise Party": "https://wiki.leagueoflegends.com/en-us/images/Fiddlesticks_Bountiful_Harvest_Surprise_Party_HD.jpg",
+    "Crowstorm": "https://wiki.leagueoflegends.com/en-us/images/Fiddlesticks_Crowstorm_HD.jpg",
+    "Crowstorm Surprise Party": "https://wiki.leagueoflegends.com/en-us/images/Fiddlesticks_Crowstorm_Surprise_Party_HD.jpg",
+    "Reap": "https://wiki.leagueoflegends.com/en-us/images/Fiddlesticks_Reap_HD.jpg",
+    "Reap Surprise Party": "https://wiki.leagueoflegends.com/en-us/images/Fiddlesticks_Reap_Surprise_Party_HD.jpg",
+    "Terrify": "https://wiki.leagueoflegends.com/en-us/images/Fiddlesticks_Terrify_HD.jpg",
+    "Terrify Surprise Party": "https://wiki.leagueoflegends.com/en-us/images/Fiddlesticks_Terrify_Surprise_Party_HD.jpg"
+  },
+  "Fiora": {
+    "Bladework": "https://wiki.leagueoflegends.com/en-us/images/Fiora_Bladework_HD.png",
+    "Duelist's Dance": "https://wiki.leagueoflegends.com/en-us/images/Fiora_Duelist's_Dance_HD.png",
+    "Duelist's Dance 2": "https://wiki.leagueoflegends.com/en-us/images/Fiora_Duelist's_Dance_2_HD.png",
+    "Grand Challenge": "https://wiki.leagueoflegends.com/en-us/images/Fiora_Grand_Challenge_HD.png",
+    "Grand Challenge 2": "https://wiki.leagueoflegends.com/en-us/images/Fiora_Grand_Challenge_2_HD.png",
+    "Lunge": "https://wiki.leagueoflegends.com/en-us/images/Fiora_Lunge_HD.png",
+    "Riposte": "https://wiki.leagueoflegends.com/en-us/images/Fiora_Riposte_HD.png"
+  },
+  "Fizz": {
+    "Chum the Waters": "https://wiki.leagueoflegends.com/en-us/images/Fizz_Chum_the_Waters_HD.png",
+    "Nimble Fighter": "https://wiki.leagueoflegends.com/en-us/images/Fizz_Nimble_Fighter_HD.png",
+    "Playful": "https://wiki.leagueoflegends.com/en-us/images/Fizz_Playful_HD.png",
+    "Seastone Trident": "https://wiki.leagueoflegends.com/en-us/images/Fizz_Seastone_Trident_HD.png",
+    "Trickster": "https://wiki.leagueoflegends.com/en-us/images/Fizz_Trickster_HD.png",
+    "Urchin Strike": "https://wiki.leagueoflegends.com/en-us/images/Fizz_Urchin_Strike_HD.png"
+  },
+  "Galio": {
+    "Colossal Smash": "https://wiki.leagueoflegends.com/en-us/images/Galio_Colossal_Smash_HD.png",
+    "Hero's Entrance": "https://wiki.leagueoflegends.com/en-us/images/Galio_Hero's_Entrance_HD.png",
+    "Justice Punch": "https://wiki.leagueoflegends.com/en-us/images/Galio_Justice_Punch_HD.png",
+    "Shield of Durand": "https://wiki.leagueoflegends.com/en-us/images/Galio_Shield_of_Durand_HD.png",
+    "Shield of Durand 2": "https://wiki.leagueoflegends.com/en-us/images/Galio_Shield_of_Durand_2_HD.png",
+    "Winds of War": "https://wiki.leagueoflegends.com/en-us/images/Galio_Winds_of_War_HD.png"
+  },
+  "Gangplank": {
+    "Cannon Barrage": "https://wiki.leagueoflegends.com/en-us/images/Gangplank_Cannon_Barrage_HD.png",
+    "Parrrley": "https://wiki.leagueoflegends.com/en-us/images/Gangplank_Parrrley_HD.png",
+    "Powder Keg": "https://wiki.leagueoflegends.com/en-us/images/Gangplank_Powder_Keg_HD.png",
+    "Remove Scurvy": "https://wiki.leagueoflegends.com/en-us/images/Gangplank_Remove_Scurvy_HD.png",
+    "Trial by Fire": "https://wiki.leagueoflegends.com/en-us/images/Gangplank_Trial_by_Fire_HD.png",
+    "Trial by Fire 2": "https://wiki.leagueoflegends.com/en-us/images/Gangplank_Trial_by_Fire_2_HD.png"
+  },
+  "Garen": {
+    "Courage": "https://wiki.leagueoflegends.com/en-us/images/Garen_Courage_HD.png",
+    "Decisive Strike": "https://wiki.leagueoflegends.com/en-us/images/Garen_Decisive_Strike_HD.png",
+    "Demacian Justice": "https://wiki.leagueoflegends.com/en-us/images/Garen_Demacian_Justice_HD.png",
+    "Judgment": "https://wiki.leagueoflegends.com/en-us/images/Garen_Judgment_HD.png",
+    "Judgment 2": "https://wiki.leagueoflegends.com/en-us/images/Garen_Judgment_2_HD.png",
+    "Perseverance": "https://wiki.leagueoflegends.com/en-us/images/Garen_Perseverance_HD.png"
+  },
+  "Gnar": {
+    "Boomerang Throw": "https://wiki.leagueoflegends.com/en-us/images/Gnar_Boomerang_Throw_HD.png",
+    "Boulder Toss": "https://wiki.leagueoflegends.com/en-us/images/Gnar_Boulder_Toss_HD.png",
+    "Crunch": "https://wiki.leagueoflegends.com/en-us/images/Gnar_Crunch_HD.png",
+    "GNAR!": "https://wiki.leagueoflegends.com/en-us/images/Gnar_GNAR!_HD.png",
+    "Hop": "https://wiki.leagueoflegends.com/en-us/images/Gnar_Hop_HD.png",
+    "Hop and Crunch": "https://wiki.leagueoflegends.com/en-us/images/Gnar_Hop_and_Crunch_HD.png",
+    "Hyper": "https://wiki.leagueoflegends.com/en-us/images/Gnar_Hyper_HD.png",
+    "Hyper 2": "https://wiki.leagueoflegends.com/en-us/images/Gnar_Hyper_2_HD.png",
+    "Rage Gene": "https://wiki.leagueoflegends.com/en-us/images/Gnar_Rage_Gene_HD.png",
+    "Rage Gene 2": "https://wiki.leagueoflegends.com/en-us/images/Gnar_Rage_Gene_2_HD.png",
+    "Rage Gene 3": "https://wiki.leagueoflegends.com/en-us/images/Gnar_Rage_Gene_3_HD.png",
+    "Rage Gene 4": "https://wiki.leagueoflegends.com/en-us/images/Gnar_Rage_Gene_4_HD.png",
+    "Wallop": "https://wiki.leagueoflegends.com/en-us/images/Gnar_Wallop_HD.png"
+  },
+  "Gragas": {
+    "Barrel Roll": "https://wiki.leagueoflegends.com/en-us/images/Gragas_Barrel_Roll_HD.png",
+    "Barrel Roll 2": "https://wiki.leagueoflegends.com/en-us/images/Gragas_Barrel_Roll_2_HD.png",
+    "Body Slam": "https://wiki.leagueoflegends.com/en-us/images/Gragas_Body_Slam_HD.png",
+    "Drunken Rage": "https://wiki.leagueoflegends.com/en-us/images/Gragas_Drunken_Rage_HD.png",
+    "Drunken Rage 2": "https://wiki.leagueoflegends.com/en-us/images/Gragas_Drunken_Rage_2_HD.png",
+    "Explosive Cask": "https://wiki.leagueoflegends.com/en-us/images/Gragas_Explosive_Cask_HD.png",
+    "Happy Hour": "https://wiki.leagueoflegends.com/en-us/images/Gragas_Happy_Hour_HD.png"
+  },
+  "Graves": {
+    "Collateral Damage": "https://wiki.leagueoflegends.com/en-us/images/Graves_Collateral_Damage_HD.png",
+    "End of the Line": "https://wiki.leagueoflegends.com/en-us/images/Graves_End_of_the_Line_HD.png",
+    "New Destiny": "https://wiki.leagueoflegends.com/en-us/images/Graves_New_Destiny_HD.png",
+    "Quickdraw": "https://wiki.leagueoflegends.com/en-us/images/Graves_Quickdraw_HD.png",
+    "Smoke Screen": "https://wiki.leagueoflegends.com/en-us/images/Graves_Smoke_Screen_HD.png"
+  },
+  "Gwen": {
+    "A Thousand Cuts": "https://wiki.leagueoflegends.com/en-us/images/Gwen_A_Thousand_Cuts_HD.png",
+    "Hallowed Mist": "https://wiki.leagueoflegends.com/en-us/images/Gwen_Hallowed_Mist_HD.png",
+    "Needlework": "https://wiki.leagueoflegends.com/en-us/images/Gwen_Needlework_HD.png",
+    "Needlework 2": "https://wiki.leagueoflegends.com/en-us/images/Gwen_Needlework_2_HD.png",
+    "Needlework 3": "https://wiki.leagueoflegends.com/en-us/images/Gwen_Needlework_3_HD.png",
+    "Skip 'n Slash": "https://wiki.leagueoflegends.com/en-us/images/Gwen_Skip_'n_Slash_HD.png",
+    "Snip Snip!": "https://wiki.leagueoflegends.com/en-us/images/Gwen_Snip_Snip!_HD.png"
+  },
+  "Hecarim": {
+    "Devastating Charge": "https://wiki.leagueoflegends.com/en-us/images/Hecarim_Devastating_Charge_HD.png",
+    "Onslaught of Shadows": "https://wiki.leagueoflegends.com/en-us/images/Hecarim_Onslaught_of_Shadows_HD.png",
+    "Rampage": "https://wiki.leagueoflegends.com/en-us/images/Hecarim_Rampage_HD.png",
+    "Spirit of Dread": "https://wiki.leagueoflegends.com/en-us/images/Hecarim_Spirit_of_Dread_HD.png",
+    "Warpath": "https://wiki.leagueoflegends.com/en-us/images/Hecarim_Warpath_HD.png"
+  },
+  "Heimerdinger": {
+    "CH-2 Electron Storm Grenade": "https://wiki.leagueoflegends.com/en-us/images/Heimerdinger_CH-2_Electron_Storm_Grenade_HD.png",
+    "CH-3X Lightning Grenade": "https://wiki.leagueoflegends.com/en-us/images/Heimerdinger_CH-3X_Lightning_Grenade_HD.png",
+    "H-28G Evolution Turret": "https://wiki.leagueoflegends.com/en-us/images/Heimerdinger_H-28G_Evolution_Turret_HD.png",
+    "H-28Q Apex Turret": "https://wiki.leagueoflegends.com/en-us/images/Heimerdinger_H-28Q_Apex_Turret_HD.png",
+    "Hextech Affinity": "https://wiki.leagueoflegends.com/en-us/images/Heimerdinger_Hextech_Affinity_HD.png",
+    "Hextech Micro-Rockets": "https://wiki.leagueoflegends.com/en-us/images/Heimerdinger_Hextech_Micro-Rockets_HD.png",
+    "Hextech Rocket Swarm": "https://wiki.leagueoflegends.com/en-us/images/Heimerdinger_Hextech_Rocket_Swarm_HD.png",
+    "UPGRADE!!!": "https://wiki.leagueoflegends.com/en-us/images/Heimerdinger_UPGRADE!!!_HD.png"
+  },
+  "Hwei": {
+    "Signature of the Visionary": "https://wiki.leagueoflegends.com/en-us/images/Hwei_Signature_of_the_Visionary_HD.png",
+    "QQ": "https://wiki.leagueoflegends.com/en-us/images/Hwei_Devastating_Fire_HD.png",
+    "QW": "https://wiki.leagueoflegends.com/en-us/images/Hwei_Severing_Bolt_HD.png",
+    "QE": "https://wiki.leagueoflegends.com/en-us/images/Hwei_Molten_Fissure_HD.png",
+    "WQ": "https://wiki.leagueoflegends.com/en-us/images/Hwei_Fleeting_Current_HD.png",
+    "WW": "https://wiki.leagueoflegends.com/en-us/images/Hwei_Pool_of_Reflection_HD.png",
+    "WE": "https://wiki.leagueoflegends.com/en-us/images/Hwei_Stirring_Lights_HD.png",
+    "EQ": "https://wiki.leagueoflegends.com/en-us/images/Hwei_Grim_Visage_HD.png",
+    "EW": "https://wiki.leagueoflegends.com/en-us/images/Hwei_Gaze_of_the_Abyss_HD.png",
+    "EE": "https://wiki.leagueoflegends.com/en-us/images/Hwei_Crushing_Maw_HD.png",
+    "Subject: Torment": "https://wiki.leagueoflegends.com/en-us/images/Hwei_Spiraling_Despair_HD.png"
+  },
+  "Illaoi": {
+    "Harsh Lesson": "https://wiki.leagueoflegends.com/en-us/images/Illaoi_Harsh_Lesson_HD.jpg",
+    "Leap of Faith": "https://wiki.leagueoflegends.com/en-us/images/Illaoi_Leap_of_Faith_HD.jpg",
+    "Prophet of an Elder God": "https://wiki.leagueoflegends.com/en-us/images/Illaoi_Prophet_of_an_Elder_God_HD.jpg",
+    "Tentacle Smash": "https://wiki.leagueoflegends.com/en-us/images/Illaoi_Tentacle_Smash_HD.jpg",
+    "Test of Spirit": "https://wiki.leagueoflegends.com/en-us/images/Illaoi_Test_of_Spirit_HD.jpg",
+    "Vessel": "https://wiki.leagueoflegends.com/en-us/images/Illaoi_Vessel_HD.jpg"
+  },
+  "Irelia": {
+    "Bladesurge": "https://wiki.leagueoflegends.com/en-us/images/Irelia_Bladesurge_HD.png",
+    "Defiant Dance": "https://wiki.leagueoflegends.com/en-us/images/Irelia_Defiant_Dance_HD.png",
+    "Flawless Duet": "https://wiki.leagueoflegends.com/en-us/images/Irelia_Flawless_Duet_HD.png",
+    "Flawless Duet 2": "https://wiki.leagueoflegends.com/en-us/images/Irelia_Flawless_Duet_2_HD.png",
+    "Ionian Fervor": "https://wiki.leagueoflegends.com/en-us/images/Irelia_Ionian_Fervor_HD.png",
+    "Vanguard's Edge": "https://wiki.leagueoflegends.com/en-us/images/Irelia_Vanguard's_Edge_HD.png"
+  },
+  "Ivern": {
+    "Brushmaker": "https://wiki.leagueoflegends.com/en-us/images/Ivern_Brushmaker_HD.png",
+    "Daisy!": "https://wiki.leagueoflegends.com/en-us/images/Ivern_Daisy!_HD.png",
+    "Daisy, wait!": "https://wiki.leagueoflegends.com/en-us/images/Ivern_Daisy,_wait!_HD.png",
+    "Friend of the Forest": "https://wiki.leagueoflegends.com/en-us/images/Ivern_Friend_of_the_Forest_HD.png",
+    "Rootcaller": "https://wiki.leagueoflegends.com/en-us/images/Ivern_Rootcaller_HD.png",
+    "Triggerseed": "https://wiki.leagueoflegends.com/en-us/images/Ivern_Triggerseed_HD.png"
+  },
+  "Janna": {
+    "Eye of the Storm": "https://wiki.leagueoflegends.com/en-us/images/Janna_Eye_of_the_Storm_HD.png",
+    "Howling Gale": "https://wiki.leagueoflegends.com/en-us/images/Janna_Howling_Gale_HD.png",
+    "Monsoon": "https://wiki.leagueoflegends.com/en-us/images/Janna_Monsoon_HD.png",
+    "Tailwind": "https://wiki.leagueoflegends.com/en-us/images/Janna_Tailwind_HD.png",
+    "Zephyr": "https://wiki.leagueoflegends.com/en-us/images/Janna_Zephyr_HD.png"
+  },
+  "Jarvan IV": {
+    "Cataclysm": "https://wiki.leagueoflegends.com/en-us/images/Jarvan_IV_Cataclysm_HD.png",
+    "Demacian Standard": "https://wiki.leagueoflegends.com/en-us/images/Jarvan_IV_Demacian_Standard_HD.png",
+    "Dragon Strike": "https://wiki.leagueoflegends.com/en-us/images/Jarvan_IV_Dragon_Strike_HD.png",
+    "Golden Aegis": "https://wiki.leagueoflegends.com/en-us/images/Jarvan_IV_Golden_Aegis_HD.png",
+    "Martial Cadence": "https://wiki.leagueoflegends.com/en-us/images/Jarvan_IV_Martial_Cadence_HD.png"
+  },
+  "Jax": {
+    "Counter Strike": "https://wiki.leagueoflegends.com/en-us/images/Jax_Counter_Strike_HD.png",
+    "Empower": "https://wiki.leagueoflegends.com/en-us/images/Jax_Empower_HD.png",
+    "Grandmaster-at-Arms": "https://wiki.leagueoflegends.com/en-us/images/Jax_Grandmaster-at-Arms_HD.png",
+    "Leap Strike": "https://wiki.leagueoflegends.com/en-us/images/Jax_Leap_Strike_HD.png",
+    "Relentless Assault": "https://wiki.leagueoflegends.com/en-us/images/Jax_Relentless_Assault_HD.png"
+  },
+  "Jayce": {
+    "Hextech Capacitor": "https://wiki.leagueoflegends.com/en-us/images/Jayce_Hextech_Capacitor_HD.png",
+    "Hextech Capacitor 2": "https://wiki.leagueoflegends.com/en-us/images/Jayce_Hextech_Capacitor_2_HD.png",
+    "Hyper Charge": "https://wiki.leagueoflegends.com/en-us/images/Jayce_Hyper_Charge_HD.png",
+    "Lightning Field": "https://wiki.leagueoflegends.com/en-us/images/Jayce_Lightning_Field_HD.png",
+    "Shock Blast": "https://wiki.leagueoflegends.com/en-us/images/Jayce_Shock_Blast_HD.png",
+    "Thundering Blow": "https://wiki.leagueoflegends.com/en-us/images/Jayce_Thundering_Blow_HD.png",
+    "To the Skies!": "https://wiki.leagueoflegends.com/en-us/images/Jayce_To_the_Skies!_HD.png",
+    "Mercury Cannon": "https://wiki.leagueoflegends.com/en-us/images/Jayce_Transform_Mercury_Cannon_HD.png",
+    "Acceleration Gate": "https://wiki.leagueoflegends.com/en-us/images/Jayce_Acceleration_Gate_HD.png",
+    "Mercury Hammer": "https://wiki.leagueoflegends.com/en-us/images/Jayce_Transform_Mercury_Hammer_HD.png"
+  },
+  "Jhin": {
+    "Captive Audience": "https://wiki.leagueoflegends.com/en-us/images/Jhin_Captive_Audience_HD.jpg",
+    "Caught Out": "https://wiki.leagueoflegends.com/en-us/images/Jhin_Caught_Out_HD.jpg",
+    "Curtain Call": "https://wiki.leagueoflegends.com/en-us/images/Jhin_Curtain_Call_HD.jpg",
+    "Curtain Call 2": "https://wiki.leagueoflegends.com/en-us/images/Jhin_Curtain_Call_2_HD.jpg",
+    "Curtain Call 3": "https://wiki.leagueoflegends.com/en-us/images/Jhin_Curtain_Call_3_HD.jpg",
+    "Dancing Grenade": "https://wiki.leagueoflegends.com/en-us/images/Jhin_Dancing_Grenade_HD.jpg",
+    "Deadly Flourish": "https://wiki.leagueoflegends.com/en-us/images/Jhin_Deadly_Flourish_HD.jpg",
+    "Whisper": "https://wiki.leagueoflegends.com/en-us/images/Jhin_Whisper_HD.jpg"
+  },
+  "Jinx": {
+    "Flame Chompers!": "https://wiki.leagueoflegends.com/en-us/images/Jinx_Flame_Chompers!_HD.png",
+    "Flame Chompers! 2": "https://wiki.leagueoflegends.com/en-us/images/Jinx_Flame_Chompers!_2_HD.png",
+    "Get Excited!": "https://wiki.leagueoflegends.com/en-us/images/Jinx_Get_Excited!_HD.png",
+    "Pow-Pow": "https://wiki.leagueoflegends.com/en-us/images/Jinx_Pow-Pow_HD.png",
+    "Super Mega Death Rocket!": "https://wiki.leagueoflegends.com/en-us/images/Jinx_Super_Mega_Death_Rocket!_HD.png",
+    "Switcheroo!": "https://wiki.leagueoflegends.com/en-us/images/Jinx_Switcheroo!_HD.png",
+    "Zap!": "https://wiki.leagueoflegends.com/en-us/images/Jinx_Zap!_HD.png"
+  },
+  "K'Sante": {
+    "All Out": "https://wiki.leagueoflegends.com/en-us/images/K'Sante_All_Out_HD.png",
+    "All Out 2": "https://wiki.leagueoflegends.com/en-us/images/K'Sante_All_Out_2_HD.png",
+    "Dauntless Instinct": "https://wiki.leagueoflegends.com/en-us/images/K'Sante_Dauntless_Instinct_HD.png",
+    "Footwork": "https://wiki.leagueoflegends.com/en-us/images/K'Sante_Footwork_HD.png",
+    "Ntofo Strikes": "https://wiki.leagueoflegends.com/en-us/images/K'Sante_Ntofo_Strikes_HD.png",
+    "Ntofo Strikes 2": "https://wiki.leagueoflegends.com/en-us/images/K'Sante_Ntofo_Strikes_2_HD.png",
+    "Ntofo Strikes 3": "https://wiki.leagueoflegends.com/en-us/images/K'Sante_Ntofo_Strikes_3_HD.png",
+    "Path Maker": "https://wiki.leagueoflegends.com/en-us/images/K'Sante_Path_Maker_HD.png"
+  },
+  "Kai'Sa": {
+    "Icathian Rain": "https://wiki.leagueoflegends.com/en-us/images/Kai'Sa_Icathian_Rain_HD.png",
+    "Icathian Rain 2": "https://wiki.leagueoflegends.com/en-us/images/Kai'Sa_Icathian_Rain_2_HD.png",
+    "Killer Instinct": "https://wiki.leagueoflegends.com/en-us/images/Kai'Sa_Killer_Instinct_HD.png",
+    "Second Skin": "https://wiki.leagueoflegends.com/en-us/images/Kai'Sa_Second_Skin_HD.png",
+    "Supercharge": "https://wiki.leagueoflegends.com/en-us/images/Kai'Sa_Supercharge_HD.png",
+    "Supercharge 2": "https://wiki.leagueoflegends.com/en-us/images/Kai'Sa_Supercharge_2_HD.png",
+    "Void Seeker": "https://wiki.leagueoflegends.com/en-us/images/Kai'Sa_Void_Seeker_HD.png",
+    "Void Seeker 2": "https://wiki.leagueoflegends.com/en-us/images/Kai'Sa_Void_Seeker_2_HD.png"
+  },
+  "Kalista": {
+    "Fate's Call": "https://wiki.leagueoflegends.com/en-us/images/Kalista_Fate's_Call_HD.png",
+    "Martial Poise": "https://wiki.leagueoflegends.com/en-us/images/Kalista_Martial_Poise_HD.png",
+    "Pierce": "https://wiki.leagueoflegends.com/en-us/images/Kalista_Pierce_HD.png",
+    "Rend": "https://wiki.leagueoflegends.com/en-us/images/Kalista_Rend_HD.png",
+    "Sentinel": "https://wiki.leagueoflegends.com/en-us/images/Kalista_Sentinel_HD.png",
+    "Sentinel 2": "https://wiki.leagueoflegends.com/en-us/images/Kalista_Sentinel_2_HD.png"
+  },
+  "Karma": {
+    "Defiance": "https://wiki.leagueoflegends.com/en-us/images/Karma_Defiance_HD.png",
+    "Focused Resolve": "https://wiki.leagueoflegends.com/en-us/images/Karma_Focused_Resolve_HD.png",
+    "Gathering Fire": "https://wiki.leagueoflegends.com/en-us/images/Karma_Gathering_Fire_HD.png",
+    "Inner Flame": "https://wiki.leagueoflegends.com/en-us/images/Karma_Inner_Flame_HD.png",
+    "Inspire": "https://wiki.leagueoflegends.com/en-us/images/Karma_Inspire_HD.png",
+    "Mantra": "https://wiki.leagueoflegends.com/en-us/images/Karma_Mantra_HD.png",
+    "Renewal": "https://wiki.leagueoflegends.com/en-us/images/Karma_Renewal_HD.png",
+    "Soulflare": "https://wiki.leagueoflegends.com/en-us/images/Karma_Soulflare_HD.png"
+  },
+  "Karthus": {
+    "Death Defied": "https://wiki.leagueoflegends.com/en-us/images/Karthus_Death_Defied_HD.png",
+    "Defile": "https://wiki.leagueoflegends.com/en-us/images/Karthus_Defile_HD.png",
+    "Lay Waste": "https://wiki.leagueoflegends.com/en-us/images/Karthus_Lay_Waste_HD.png",
+    "Requiem": "https://wiki.leagueoflegends.com/en-us/images/Karthus_Requiem_HD.png",
+    "Wall of Pain": "https://wiki.leagueoflegends.com/en-us/images/Karthus_Wall_of_Pain_HD.png"
+  },
+  "Kassadin": {
+    "Force Pulse": "https://wiki.leagueoflegends.com/en-us/images/Kassadin_Force_Pulse_HD.png",
+    "Nether Blade": "https://wiki.leagueoflegends.com/en-us/images/Kassadin_Nether_Blade_HD.png",
+    "Null Sphere": "https://wiki.leagueoflegends.com/en-us/images/Kassadin_Null_Sphere_HD.png",
+    "Riftwalk": "https://wiki.leagueoflegends.com/en-us/images/Kassadin_Riftwalk_HD.png",
+    "Void Stone": "https://wiki.leagueoflegends.com/en-us/images/Kassadin_Void_Stone_HD.png"
+  },
+  "Katarina": {
+    "Bouncing Blade": "https://wiki.leagueoflegends.com/en-us/images/Katarina_Bouncing_Blade_HD.png",
+    "Death Lotus": "https://wiki.leagueoflegends.com/en-us/images/Katarina_Death_Lotus_HD.png",
+    "Preparation": "https://wiki.leagueoflegends.com/en-us/images/Katarina_Preparation_HD.jpg",
+    "Shunpo": "https://wiki.leagueoflegends.com/en-us/images/Katarina_Shunpo_HD.jpg",
+    "Sinister Steel": "https://wiki.leagueoflegends.com/en-us/images/Katarina_Sinister_Steel_HD.png",
+    "Voracity": "https://wiki.leagueoflegends.com/en-us/images/Katarina_Voracity_HD.jpg"
+  },
+  "Kayle": {
+    "Celestial Blessing": "https://wiki.leagueoflegends.com/en-us/images/Kayle_Celestial_Blessing_HD.jpg",
+    "Divine Ascent": "https://wiki.leagueoflegends.com/en-us/images/Kayle_Divine_Ascent_HD.jpg",
+    "Divine Ascent 2": "https://wiki.leagueoflegends.com/en-us/images/Kayle_Divine_Ascent_2_HD.jpg",
+    "Divine Judgment": "https://wiki.leagueoflegends.com/en-us/images/Kayle_Divine_Judgment_HD.jpg",
+    "Radiant Blast": "https://wiki.leagueoflegends.com/en-us/images/Kayle_Radiant_Blast_HD.jpg",
+    "Radiant Blast 2": "https://wiki.leagueoflegends.com/en-us/images/Kayle_Radiant_Blast_2_HD.jpg",
+    "Starfire Spellblade": "https://wiki.leagueoflegends.com/en-us/images/Kayle_Starfire_Spellblade_HD.jpg",
+    "Starfire Spellblade 2": "https://wiki.leagueoflegends.com/en-us/images/Kayle_Starfire_Spellblade_2_HD.jpg"
+  },
+  "Kayn": {
+    "Blade's Reach": "https://wiki.leagueoflegends.com/en-us/images/Kayn_Blade's_Reach_HD.png",
+    "Blade's Reach A": "https://wiki.leagueoflegends.com/en-us/images/Kayn_Blade's_Reach_A_HD.png",
+    "Blade's Reach R": "https://wiki.leagueoflegends.com/en-us/images/Kayn_Blade's_Reach_R_HD.png",
+    "Reaping Slash": "https://wiki.leagueoflegends.com/en-us/images/Kayn_Reaping_Slash_HD.png",
+    "Reaping Slash A": "https://wiki.leagueoflegends.com/en-us/images/Kayn_Reaping_Slash_A_HD.png",
+    "Reaping Slash R": "https://wiki.leagueoflegends.com/en-us/images/Kayn_Reaping_Slash_R_HD.png",
+    "Shadow Step": "https://wiki.leagueoflegends.com/en-us/images/Kayn_Shadow_Step_HD.png",
+    "Shadow Step A": "https://wiki.leagueoflegends.com/en-us/images/Kayn_Shadow_Step_A_HD.png",
+    "Shadow Step R": "https://wiki.leagueoflegends.com/en-us/images/Kayn_Shadow_Step_R_HD.png",
+    "The Darkin Scythe": "https://wiki.leagueoflegends.com/en-us/images/Kayn_The_Darkin_Scythe_HD.png",
+    "The Darkin Scythe A": "https://wiki.leagueoflegends.com/en-us/images/Kayn_The_Darkin_Scythe_A_HD.png",
+    "The Darkin Scythe R": "https://wiki.leagueoflegends.com/en-us/images/Kayn_The_Darkin_Scythe_R_HD.png",
+    "Umbral Trespass": "https://wiki.leagueoflegends.com/en-us/images/Kayn_Umbral_Trespass_HD.png",
+    "Umbral Trespass 2": "https://wiki.leagueoflegends.com/en-us/images/Kayn_Umbral_Trespass_2_HD.png",
+    "Umbral Trespass R": "https://wiki.leagueoflegends.com/en-us/images/Kayn_Umbral_Trespass_R_HD.png",
+    "Umbral Trespass R 2": "https://wiki.leagueoflegends.com/en-us/images/Kayn_Umbral_Trespass_R_2_HD.png"
+  },
+  "Kennen": {
+    "Electrical Surge": "https://wiki.leagueoflegends.com/en-us/images/Kennen_Electrical_Surge_HD.png",
+    "Lightning Rush": "https://wiki.leagueoflegends.com/en-us/images/Kennen_Lightning_Rush_HD.png",
+    "Mark of the Storm": "https://wiki.leagueoflegends.com/en-us/images/Kennen_Mark_of_the_Storm_HD.png",
+    "Slicing Maelstrom": "https://wiki.leagueoflegends.com/en-us/images/Kennen_Slicing_Maelstrom_HD.png",
+    "Thundering Shuriken": "https://wiki.leagueoflegends.com/en-us/images/Kennen_Thundering_Shuriken_HD.png"
+  },
+  "Kha'Zix": {
+    "Evolved Adaptive Cloaking": "https://wiki.leagueoflegends.com/en-us/images/Kha'Zix_Evolved_Adaptive_Cloaking_HD.png",
+    "Evolved Reaper Claws": "https://wiki.leagueoflegends.com/en-us/images/Kha'Zix_Evolved_Reaper_Claws_HD.png",
+    "Evolved Spike Racks": "https://wiki.leagueoflegends.com/en-us/images/Kha'Zix_Evolved_Spike_Racks_HD.png",
+    "Evolved Wings": "https://wiki.leagueoflegends.com/en-us/images/Kha'Zix_Evolved_Wings_HD.png",
+    "Leap": "https://wiki.leagueoflegends.com/en-us/images/Kha'Zix_Leap_HD.png",
+    "Taste Their Fear": "https://wiki.leagueoflegends.com/en-us/images/Kha'Zix_Taste_Their_Fear_HD.png",
+    "Unseen Threat": "https://wiki.leagueoflegends.com/en-us/images/Kha'Zix_Unseen_Threat_HD.png",
+    "Void Assault": "https://wiki.leagueoflegends.com/en-us/images/Kha'Zix_Void_Assault_HD.png",
+    "Void Assault 2": "https://wiki.leagueoflegends.com/en-us/images/Kha'Zix_Void_Assault_2_HD.png",
+    "Void Spike": "https://wiki.leagueoflegends.com/en-us/images/Kha'Zix_Void_Spike_HD.png"
+  },
+  "Kindred": {
+    "Dance of Arrows": "https://wiki.leagueoflegends.com/en-us/images/Kindred_Dance_of_Arrows_HD.png",
+    "Lamb's Respite": "https://wiki.leagueoflegends.com/en-us/images/Kindred_Lamb's_Respite_HD.png",
+    "Mark of the Kindred": "https://wiki.leagueoflegends.com/en-us/images/Kindred_Mark_of_the_Kindred_HD.png",
+    "Mounting Dread": "https://wiki.leagueoflegends.com/en-us/images/Kindred_Mounting_Dread_HD.jpg",
+    "Wolf's Frenzy": "https://wiki.leagueoflegends.com/en-us/images/Kindred_Wolf's_Frenzy_HD.jpg"
+  },
+  "Kled": {
+    "Bear Trap on a Rope": "https://wiki.leagueoflegends.com/en-us/images/Kled_Bear_Trap_on_a_Rope_HD.png",
+    "Chaaaaaaaarge!!!": "https://wiki.leagueoflegends.com/en-us/images/Kled_Chaaaaaaaarge!!!_HD.png",
+    "Chaaaaaaaarge!!! 2": "https://wiki.leagueoflegends.com/en-us/images/Kled_Chaaaaaaaarge!!!_2_HD.png",
+    "Jousting": "https://wiki.leagueoflegends.com/en-us/images/Kled_Jousting_HD.png",
+    "Jousting 2": "https://wiki.leagueoflegends.com/en-us/images/Kled_Jousting_2_HD.png",
+    "Pocket Pistol": "https://wiki.leagueoflegends.com/en-us/images/Kled_Pocket_Pistol_HD.png",
+    "Skaarl the Cowardly Lizard": "https://wiki.leagueoflegends.com/en-us/images/Kled_Skaarl_the_Cowardly_Lizard_HD.png",
+    "Skaarl the Cowardly Lizard 2": "https://wiki.leagueoflegends.com/en-us/images/Kled_Skaarl_the_Cowardly_Lizard_2_HD.png",
+    "Skaarl the Cowardly Lizard 3": "https://wiki.leagueoflegends.com/en-us/images/Kled_Skaarl_the_Cowardly_Lizard_3_HD.png",
+    "Violent Tendencies": "https://wiki.leagueoflegends.com/en-us/images/Kled_Violent_Tendencies_HD.png"
+  },
+  "Kog'Maw": {
+    "Bio-Arcane Barrage": "https://wiki.leagueoflegends.com/en-us/images/Kog'Maw_Bio-Arcane_Barrage_HD.png",
+    "Caustic Spittle": "https://wiki.leagueoflegends.com/en-us/images/Kog'Maw_Caustic_Spittle_HD.png",
+    "Icathian Surprise": "https://wiki.leagueoflegends.com/en-us/images/Kog'Maw_Icathian_Surprise_HD.png",
+    "Living Artillery": "https://wiki.leagueoflegends.com/en-us/images/Kog'Maw_Living_Artillery_HD.png",
+    "Void Ooze": "https://wiki.leagueoflegends.com/en-us/images/Kog'Maw_Void_Ooze_HD.png"
+  },
+  "LeBlanc": {
+    "Distortion": "https://wiki.leagueoflegends.com/en-us/images/LeBlanc_Distortion_HD.jpg",
+    "Distortion 2": "https://wiki.leagueoflegends.com/en-us/images/LeBlanc_Distortion_2_HD.jpg",
+    "Ethereal Chains": "https://wiki.leagueoflegends.com/en-us/images/LeBlanc_Ethereal_Chains_HD.jpg",
+    "Mimic": "https://wiki.leagueoflegends.com/en-us/images/LeBlanc_Mimic_HD.jpg",
+    "Mimic- Distortion": "https://wiki.leagueoflegends.com/en-us/images/LeBlanc_Mimic-_Distortion_HD.jpg",
+    "Mimic- Distortion 2": "https://wiki.leagueoflegends.com/en-us/images/LeBlanc_Mimic-_Distortion_2_HD.jpg",
+    "Mimic- Ethereal Chains": "https://wiki.leagueoflegends.com/en-us/images/LeBlanc_Mimic-_Ethereal_Chains_HD.jpg",
+    "Mimic- Sigil of Malice": "https://wiki.leagueoflegends.com/en-us/images/LeBlanc_Mimic-_Sigil_of_Malice_HD.jpg",
+    "Mirror Image": "https://wiki.leagueoflegends.com/en-us/images/LeBlanc_Mirror_Image_HD.jpg",
+    "Mirror Image 2": "https://wiki.leagueoflegends.com/en-us/images/LeBlanc_Mirror_Image_2_HD.jpg",
+    "Sigil of Malice": "https://wiki.leagueoflegends.com/en-us/images/LeBlanc_Sigil_of_Malice_HD.jpg"
+  },
+  "Lee Sin": {
+    "Cripple": "https://wiki.leagueoflegends.com/en-us/images/Lee_Sin_Cripple_HD.png",
+    "Dragon's Rage": "https://wiki.leagueoflegends.com/en-us/images/Lee_Sin_Dragon's_Rage_HD.png",
+    "Flurry": "https://wiki.leagueoflegends.com/en-us/images/Lee_Sin_Flurry_HD.png",
+    "Iron Will": "https://wiki.leagueoflegends.com/en-us/images/Lee_Sin_Iron_Will_HD.png",
+    "Resonating Strike": "https://wiki.leagueoflegends.com/en-us/images/Lee_Sin_Resonating_Strike_HD.png",
+    "Safeguard": "https://wiki.leagueoflegends.com/en-us/images/Lee_Sin_Safeguard_HD.png",
+    "Sonic Wave": "https://wiki.leagueoflegends.com/en-us/images/Lee_Sin_Sonic_Wave_HD.png",
+    "Tempest": "https://wiki.leagueoflegends.com/en-us/images/Lee_Sin_Tempest_HD.png"
+  },
+  "Leona": {
+    "Eclipse": "https://wiki.leagueoflegends.com/en-us/images/Leona_Eclipse_HD.png",
+    "Shield of Daybreak": "https://wiki.leagueoflegends.com/en-us/images/Leona_Shield_of_Daybreak_HD.png",
+    "Solar Flare": "https://wiki.leagueoflegends.com/en-us/images/Leona_Solar_Flare_HD.png",
+    "Sunlight": "https://wiki.leagueoflegends.com/en-us/images/Leona_Sunlight_HD.png",
+    "Zenith Blade": "https://wiki.leagueoflegends.com/en-us/images/Leona_Zenith_Blade_HD.png"
+  },
+  "Lillia": {
+    "Blooming Blows": "https://wiki.leagueoflegends.com/en-us/images/Lillia_Blooming_Blows_HD.png",
+    "Dream-Laden Bough": "https://wiki.leagueoflegends.com/en-us/images/Lillia_Dream-Laden_Bough_HD.png",
+    "Lilting Lullaby": "https://wiki.leagueoflegends.com/en-us/images/Lillia_Lilting_Lullaby_HD.png",
+    "Lilting Lullaby 2": "https://wiki.leagueoflegends.com/en-us/images/Lillia_Lilting_Lullaby_2_HD.png",
+    "Prance": "https://wiki.leagueoflegends.com/en-us/images/Lillia_Prance_HD.png",
+    "Swirlseed": "https://wiki.leagueoflegends.com/en-us/images/Lillia_Swirlseed_HD.png",
+    "Watch Out! Eep!": "https://wiki.leagueoflegends.com/en-us/images/Lillia_Watch_Out!_Eep!_HD.png"
+  },
+  "Lissandra": {
+    "Frozen Tomb": "https://wiki.leagueoflegends.com/en-us/images/Lissandra_Frozen_Tomb_HD.png",
+    "Glacial Path": "https://wiki.leagueoflegends.com/en-us/images/Lissandra_Glacial_Path_HD.png",
+    "Ice Shard": "https://wiki.leagueoflegends.com/en-us/images/Lissandra_Ice_Shard_HD.png",
+    "Iceborn Subjugation": "https://wiki.leagueoflegends.com/en-us/images/Lissandra_Iceborn_Subjugation_HD.png",
+    "Ring of Frost": "https://wiki.leagueoflegends.com/en-us/images/Lissandra_Ring_of_Frost_HD.png"
+  },
+  "Locke": {
+    "Ashen Pursuit": "https://wiki.leagueoflegends.com/en-us/images/Locke_Ashen_Pursuit_HD.png",
+    "Ashen Pursuit 2": "https://wiki.leagueoflegends.com/en-us/images/Locke_Ashen_Pursuit_2_HD.png",
+    "Purgatory": "https://wiki.leagueoflegends.com/en-us/images/Locke_Purgatory_HD.png",
+    "Ritual Nails": "https://wiki.leagueoflegends.com/en-us/images/Locke_Ritual_Nails_HD.png",
+    "Silver Stake": "https://wiki.leagueoflegends.com/en-us/images/Locke_Silver_Stake_HD.png",
+    "Soul Ignition": "https://wiki.leagueoflegends.com/en-us/images/Locke_Soul_Ignition_HD.png",
+    "Soul Ignition 2": "https://wiki.leagueoflegends.com/en-us/images/Locke_Soul_Ignition_2_HD.png"
+  },
+  "Lucian": {
+    "Ardent Blaze": "https://wiki.leagueoflegends.com/en-us/images/Lucian_Ardent_Blaze_HD.png",
+    "Ardent Blaze 2": "https://wiki.leagueoflegends.com/en-us/images/Lucian_Ardent_Blaze_2_HD.png",
+    "Ardent Blaze 3": "https://wiki.leagueoflegends.com/en-us/images/Lucian_Ardent_Blaze_3_HD.png",
+    "Lightslinger": "https://wiki.leagueoflegends.com/en-us/images/Lucian_Lightslinger_HD.png",
+    "Piercing Light": "https://wiki.leagueoflegends.com/en-us/images/Lucian_Piercing_Light_HD.png",
+    "Relentless Pursuit": "https://wiki.leagueoflegends.com/en-us/images/Lucian_Relentless_Pursuit_HD.png",
+    "The Culling": "https://wiki.leagueoflegends.com/en-us/images/Lucian_The_Culling_HD.png"
+  },
+  "Lulu": {
+    "Glitterlance": "https://wiki.leagueoflegends.com/en-us/images/Lulu_Glitterlance_HD.png",
+    "Help, Pix!": "https://wiki.leagueoflegends.com/en-us/images/Lulu_Help,_Pix!_HD.png",
+    "Pix, Faerie Companion": "https://wiki.leagueoflegends.com/en-us/images/Lulu_Pix,_Faerie_Companion_HD.png",
+    "Whimsy": "https://wiki.leagueoflegends.com/en-us/images/Lulu_Whimsy_HD.png",
+    "Wild Growth": "https://wiki.leagueoflegends.com/en-us/images/Lulu_Wild_Growth_HD.png"
+  },
+  "Lux": {
+    "Final Spark": "https://wiki.leagueoflegends.com/en-us/images/Lux_Final_Spark_HD.png",
+    "Illumination": "https://wiki.leagueoflegends.com/en-us/images/Lux_Illumination_HD.png",
+    "Light Binding": "https://wiki.leagueoflegends.com/en-us/images/Lux_Light_Binding_HD.png",
+    "Lucent Singularity": "https://wiki.leagueoflegends.com/en-us/images/Lux_Lucent_Singularity_HD.png",
+    "Prismatic Barrier": "https://wiki.leagueoflegends.com/en-us/images/Lux_Prismatic_Barrier_HD.png"
+  },
+  "Malphite": {
+    "Granite Shield": "https://wiki.leagueoflegends.com/en-us/images/Malphite_Granite_Shield_HD.png",
+    "Ground Slam": "https://wiki.leagueoflegends.com/en-us/images/Malphite_Ground_Slam_HD.png",
+    "Seismic Shard": "https://wiki.leagueoflegends.com/en-us/images/Malphite_Seismic_Shard_HD.png",
+    "Thunderclap": "https://wiki.leagueoflegends.com/en-us/images/Malphite_Thunderclap_HD.png",
+    "Unstoppable Force": "https://wiki.leagueoflegends.com/en-us/images/Malphite_Unstoppable_Force_HD.png"
+  },
+  "Malzahar": {
+    "Call of the Void": "https://wiki.leagueoflegends.com/en-us/images/Malzahar_Call_of_the_Void_HD.png",
+    "Malefic Visions": "https://wiki.leagueoflegends.com/en-us/images/Malzahar_Malefic_Visions_HD.png",
+    "Nether Grasp": "https://wiki.leagueoflegends.com/en-us/images/Malzahar_Nether_Grasp_HD.png",
+    "Void Shift": "https://wiki.leagueoflegends.com/en-us/images/Malzahar_Void_Shift_HD.png",
+    "Void Swarm": "https://wiki.leagueoflegends.com/en-us/images/Malzahar_Void_Swarm_HD.png"
+  },
+  "Maokai": {
+    "Bramble Smash": "https://wiki.leagueoflegends.com/en-us/images/Maokai_Bramble_Smash_HD.jpg",
+    "Nature's Grasp": "https://wiki.leagueoflegends.com/en-us/images/Maokai_Nature's_Grasp_HD.png",
+    "Sap Magic": "https://wiki.leagueoflegends.com/en-us/images/Maokai_Sap_Magic_HD.png",
+    "Sap Magic 2": "https://wiki.leagueoflegends.com/en-us/images/Maokai_Sap_Magic_2_HD.png",
+    "Sapling Toss": "https://wiki.leagueoflegends.com/en-us/images/Maokai_Sapling_Toss_HD.png",
+    "Twisted Advance": "https://wiki.leagueoflegends.com/en-us/images/Maokai_Twisted_Advance_HD.png"
+  },
+  "Master Yi": {
+    "Alpha Strike": "https://wiki.leagueoflegends.com/en-us/images/Master_Yi_Alpha_Strike_HD.png",
+    "Double Strike": "https://wiki.leagueoflegends.com/en-us/images/Master_Yi_Double_Strike_HD.png",
+    "Highlander": "https://wiki.leagueoflegends.com/en-us/images/Master_Yi_Highlander_HD.png",
+    "Meditate": "https://wiki.leagueoflegends.com/en-us/images/Master_Yi_Meditate_HD.png",
+    "Wuju Style": "https://wiki.leagueoflegends.com/en-us/images/Master_Yi_Wuju_Style_HD.png",
+    "Wuju Style 2": "https://wiki.leagueoflegends.com/en-us/images/Master_Yi_Wuju_Style_2_HD.png"
+  },
+  "Mel": {
+    "Golden Eclipse": "https://wiki.leagueoflegends.com/en-us/images/Mel_Golden_Eclipse_HD.png",
+    "Golden Eclipse 2": "https://wiki.leagueoflegends.com/en-us/images/Mel_Golden_Eclipse_2_HD.png",
+    "Radiant Volley": "https://wiki.leagueoflegends.com/en-us/images/Mel_Radiant_Volley_HD.png",
+    "Rebuttal": "https://wiki.leagueoflegends.com/en-us/images/Mel_Rebuttal_HD.png",
+    "Searing Brilliance": "https://wiki.leagueoflegends.com/en-us/images/Mel_Searing_Brilliance_HD.png",
+    "Solar Snare": "https://wiki.leagueoflegends.com/en-us/images/Mel_Solar_Snare_HD.png"
+  },
+  "Milio": {
+    "Breath of Life": "https://wiki.leagueoflegends.com/en-us/images/Milio_Breath_of_Life_HD.png",
+    "Cozy Campfire": "https://wiki.leagueoflegends.com/en-us/images/Milio_Cozy_Campfire_HD.png",
+    "Cozy Campfire 2": "https://wiki.leagueoflegends.com/en-us/images/Milio_Cozy_Campfire_2_HD.png",
+    "Fired Up!": "https://wiki.leagueoflegends.com/en-us/images/Milio_Fired_Up!_HD.png",
+    "Ultra Mega Fire Kick": "https://wiki.leagueoflegends.com/en-us/images/Milio_Ultra_Mega_Fire_Kick_HD.png",
+    "Warm Hugs": "https://wiki.leagueoflegends.com/en-us/images/Milio_Warm_Hugs_HD.png"
+  },
+  "Miss Fortune": {
+    "Bullet Time": "https://wiki.leagueoflegends.com/en-us/images/Miss_Fortune_Bullet_Time_HD.png",
+    "Double Up": "https://wiki.leagueoflegends.com/en-us/images/Miss_Fortune_Double_Up_HD.png",
+    "Impure Shots": "https://wiki.leagueoflegends.com/en-us/images/Miss_Fortune_Impure_Shots_HD.png",
+    "Love Tap": "https://wiki.leagueoflegends.com/en-us/images/Miss_Fortune_Love_Tap_HD.png",
+    "Make It Rain": "https://wiki.leagueoflegends.com/en-us/images/Miss_Fortune_Make_It_Rain_HD.png",
+    "Strut": "https://wiki.leagueoflegends.com/en-us/images/Miss_Fortune_Strut_HD.png"
+  },
+  "Mordekaiser": {
+    "Darkness Rise": "https://wiki.leagueoflegends.com/en-us/images/Mordekaiser_Darkness_Rise_HD.jpg",
+    "Death's Grasp": "https://wiki.leagueoflegends.com/en-us/images/Mordekaiser_Death's_Grasp_HD.jpg",
+    "Indestructible": "https://wiki.leagueoflegends.com/en-us/images/Mordekaiser_Indestructible_HD.jpg",
+    "Indestructible 2": "https://wiki.leagueoflegends.com/en-us/images/Mordekaiser_Indestructible_2_HD.jpg",
+    "Obliterate": "https://wiki.leagueoflegends.com/en-us/images/Mordekaiser_Obliterate_HD.jpg",
+    "Realm of Death": "https://wiki.leagueoflegends.com/en-us/images/Mordekaiser_Realm_of_Death_HD.jpg"
+  },
+  "Morgana": {
+    "Black Shield": "https://wiki.leagueoflegends.com/en-us/images/Morgana_Black_Shield_HD.png",
+    "Dark Binding": "https://wiki.leagueoflegends.com/en-us/images/Morgana_Dark_Binding_HD.png",
+    "Soul Shackles": "https://wiki.leagueoflegends.com/en-us/images/Morgana_Soul_Shackles_HD.png",
+    "Soul Siphon": "https://wiki.leagueoflegends.com/en-us/images/Morgana_Soul_Siphon_HD.png",
+    "Tormented Shadow": "https://wiki.leagueoflegends.com/en-us/images/Morgana_Tormented_Shadow_HD.png"
+  },
+  "Naafiri": {
+    "Darkin Daggers": "https://wiki.leagueoflegends.com/en-us/images/Naafiri_Darkin_Daggers_HD.png",
+    "Eviscerate": "https://wiki.leagueoflegends.com/en-us/images/Naafiri_Eviscerate_HD.png",
+    "Hounds' Pursuit": "https://wiki.leagueoflegends.com/en-us/images/Naafiri_Hounds'_Pursuit_HD.png",
+    "The Call of the Pack": "https://wiki.leagueoflegends.com/en-us/images/Naafiri_The_Call_of_the_Pack_HD.png",
+    "We Are More": "https://wiki.leagueoflegends.com/en-us/images/Naafiri_We_Are_More_HD.png"
+  },
+  "Nami": {
+    "Aqua Prison": "https://wiki.leagueoflegends.com/en-us/images/Nami_Aqua_Prison_HD.png",
+    "Ebb and Flow": "https://wiki.leagueoflegends.com/en-us/images/Nami_Ebb_and_Flow_HD.png",
+    "Surging Tides": "https://wiki.leagueoflegends.com/en-us/images/Nami_Surging_Tides_HD.png",
+    "Tidal Wave": "https://wiki.leagueoflegends.com/en-us/images/Nami_Tidal_Wave_HD.png",
+    "Tidecaller's Blessing": "https://wiki.leagueoflegends.com/en-us/images/Nami_Tidecaller's_Blessing_HD.png"
+  },
+  "Nasus": {
+    "Fury of the Sands": "https://wiki.leagueoflegends.com/en-us/images/Nasus_Fury_of_the_Sands_HD.png",
+    "Siphoning Strike": "https://wiki.leagueoflegends.com/en-us/images/Nasus_Siphoning_Strike_HD.png",
+    "Soul Eater": "https://wiki.leagueoflegends.com/en-us/images/Nasus_Soul_Eater_HD.png",
+    "Spirit Fire": "https://wiki.leagueoflegends.com/en-us/images/Nasus_Spirit_Fire_HD.png",
+    "Wither": "https://wiki.leagueoflegends.com/en-us/images/Nasus_Wither_HD.png"
+  },
+  "Nautilus": {
+    "Depth Charge": "https://wiki.leagueoflegends.com/en-us/images/Nautilus_Depth_Charge_HD.png",
+    "Depth Charge 2": "https://wiki.leagueoflegends.com/en-us/images/Nautilus_Depth_Charge_2_HD.png",
+    "Dredge Line": "https://wiki.leagueoflegends.com/en-us/images/Nautilus_Dredge_Line_HD.png",
+    "Riptide": "https://wiki.leagueoflegends.com/en-us/images/Nautilus_Riptide_HD.png",
+    "Staggering Blow": "https://wiki.leagueoflegends.com/en-us/images/Nautilus_Staggering_Blow_HD.png",
+    "Titan's Wrath": "https://wiki.leagueoflegends.com/en-us/images/Nautilus_Titan's_Wrath_HD.png"
+  },
+  "Neeko": {
+    "Blooming Burst": "https://wiki.leagueoflegends.com/en-us/images/Neeko_Blooming_Burst_HD.jpg",
+    "Inherent Glamour": "https://wiki.leagueoflegends.com/en-us/images/Neeko_Inherent_Glamour_HD.jpg",
+    "Pop Blossom": "https://wiki.leagueoflegends.com/en-us/images/Neeko_Pop_Blossom_HD.jpg",
+    "Shapesplitter": "https://wiki.leagueoflegends.com/en-us/images/Neeko_Shapesplitter_HD.jpg",
+    "Shapesplitter 2": "https://wiki.leagueoflegends.com/en-us/images/Neeko_Shapesplitter_2_HD.png",
+    "Shapesplitter 3": "https://wiki.leagueoflegends.com/en-us/images/Neeko_Shapesplitter_3_HD.jpg",
+    "Tangle-Barbs": "https://wiki.leagueoflegends.com/en-us/images/Neeko_Tangle-Barbs_HD.jpg"
+  },
+  "Nidalee": {
+    "Aspect of the Cougar": "https://wiki.leagueoflegends.com/en-us/images/Nidalee_Aspect_of_the_Cougar_HD.png",
+    "Aspect of the Cougar 2": "https://wiki.leagueoflegends.com/en-us/images/Nidalee_Aspect_of_the_Cougar_2_HD.png",
+    "Bushwhack": "https://wiki.leagueoflegends.com/en-us/images/Nidalee_Bushwhack_HD.png",
+    "Javelin Toss": "https://wiki.leagueoflegends.com/en-us/images/Nidalee_Javelin_Toss_HD.png",
+    "Pounce": "https://wiki.leagueoflegends.com/en-us/images/Nidalee_Pounce_HD.png",
+    "Primal Surge": "https://wiki.leagueoflegends.com/en-us/images/Nidalee_Primal_Surge_HD.png",
+    "Prowl": "https://wiki.leagueoflegends.com/en-us/images/Nidalee_Prowl_HD.png",
+    "Swipe": "https://wiki.leagueoflegends.com/en-us/images/Nidalee_Swipe_HD.png",
+    "Takedown": "https://wiki.leagueoflegends.com/en-us/images/Nidalee_Takedown_HD.png"
+  },
+  "Nilah": {
+    "Apotheosis": "https://wiki.leagueoflegends.com/en-us/images/Nilah_Apotheosis_HD.png",
+    "Formless Blade": "https://wiki.leagueoflegends.com/en-us/images/Nilah_Formless_Blade_HD.png",
+    "Joy Unending": "https://wiki.leagueoflegends.com/en-us/images/Nilah_Joy_Unending_HD.png",
+    "Jubilant Veil": "https://wiki.leagueoflegends.com/en-us/images/Nilah_Jubilant_Veil_HD.png",
+    "Slipstream": "https://wiki.leagueoflegends.com/en-us/images/Nilah_Slipstream_HD.png"
+  },
+  "Nocturne": {
+    "Duskbringer": "https://wiki.leagueoflegends.com/en-us/images/Nocturne_Duskbringer_HD.png",
+    "Paranoia": "https://wiki.leagueoflegends.com/en-us/images/Nocturne_Paranoia_HD.png",
+    "Shroud of Darkness": "https://wiki.leagueoflegends.com/en-us/images/Nocturne_Shroud_of_Darkness_HD.png",
+    "Umbra Blades": "https://wiki.leagueoflegends.com/en-us/images/Nocturne_Umbra_Blades_HD.png",
+    "Unspeakable Horror": "https://wiki.leagueoflegends.com/en-us/images/Nocturne_Unspeakable_Horror_HD.png"
+  },
+  "Nunu & Willump": {
+    "Absolute Zero": "https://wiki.leagueoflegends.com/en-us/images/Nunu_Absolute_Zero_HD.png",
+    "Absolute Zero 2": "https://wiki.leagueoflegends.com/en-us/images/Nunu_Absolute_Zero_2_HD.jpg",
+    "Biggest Snowball Ever!": "https://wiki.leagueoflegends.com/en-us/images/Nunu_Biggest_Snowball_Ever!_HD.jpg",
+    "Biggest Snowball Ever! 2": "https://wiki.leagueoflegends.com/en-us/images/Nunu_Biggest_Snowball_Ever!_2_HD.jpg",
+    "Call of the Freljord": "https://wiki.leagueoflegends.com/en-us/images/Nunu_Call_of_the_Freljord_HD.jpg",
+    "Consume": "https://wiki.leagueoflegends.com/en-us/images/Nunu_Consume_HD.jpg",
+    "Snowball Barrage": "https://wiki.leagueoflegends.com/en-us/images/Nunu_Snowball_Barrage_HD.jpg"
+  },
+  "Olaf": {
+    "Berserker Rage": "https://wiki.leagueoflegends.com/en-us/images/Olaf_Berserker_Rage_HD.png",
+    "Ragnarok": "https://wiki.leagueoflegends.com/en-us/images/Olaf_Ragnarok_HD.png",
+    "Reckless Swing": "https://wiki.leagueoflegends.com/en-us/images/Olaf_Reckless_Swing_HD.png",
+    "Tough It Out": "https://wiki.leagueoflegends.com/en-us/images/Olaf_Tough_It_Out_HD.png",
+    "Tough It Out 2": "https://wiki.leagueoflegends.com/en-us/images/Olaf_Tough_It_Out_2_HD.png",
+    "Undertow": "https://wiki.leagueoflegends.com/en-us/images/Olaf_Undertow_HD.png"
+  },
+  "Orianna": {
+    "Clockwork Winding": "https://wiki.leagueoflegends.com/en-us/images/Orianna_Clockwork_Winding_HD.png",
+    "Clockwork Windup": "https://wiki.leagueoflegends.com/en-us/images/Orianna_Clockwork_Windup_HD.png",
+    "Command- Attack": "https://wiki.leagueoflegends.com/en-us/images/Orianna_Command-_Attack_HD.png",
+    "Command- Dissonance": "https://wiki.leagueoflegends.com/en-us/images/Orianna_Command-_Dissonance_HD.png",
+    "Command- Protect": "https://wiki.leagueoflegends.com/en-us/images/Orianna_Command-_Protect_HD.png",
+    "Command- Shockwave": "https://wiki.leagueoflegends.com/en-us/images/Orianna_Command-_Shockwave_HD.png"
+  },
+  "Ornn": {
+    "Bellows Breath": "https://wiki.leagueoflegends.com/en-us/images/Ornn_Bellows_Breath_HD.png",
+    "Call of the Forge God": "https://wiki.leagueoflegends.com/en-us/images/Ornn_Call_of_the_Forge_God_HD.png",
+    "Call of the Forge God 2": "https://wiki.leagueoflegends.com/en-us/images/Ornn_Call_of_the_Forge_God_2_HD.png",
+    "Living Forge": "https://wiki.leagueoflegends.com/en-us/images/Ornn_Living_Forge_HD.png",
+    "Searing Charge": "https://wiki.leagueoflegends.com/en-us/images/Ornn_Searing_Charge_HD.png",
+    "Volcanic Rupture": "https://wiki.leagueoflegends.com/en-us/images/Ornn_Volcanic_Rupture_HD.png"
+  },
+  "Pantheon": {
+    "Aegis Assault": "https://wiki.leagueoflegends.com/en-us/images/Pantheon_Aegis_Assault_HD.png",
+    "Aegis Assault 2": "https://wiki.leagueoflegends.com/en-us/images/Pantheon_Aegis_Assault_2_HD.png",
+    "Comet Spear": "https://wiki.leagueoflegends.com/en-us/images/Pantheon_Comet_Spear_HD.png",
+    "Comet Spear 2": "https://wiki.leagueoflegends.com/en-us/images/Pantheon_Comet_Spear_2_HD.png",
+    "Grand Starfall": "https://wiki.leagueoflegends.com/en-us/images/Pantheon_Grand_Starfall_HD.png",
+    "Mortal Will": "https://wiki.leagueoflegends.com/en-us/images/Pantheon_Mortal_Will_HD.png",
+    "Shield Vault": "https://wiki.leagueoflegends.com/en-us/images/Pantheon_Shield_Vault_HD.png",
+    "Shield Vault 2": "https://wiki.leagueoflegends.com/en-us/images/Pantheon_Shield_Vault_2_HD.png"
+  },
+  "Poppy": {
+    "Hammer Shock": "https://wiki.leagueoflegends.com/en-us/images/Poppy_Hammer_Shock_HD.png",
+    "Heroic Charge": "https://wiki.leagueoflegends.com/en-us/images/Poppy_Heroic_Charge_HD.png",
+    "Iron Ambassador": "https://wiki.leagueoflegends.com/en-us/images/Poppy_Iron_Ambassador_HD.png",
+    "Iron Ambassador 2": "https://wiki.leagueoflegends.com/en-us/images/Poppy_Iron_Ambassador_2_HD.png",
+    "Keeper's Verdict": "https://wiki.leagueoflegends.com/en-us/images/Poppy_Keeper's_Verdict_HD.png",
+    "Steadfast Presence": "https://wiki.leagueoflegends.com/en-us/images/Poppy_Steadfast_Presence_HD.png",
+    "Steadfast Presence 2": "https://wiki.leagueoflegends.com/en-us/images/Poppy_Steadfast_Presence_2_HD.png"
+  },
+  "Pyke": {
+    "Bone Skewer": "https://wiki.leagueoflegends.com/en-us/images/Pyke_Bone_Skewer_HD.jpg",
+    "Death from Below": "https://wiki.leagueoflegends.com/en-us/images/Pyke_Death_from_Below_HD.jpg",
+    "Ghostwater Dive": "https://wiki.leagueoflegends.com/en-us/images/Pyke_Ghostwater_Dive_HD.jpg",
+    "Gift of the Drowned Ones": "https://wiki.leagueoflegends.com/en-us/images/Pyke_Gift_of_the_Drowned_Ones_HD.png",
+    "Phantom Undertow": "https://wiki.leagueoflegends.com/en-us/images/Pyke_Phantom_Undertow_HD.jpg"
+  },
+  "Qiyana": {
+    "Audacity": "https://wiki.leagueoflegends.com/en-us/images/Qiyana_Audacity_HD.png",
+    "Edge of Ixtal": "https://wiki.leagueoflegends.com/en-us/images/Qiyana_Edge_of_Ixtal_HD.png",
+    "Edge of Ixtal Brush": "https://wiki.leagueoflegends.com/en-us/images/Qiyana_Edge_of_Ixtal_Brush_HD.png",
+    "Edge of Ixtal River": "https://wiki.leagueoflegends.com/en-us/images/Qiyana_Edge_of_Ixtal_River_HD.png",
+    "Edge of Ixtal Rock": "https://wiki.leagueoflegends.com/en-us/images/Qiyana_Edge_of_Ixtal_Rock_HD.png",
+    "Royal Privilege": "https://wiki.leagueoflegends.com/en-us/images/Qiyana_Royal_Privilege_HD.png",
+    "Supreme Display of Talent": "https://wiki.leagueoflegends.com/en-us/images/Qiyana_Supreme_Display_of_Talent_HD.png",
+    "Terrashape": "https://wiki.leagueoflegends.com/en-us/images/Qiyana_Terrashape_HD.png",
+    "Terrashape Brush": "https://wiki.leagueoflegends.com/en-us/images/Qiyana_Terrashape_Brush_HD.png",
+    "Terrashape River": "https://wiki.leagueoflegends.com/en-us/images/Qiyana_Terrashape_River_HD.png",
+    "Terrashape Rock": "https://wiki.leagueoflegends.com/en-us/images/Qiyana_Terrashape_Rock_HD.png"
+  },
+  "Quinn": {
+    "Behind Enemy Lines": "https://wiki.leagueoflegends.com/en-us/images/Quinn_Behind_Enemy_Lines_HD.png",
+    "Blinding Assault": "https://wiki.leagueoflegends.com/en-us/images/Quinn_Blinding_Assault_HD.png",
+    "Harrier": "https://wiki.leagueoflegends.com/en-us/images/Quinn_Harrier_HD.png",
+    "Heightened Senses": "https://wiki.leagueoflegends.com/en-us/images/Quinn_Heightened_Senses_HD.png",
+    "Skystrike": "https://wiki.leagueoflegends.com/en-us/images/Quinn_Skystrike_HD.png",
+    "Vault": "https://wiki.leagueoflegends.com/en-us/images/Quinn_Vault_HD.png"
+  },
+  "Rakan": {
+    "Battle Dance": "https://wiki.leagueoflegends.com/en-us/images/Rakan_Battle_Dance_HD.png",
+    "Battle Dance 2": "https://wiki.leagueoflegends.com/en-us/images/Rakan_Battle_Dance_2_HD.png",
+    "Fey Feathers": "https://wiki.leagueoflegends.com/en-us/images/Rakan_Fey_Feathers_HD.png",
+    "Gleaming Quill": "https://wiki.leagueoflegends.com/en-us/images/Rakan_Gleaming_Quill_HD.png",
+    "Grand Entrance": "https://wiki.leagueoflegends.com/en-us/images/Rakan_Grand_Entrance_HD.png",
+    "The Quickness": "https://wiki.leagueoflegends.com/en-us/images/Rakan_The_Quickness_HD.png"
+  },
+  "Rammus": {
+    "Defensive Ball Curl": "https://wiki.leagueoflegends.com/en-us/images/Rammus_Defensive_Ball_Curl_HD.png",
+    "Frenzying Taunt": "https://wiki.leagueoflegends.com/en-us/images/Rammus_Frenzying_Taunt_HD.png",
+    "Powerball": "https://wiki.leagueoflegends.com/en-us/images/Rammus_Powerball_HD.png",
+    "Soaring Slam": "https://wiki.leagueoflegends.com/en-us/images/Rammus_Soaring_Slam_HD.png",
+    "Spiked Shell": "https://wiki.leagueoflegends.com/en-us/images/Rammus_Spiked_Shell_HD.png"
+  },
+  "Rek'Sai": {
+    "Burrow": "https://wiki.leagueoflegends.com/en-us/images/Rek'Sai_Burrow_HD.png",
+    "Furious Bite": "https://wiki.leagueoflegends.com/en-us/images/Rek'Sai_Furious_Bite_HD.png",
+    "Fury of the Xer'Sai": "https://wiki.leagueoflegends.com/en-us/images/Rek'Sai_Fury_of_the_Xer'Sai_HD.png",
+    "Prey Seeker": "https://wiki.leagueoflegends.com/en-us/images/Rek'Sai_Prey_Seeker_HD.png",
+    "Queen's Wrath": "https://wiki.leagueoflegends.com/en-us/images/Rek'Sai_Queen's_Wrath_HD.png",
+    "Tunnel": "https://wiki.leagueoflegends.com/en-us/images/Rek'Sai_Tunnel_HD.png",
+    "Unburrow": "https://wiki.leagueoflegends.com/en-us/images/Rek'Sai_Unburrow_HD.png",
+    "Void Rush": "https://wiki.leagueoflegends.com/en-us/images/Rek'Sai_Void_Rush_HD.png"
+  },
+  "Rell": {
+    "Break the Mold": "https://wiki.leagueoflegends.com/en-us/images/Rell_Break_the_Mold_HD.png",
+    "Ferromancy- Crash Down": "https://wiki.leagueoflegends.com/en-us/images/Rell_Ferromancy-_Crash_Down_HD.png",
+    "Ferromancy- Mount Up": "https://wiki.leagueoflegends.com/en-us/images/Rell_Ferromancy-_Mount_Up_HD.png",
+    "Full Tilt": "https://wiki.leagueoflegends.com/en-us/images/Rell_Full_Tilt_HD.png",
+    "Magnet Storm": "https://wiki.leagueoflegends.com/en-us/images/Rell_Magnet_Storm_HD.png",
+    "Shattering Strike": "https://wiki.leagueoflegends.com/en-us/images/Rell_Shattering_Strike_HD.png"
+  },
+  "Renata Glasc": {
+    "Bailout": "https://wiki.leagueoflegends.com/en-us/images/Renata_Glasc_Bailout_HD.png",
+    "Handshake": "https://wiki.leagueoflegends.com/en-us/images/Renata_Glasc_Handshake_HD.png",
+    "Handshake 2": "https://wiki.leagueoflegends.com/en-us/images/Renata_Glasc_Handshake_2_HD.png",
+    "Hostile Takeover": "https://wiki.leagueoflegends.com/en-us/images/Renata_Glasc_Hostile_Takeover_HD.png",
+    "Leverage": "https://wiki.leagueoflegends.com/en-us/images/Renata_Glasc_Leverage_HD.png",
+    "Loyalty Program": "https://wiki.leagueoflegends.com/en-us/images/Renata_Glasc_Loyalty_Program_HD.png"
+  },
+  "Renekton": {
+    "Cull the Meek": "https://wiki.leagueoflegends.com/en-us/images/Renekton_Cull_the_Meek_HD.png",
+    "Dominus": "https://wiki.leagueoflegends.com/en-us/images/Renekton_Dominus_HD.png",
+    "Reign of Anger": "https://wiki.leagueoflegends.com/en-us/images/Renekton_Reign_of_Anger_HD.png",
+    "Ruthless Predator": "https://wiki.leagueoflegends.com/en-us/images/Renekton_Ruthless_Predator_HD.png",
+    "Slice and Dice": "https://wiki.leagueoflegends.com/en-us/images/Renekton_Slice_and_Dice_HD.png",
+    "Slice and Dice 2": "https://wiki.leagueoflegends.com/en-us/images/Renekton_Slice_and_Dice_2_HD.png"
+  },
+  "Rengar": {
+    "Battle Roar": "https://wiki.leagueoflegends.com/en-us/images/Rengar_Battle_Roar_HD.png",
+    "Battle Roar 2": "https://wiki.leagueoflegends.com/en-us/images/Rengar_Battle_Roar_2_HD.png",
+    "Bola Strike": "https://wiki.leagueoflegends.com/en-us/images/Rengar_Bola_Strike_HD.png",
+    "Bola Strike 2": "https://wiki.leagueoflegends.com/en-us/images/Rengar_Bola_Strike_2_HD.png",
+    "Bonetooth Necklace": "https://wiki.leagueoflegends.com/en-us/images/Rengar_Bonetooth_Necklace_HD.png",
+    "Bonetooth Necklace 2": "https://wiki.leagueoflegends.com/en-us/images/Rengar_Bonetooth_Necklace_2_HD.png",
+    "Bonetooth Necklace 3": "https://wiki.leagueoflegends.com/en-us/images/Rengar_Bonetooth_Necklace_3_HD.png",
+    "Bonetooth Necklace 4": "https://wiki.leagueoflegends.com/en-us/images/Rengar_Bonetooth_Necklace_4_HD.png",
+    "Bonetooth Necklace 5": "https://wiki.leagueoflegends.com/en-us/images/Rengar_Bonetooth_Necklace_5_HD.png",
+    "Savagery": "https://wiki.leagueoflegends.com/en-us/images/Rengar_Savagery_HD.png",
+    "Savagery 2": "https://wiki.leagueoflegends.com/en-us/images/Rengar_Savagery_2_HD.png",
+    "Thrill of the Hunt": "https://wiki.leagueoflegends.com/en-us/images/Rengar_Thrill_of_the_Hunt_HD.png",
+    "Unseen Predator": "https://wiki.leagueoflegends.com/en-us/images/Rengar_Unseen_Predator_HD.png"
+  },
+  "Riven": {
+    "Blade of the Exile": "https://wiki.leagueoflegends.com/en-us/images/Riven_Blade_of_the_Exile_HD.png",
+    "Broken Wings": "https://wiki.leagueoflegends.com/en-us/images/Riven_Broken_Wings_HD.png",
+    "Ki Burst": "https://wiki.leagueoflegends.com/en-us/images/Riven_Ki_Burst_HD.png",
+    "Runic Blade": "https://wiki.leagueoflegends.com/en-us/images/Riven_Runic_Blade_HD.png",
+    "Valor": "https://wiki.leagueoflegends.com/en-us/images/Riven_Valor_HD.png",
+    "Wind Slash": "https://wiki.leagueoflegends.com/en-us/images/Riven_Wind_Slash_HD.png"
+  },
+  "Rumble": {
+    "Electro Harpoon": "https://wiki.leagueoflegends.com/en-us/images/Rumble_Electro_Harpoon_HD.png",
+    "Flamespitter": "https://wiki.leagueoflegends.com/en-us/images/Rumble_Flamespitter_HD.png",
+    "Junkyard Titan": "https://wiki.leagueoflegends.com/en-us/images/Rumble_Junkyard_Titan_HD.png",
+    "Junkyard Titan 2": "https://wiki.leagueoflegends.com/en-us/images/Rumble_Junkyard_Titan_2_HD.png",
+    "Junkyard Titan 3": "https://wiki.leagueoflegends.com/en-us/images/Rumble_Junkyard_Titan_3_HD.png",
+    "Scrap Shield": "https://wiki.leagueoflegends.com/en-us/images/Rumble_Scrap_Shield_HD.png",
+    "Scrap Shield 2": "https://wiki.leagueoflegends.com/en-us/images/Rumble_Scrap_Shield_2_HD.png",
+    "The Equalizer": "https://wiki.leagueoflegends.com/en-us/images/Rumble_The_Equalizer_HD.png"
+  },
+  "Ryze": {
+    "Arcane Mastery": "https://wiki.leagueoflegends.com/en-us/images/Ryze_Arcane_Mastery_HD.png",
+    "Overload": "https://wiki.leagueoflegends.com/en-us/images/Ryze_Overload_HD.png",
+    "Realm Warp": "https://wiki.leagueoflegends.com/en-us/images/Ryze_Realm_Warp_HD.png",
+    "Rune Prison": "https://wiki.leagueoflegends.com/en-us/images/Ryze_Rune_Prison_HD.png",
+    "Spell Flux": "https://wiki.leagueoflegends.com/en-us/images/Ryze_Spell_Flux_HD.png"
+  },
+  "Samira": {
+    "Blade Whirl": "https://wiki.leagueoflegends.com/en-us/images/Samira_Blade_Whirl_HD.png",
+    "Daredevil Impulse": "https://wiki.leagueoflegends.com/en-us/images/Samira_Daredevil_Impulse_HD.png",
+    "Flair": "https://wiki.leagueoflegends.com/en-us/images/Samira_Flair_HD.png",
+    "Inferno Trigger": "https://wiki.leagueoflegends.com/en-us/images/Samira_Inferno_Trigger_HD.png",
+    "Rank A": "https://wiki.leagueoflegends.com/en-us/images/Samira_Rank_A_HD.png",
+    "Rank B": "https://wiki.leagueoflegends.com/en-us/images/Samira_Rank_B_HD.png",
+    "Rank C": "https://wiki.leagueoflegends.com/en-us/images/Samira_Rank_C_HD.png",
+    "Rank D": "https://wiki.leagueoflegends.com/en-us/images/Samira_Rank_D_HD.png",
+    "Rank E": "https://wiki.leagueoflegends.com/en-us/images/Samira_Rank_E_HD.png",
+    "Rank F": "https://wiki.leagueoflegends.com/en-us/images/Samira_Rank_F_HD.png",
+    "Rank S": "https://wiki.leagueoflegends.com/en-us/images/Samira_Rank_S_HD.png",
+    "Wild Rush": "https://wiki.leagueoflegends.com/en-us/images/Samira_Wild_Rush_HD.png"
+  },
+  "Sejuani": {
+    "Arctic Assault": "https://wiki.leagueoflegends.com/en-us/images/Sejuani_Arctic_Assault_HD.jpg",
+    "Fury of the North": "https://wiki.leagueoflegends.com/en-us/images/Sejuani_Fury_of_the_North_HD.png",
+    "Glacial Prison": "https://wiki.leagueoflegends.com/en-us/images/Sejuani_Glacial_Prison_HD.jpg",
+    "Permafrost": "https://wiki.leagueoflegends.com/en-us/images/Sejuani_Permafrost_HD.jpg",
+    "Winter's Wrath": "https://wiki.leagueoflegends.com/en-us/images/Sejuani_Winter's_Wrath_HD.jpg"
+  },
+  "Senna": {
+    "Absolution": "https://wiki.leagueoflegends.com/en-us/images/Senna_Absolution_HD.png",
+    "Absolution 2": "https://wiki.leagueoflegends.com/en-us/images/Senna_Absolution_2_HD.png",
+    "Curse of the Black Mist": "https://wiki.leagueoflegends.com/en-us/images/Senna_Curse_of_the_Black_Mist_HD.png",
+    "Curse of the Black Mist 2": "https://wiki.leagueoflegends.com/en-us/images/Senna_Curse_of_the_Black_Mist_2_HD.png",
+    "Dawning Shadow": "https://wiki.leagueoflegends.com/en-us/images/Senna_Dawning_Shadow_HD.png",
+    "Dawning Shadow 2": "https://wiki.leagueoflegends.com/en-us/images/Senna_Dawning_Shadow_2_HD.png",
+    "Last Embrace": "https://wiki.leagueoflegends.com/en-us/images/Senna_Last_Embrace_HD.png",
+    "Piercing Darkness": "https://wiki.leagueoflegends.com/en-us/images/Senna_Piercing_Darkness_HD.png"
+  },
+  "Seraphine": {
+    "Beat Drop": "https://wiki.leagueoflegends.com/en-us/images/Seraphine_Beat_Drop_HD.png",
+    "Beat Drop 2": "https://wiki.leagueoflegends.com/en-us/images/Seraphine_Beat_Drop_2_HD.png",
+    "Beat Drop 3": "https://wiki.leagueoflegends.com/en-us/images/Seraphine_Beat_Drop_3_HD.png",
+    "Encore": "https://wiki.leagueoflegends.com/en-us/images/Seraphine_Encore_HD.png",
+    "High Note": "https://wiki.leagueoflegends.com/en-us/images/Seraphine_High_Note_HD.png",
+    "High Note 2": "https://wiki.leagueoflegends.com/en-us/images/Seraphine_High_Note_2_HD.png",
+    "High Note 3": "https://wiki.leagueoflegends.com/en-us/images/Seraphine_High_Note_3_HD.png",
+    "Stage Presence": "https://wiki.leagueoflegends.com/en-us/images/Seraphine_Stage_Presence_HD.png",
+    "Surround Sound": "https://wiki.leagueoflegends.com/en-us/images/Seraphine_Surround_Sound_HD.png",
+    "Surround Sound 2": "https://wiki.leagueoflegends.com/en-us/images/Seraphine_Surround_Sound_2_HD.png",
+    "Surround Sound 3": "https://wiki.leagueoflegends.com/en-us/images/Seraphine_Surround_Sound_3_HD.png"
+  },
+  "Sett": {
+    "Facebreaker": "https://wiki.leagueoflegends.com/en-us/images/Sett_Facebreaker_HD.png",
+    "Haymaker": "https://wiki.leagueoflegends.com/en-us/images/Sett_Haymaker_HD.png",
+    "Knuckle Down": "https://wiki.leagueoflegends.com/en-us/images/Sett_Knuckle_Down_HD.png",
+    "Looking for a Fight": "https://wiki.leagueoflegends.com/en-us/images/Sett_Looking_for_a_Fight_HD.png",
+    "Pit Grit": "https://wiki.leagueoflegends.com/en-us/images/Sett_Pit_Grit_HD.png",
+    "The Show Stopper": "https://wiki.leagueoflegends.com/en-us/images/Sett_The_Show_Stopper_HD.png"
+  },
+  "Shaco": {
+    "Backstab": "https://wiki.leagueoflegends.com/en-us/images/Shaco_Backstab_HD.png",
+    "Deceive": "https://wiki.leagueoflegends.com/en-us/images/Shaco_Deceive_HD.png",
+    "Hallucinate": "https://wiki.leagueoflegends.com/en-us/images/Shaco_Hallucinate_HD.png",
+    "Hallucinate 2": "https://wiki.leagueoflegends.com/en-us/images/Shaco_Hallucinate_2_HD.png",
+    "Jack in the Box": "https://wiki.leagueoflegends.com/en-us/images/Shaco_Jack_in_the_Box_HD.png",
+    "Two-Shiv Poison": "https://wiki.leagueoflegends.com/en-us/images/Shaco_Two-Shiv_Poison_HD.png"
+  },
+  "Shen": {
+    "Ki Barrier": "https://wiki.leagueoflegends.com/en-us/images/Shen_Ki_Barrier_HD.png",
+    "Shadow Dash": "https://wiki.leagueoflegends.com/en-us/images/Shen_Shadow_Dash_HD.png",
+    "Spirit's Refuge": "https://wiki.leagueoflegends.com/en-us/images/Shen_Spirit's_Refuge_HD.png",
+    "Stand United": "https://wiki.leagueoflegends.com/en-us/images/Shen_Stand_United_HD.png",
+    "Stand United 2": "https://wiki.leagueoflegends.com/en-us/images/Shen_Stand_United_2_HD.png",
+    "Twilight Assault": "https://wiki.leagueoflegends.com/en-us/images/Shen_Twilight_Assault_HD.png",
+    "Twilight Assault 2": "https://wiki.leagueoflegends.com/en-us/images/Shen_Twilight_Assault_2_HD.png",
+    "Twilight Assault 3": "https://wiki.leagueoflegends.com/en-us/images/Shen_Twilight_Assault_3_HD.png"
+  },
+  "Shyvana": {
+    "Dragon's Descent": "https://wiki.leagueoflegends.com/en-us/images/Shyvana_Dragon's_Descent_HD.png",
+    "Emberstrike": "https://wiki.leagueoflegends.com/en-us/images/Shyvana_Emberstrike_HD.png",
+    "Emberstrike 2": "https://wiki.leagueoflegends.com/en-us/images/Shyvana_Emberstrike_2_HD.png",
+    "Emberstrike 3": "https://wiki.leagueoflegends.com/en-us/images/Shyvana_Emberstrike_3_HD.png",
+    "Inferno Aegis": "https://wiki.leagueoflegends.com/en-us/images/Shyvana_Inferno_Aegis_HD.png",
+    "Inferno Aegis 2": "https://wiki.leagueoflegends.com/en-us/images/Shyvana_Inferno_Aegis_2_HD.png",
+    "Molten Burst": "https://wiki.leagueoflegends.com/en-us/images/Shyvana_Molten_Burst_HD.png",
+    "Scalemail": "https://wiki.leagueoflegends.com/en-us/images/Shyvana_Scalemail_HD.png"
+  },
+  "Singed": {
+    "Fling": "https://wiki.leagueoflegends.com/en-us/images/Singed_Fling_HD.png",
+    "Insanity Potion": "https://wiki.leagueoflegends.com/en-us/images/Singed_Insanity_Potion_HD.png",
+    "Mega Adhesive": "https://wiki.leagueoflegends.com/en-us/images/Singed_Mega_Adhesive_HD.png",
+    "Noxious Slipstream": "https://wiki.leagueoflegends.com/en-us/images/Singed_Noxious_Slipstream_HD.png",
+    "Poison Trail": "https://wiki.leagueoflegends.com/en-us/images/Singed_Poison_Trail_HD.png"
+  },
+  "Sion": {
+    "Death Surge": "https://wiki.leagueoflegends.com/en-us/images/Sion_Death_Surge_HD.png",
+    "Decimating Smash": "https://wiki.leagueoflegends.com/en-us/images/Sion_Decimating_Smash_HD.png",
+    "Glory in Death": "https://wiki.leagueoflegends.com/en-us/images/Sion_Glory_in_Death_HD.png",
+    "Roar of the Slayer": "https://wiki.leagueoflegends.com/en-us/images/Sion_Roar_of_the_Slayer_HD.png",
+    "Soul Furnace": "https://wiki.leagueoflegends.com/en-us/images/Sion_Soul_Furnace_HD.png",
+    "Soul Furnace 2": "https://wiki.leagueoflegends.com/en-us/images/Sion_Soul_Furnace_2_HD.png",
+    "Unstoppable Onslaught": "https://wiki.leagueoflegends.com/en-us/images/Sion_Unstoppable_Onslaught_HD.png",
+    "Unstoppable Onslaught 2": "https://wiki.leagueoflegends.com/en-us/images/Sion_Unstoppable_Onslaught_2_HD.png"
+  },
+  "Sivir": {
+    "Boomerang Blade": "https://wiki.leagueoflegends.com/en-us/images/Sivir_Boomerang_Blade_HD.jpg",
+    "Fleet of Foot": "https://wiki.leagueoflegends.com/en-us/images/Sivir_Fleet_of_Foot_HD.jpg",
+    "On the Hunt": "https://wiki.leagueoflegends.com/en-us/images/Sivir_On_the_Hunt_HD.jpg",
+    "Ricochet": "https://wiki.leagueoflegends.com/en-us/images/Sivir_Ricochet_HD.jpg",
+    "Spell Shield": "https://wiki.leagueoflegends.com/en-us/images/Sivir_Spell_Shield_HD.jpg"
+  },
+  "Skarner": {
+    "Impale": "https://wiki.leagueoflegends.com/en-us/images/Skarner_Impale_HD.png",
+    "Ixtal's Impact": "https://wiki.leagueoflegends.com/en-us/images/Skarner_Ixtal's_Impact_HD.png",
+    "Ixtal's Impact 2": "https://wiki.leagueoflegends.com/en-us/images/Skarner_Ixtal's_Impact_2_HD.png",
+    "Seismic Bastion": "https://wiki.leagueoflegends.com/en-us/images/Skarner_Seismic_Bastion_HD.png",
+    "Shattered Earth": "https://wiki.leagueoflegends.com/en-us/images/Skarner_Shattered_Earth_HD.png",
+    "Threads of Vibration": "https://wiki.leagueoflegends.com/en-us/images/Skarner_Threads_of_Vibration_HD.png",
+    "Upheaval": "https://wiki.leagueoflegends.com/en-us/images/Skarner_Upheaval_HD.png"
+  },
+  "Smolder": {
+    "Achooo!": "https://wiki.leagueoflegends.com/en-us/images/Smolder_Achooo!_HD.png",
+    "Dragon Practice": "https://wiki.leagueoflegends.com/en-us/images/Smolder_Dragon_Practice_HD.png",
+    "Flap, Flap, Flap": "https://wiki.leagueoflegends.com/en-us/images/Smolder_Flap,_Flap,_Flap_HD.png",
+    "MMOOOMMMM!": "https://wiki.leagueoflegends.com/en-us/images/Smolder_MMOOOMMMM!_HD.png",
+    "Super Scorcher Breath": "https://wiki.leagueoflegends.com/en-us/images/Smolder_Super_Scorcher_Breath_HD.png",
+    "Super Scorcher Breath 2": "https://wiki.leagueoflegends.com/en-us/images/Smolder_Super_Scorcher_Breath_2_HD.png",
+    "Super Scorcher Breath 3": "https://wiki.leagueoflegends.com/en-us/images/Smolder_Super_Scorcher_Breath_3_HD.png",
+    "Super Scorcher Breath 4": "https://wiki.leagueoflegends.com/en-us/images/Smolder_Super_Scorcher_Breath_4_HD.png"
+  },
+  "Sona": {
+    "Aria of Perseverance": "https://wiki.leagueoflegends.com/en-us/images/Sona_Aria_of_Perseverance_HD.png",
+    "Aria of Perseverance 2": "https://wiki.leagueoflegends.com/en-us/images/Sona_Aria_of_Perseverance_2_HD.png",
+    "Crescendo": "https://wiki.leagueoflegends.com/en-us/images/Sona_Crescendo_HD.png",
+    "Hymn of Valor": "https://wiki.leagueoflegends.com/en-us/images/Sona_Hymn_of_Valor_HD.png",
+    "Hymn of Valor 2": "https://wiki.leagueoflegends.com/en-us/images/Sona_Hymn_of_Valor_2_HD.png",
+    "Power Chord": "https://wiki.leagueoflegends.com/en-us/images/Sona_Power_Chord_HD.png",
+    "Song of Celerity": "https://wiki.leagueoflegends.com/en-us/images/Sona_Song_of_Celerity_HD.png",
+    "Song of Celerity 2": "https://wiki.leagueoflegends.com/en-us/images/Sona_Song_of_Celerity_2_HD.png"
+  },
+  "Soraka": {
+    "Astral Infusion": "https://wiki.leagueoflegends.com/en-us/images/Soraka_Astral_Infusion_HD.png",
+    "Equinox": "https://wiki.leagueoflegends.com/en-us/images/Soraka_Equinox_HD.png",
+    "Salvation": "https://wiki.leagueoflegends.com/en-us/images/Soraka_Salvation_HD.png",
+    "Starcall": "https://wiki.leagueoflegends.com/en-us/images/Soraka_Starcall_HD.png",
+    "Wish": "https://wiki.leagueoflegends.com/en-us/images/Soraka_Wish_HD.png"
+  },
+  "Swain": {
+    "Death's Hand": "https://wiki.leagueoflegends.com/en-us/images/Swain_Death's_Hand_HD.png",
+    "Demonflare": "https://wiki.leagueoflegends.com/en-us/images/Swain_Demonflare_HD.png",
+    "Demonic Ascension": "https://wiki.leagueoflegends.com/en-us/images/Swain_Demonic_Ascension_HD.png",
+    "Nevermove": "https://wiki.leagueoflegends.com/en-us/images/Swain_Nevermove_HD.png",
+    "Nevermove 2": "https://wiki.leagueoflegends.com/en-us/images/Swain_Nevermove_2_HD.png",
+    "Ravenous Flock": "https://wiki.leagueoflegends.com/en-us/images/Swain_Ravenous_Flock_HD.png",
+    "Vision of Empire": "https://wiki.leagueoflegends.com/en-us/images/Swain_Vision_of_Empire_HD.png"
+  },
+  "Sylas": {
+    "Abduct": "https://wiki.leagueoflegends.com/en-us/images/Sylas_Abduct_HD.png",
+    "Abscond": "https://wiki.leagueoflegends.com/en-us/images/Sylas_Abscond_HD.png",
+    "Chain Lash": "https://wiki.leagueoflegends.com/en-us/images/Sylas_Chain_Lash_HD.png",
+    "Hijack": "https://wiki.leagueoflegends.com/en-us/images/Sylas_Hijack_HD.png",
+    "Kingslayer": "https://wiki.leagueoflegends.com/en-us/images/Sylas_Kingslayer_HD.png",
+    "Petricite Burst": "https://wiki.leagueoflegends.com/en-us/images/Sylas_Petricite_Burst_HD.png"
+  },
+  "Syndra": {
+    "Dark Sphere": "https://wiki.leagueoflegends.com/en-us/images/Syndra_Dark_Sphere_HD.png",
+    "Dark Sphere 2": "https://wiki.leagueoflegends.com/en-us/images/Syndra_Dark_Sphere_2_HD.png",
+    "Force of Will": "https://wiki.leagueoflegends.com/en-us/images/Syndra_Force_of_Will_HD.png",
+    "Force of Will 2": "https://wiki.leagueoflegends.com/en-us/images/Syndra_Force_of_Will_2_HD.png",
+    "Force of Will 3": "https://wiki.leagueoflegends.com/en-us/images/Syndra_Force_of_Will_3_HD.png",
+    "Force of Will 4": "https://wiki.leagueoflegends.com/en-us/images/Syndra_Force_of_Will_4_HD.png",
+    "Scatter the Weak": "https://wiki.leagueoflegends.com/en-us/images/Syndra_Scatter_the_Weak_HD.png",
+    "Scatter the Weak 2": "https://wiki.leagueoflegends.com/en-us/images/Syndra_Scatter_the_Weak_2_HD.png",
+    "Transcendent": "https://wiki.leagueoflegends.com/en-us/images/Syndra_Transcendent_HD.png",
+    "Transcendent 2": "https://wiki.leagueoflegends.com/en-us/images/Syndra_Transcendent_2_HD.png",
+    "Unleashed Power": "https://wiki.leagueoflegends.com/en-us/images/Syndra_Unleashed_Power_HD.png",
+    "Unleashed Power 2": "https://wiki.leagueoflegends.com/en-us/images/Syndra_Unleashed_Power_2_HD.png"
+  },
+  "Tahm Kench": {
+    "Abyssal Dive": "https://wiki.leagueoflegends.com/en-us/images/Tahm_Kench_Abyssal_Dive_HD.png",
+    "An Acquired Taste": "https://wiki.leagueoflegends.com/en-us/images/Tahm_Kench_An_Acquired_Taste_HD.png",
+    "Devour": "https://wiki.leagueoflegends.com/en-us/images/Tahm_Kench_Devour_HD.png",
+    "Regurgitate": "https://wiki.leagueoflegends.com/en-us/images/Tahm_Kench_Regurgitate_HD.png",
+    "Thick Skin": "https://wiki.leagueoflegends.com/en-us/images/Tahm_Kench_Thick_Skin_HD.png",
+    "Tongue Lash": "https://wiki.leagueoflegends.com/en-us/images/Tahm_Kench_Tongue_Lash_HD.png"
+  },
+  "Taliyah": {
+    "Rock Surfing": "https://wiki.leagueoflegends.com/en-us/images/Taliyah_Rock_Surfing_HD.png",
+    "Seismic Shove": "https://wiki.leagueoflegends.com/en-us/images/Taliyah_Seismic_Shove_HD.png",
+    "Seismic Shove 2": "https://wiki.leagueoflegends.com/en-us/images/Taliyah_Seismic_Shove_2_HD.png",
+    "Threaded Volley": "https://wiki.leagueoflegends.com/en-us/images/Taliyah_Threaded_Volley_HD.png",
+    "Threaded Volley 2": "https://wiki.leagueoflegends.com/en-us/images/Taliyah_Threaded_Volley_2_HD.png",
+    "Unraveled Earth": "https://wiki.leagueoflegends.com/en-us/images/Taliyah_Unraveled_Earth_HD.png",
+    "Weaver's Wall": "https://wiki.leagueoflegends.com/en-us/images/Taliyah_Weaver's_Wall_HD.png",
+    "Weaver's Wall 2": "https://wiki.leagueoflegends.com/en-us/images/Taliyah_Weaver's_Wall_2_HD.png"
+  },
+  "Talon": {
+    "Assassin's Path": "https://wiki.leagueoflegends.com/en-us/images/Talon_Assassin's_Path_HD.png",
+    "Blade's End": "https://wiki.leagueoflegends.com/en-us/images/Talon_Blade's_End_HD.png",
+    "Noxian Diplomacy": "https://wiki.leagueoflegends.com/en-us/images/Talon_Noxian_Diplomacy_HD.png",
+    "Rake": "https://wiki.leagueoflegends.com/en-us/images/Talon_Rake_HD.png",
+    "Shadow Assault": "https://wiki.leagueoflegends.com/en-us/images/Talon_Shadow_Assault_HD.png"
+  },
+  "Taric": {
+    "Bastion": "https://wiki.leagueoflegends.com/en-us/images/Taric_Bastion_HD.png",
+    "Bastion 2": "https://wiki.leagueoflegends.com/en-us/images/Taric_Bastion_2_HD.png",
+    "Bravado": "https://wiki.leagueoflegends.com/en-us/images/Taric_Bravado_HD.png",
+    "Cosmic Radiance": "https://wiki.leagueoflegends.com/en-us/images/Taric_Cosmic_Radiance_HD.png",
+    "Dazzle": "https://wiki.leagueoflegends.com/en-us/images/Taric_Dazzle_HD.png",
+    "Starlight's Touch": "https://wiki.leagueoflegends.com/en-us/images/Taric_Starlight's_Touch_HD.png"
+  },
+  "Teemo": {
+    "Blinding Dart": "https://wiki.leagueoflegends.com/en-us/images/Teemo_Blinding_Dart_HD.png",
+    "Guerrilla Warfare": "https://wiki.leagueoflegends.com/en-us/images/Teemo_Guerrilla_Warfare_HD.png",
+    "Guerrilla Warfare 2": "https://wiki.leagueoflegends.com/en-us/images/Teemo_Guerrilla_Warfare_2_HD.png",
+    "Move Quick": "https://wiki.leagueoflegends.com/en-us/images/Teemo_Move_Quick_HD.png",
+    "Noxious Trap": "https://wiki.leagueoflegends.com/en-us/images/Teemo_Noxious_Trap_HD.png",
+    "Toxic Shot": "https://wiki.leagueoflegends.com/en-us/images/Teemo_Toxic_Shot_HD.png"
+  },
+  "Thresh": {
+    "Damnation": "https://wiki.leagueoflegends.com/en-us/images/Thresh_Damnation_HD.png",
+    "Dark Passage": "https://wiki.leagueoflegends.com/en-us/images/Thresh_Dark_Passage_HD.png",
+    "Death Sentence": "https://wiki.leagueoflegends.com/en-us/images/Thresh_Death_Sentence_HD.png",
+    "Deathly Leap": "https://wiki.leagueoflegends.com/en-us/images/Thresh_Deathly_Leap_HD.png",
+    "Flay": "https://wiki.leagueoflegends.com/en-us/images/Thresh_Flay_HD.png",
+    "Flay 2": "https://wiki.leagueoflegends.com/en-us/images/Thresh_Flay_2_HD.png",
+    "Flay 3": "https://wiki.leagueoflegends.com/en-us/images/Thresh_Flay_3_HD.png",
+    "Flay 4": "https://wiki.leagueoflegends.com/en-us/images/Thresh_Flay_4_HD.png",
+    "Flay 5": "https://wiki.leagueoflegends.com/en-us/images/Thresh_Flay_5_HD.png",
+    "The Box": "https://wiki.leagueoflegends.com/en-us/images/Thresh_The_Box_HD.png"
+  },
+  "Tristana": {
+    "Buster Shot": "https://wiki.leagueoflegends.com/en-us/images/Tristana_Buster_Shot_HD.png",
+    "Draw a Bead": "https://wiki.leagueoflegends.com/en-us/images/Tristana_Draw_a_Bead_HD.png",
+    "Explosive Charge": "https://wiki.leagueoflegends.com/en-us/images/Tristana_Explosive_Charge_HD.png",
+    "Rapid Fire": "https://wiki.leagueoflegends.com/en-us/images/Tristana_Rapid_Fire_HD.png",
+    "Rocket Jump": "https://wiki.leagueoflegends.com/en-us/images/Tristana_Rocket_Jump_HD.png"
+  },
+  "Trundle": {
+    "Chomp": "https://wiki.leagueoflegends.com/en-us/images/Trundle_Chomp_HD.png",
+    "Frozen Domain": "https://wiki.leagueoflegends.com/en-us/images/Trundle_Frozen_Domain_HD.png",
+    "King's Tribute": "https://wiki.leagueoflegends.com/en-us/images/Trundle_King's_Tribute_HD.png",
+    "Pillar of Ice": "https://wiki.leagueoflegends.com/en-us/images/Trundle_Pillar_of_Ice_HD.png",
+    "Subjugate": "https://wiki.leagueoflegends.com/en-us/images/Trundle_Subjugate_HD.png"
+  },
+  "Tryndamere": {
+    "Battle Fury": "https://wiki.leagueoflegends.com/en-us/images/Tryndamere_Battle_Fury_HD.png",
+    "Bloodlust": "https://wiki.leagueoflegends.com/en-us/images/Tryndamere_Bloodlust_HD.png",
+    "Mocking Shout": "https://wiki.leagueoflegends.com/en-us/images/Tryndamere_Mocking_Shout_HD.png",
+    "Spinning Slash": "https://wiki.leagueoflegends.com/en-us/images/Tryndamere_Spinning_Slash_HD.png",
+    "Undying Rage": "https://wiki.leagueoflegends.com/en-us/images/Tryndamere_Undying_Rage_HD.png"
+  },
+  "Twisted Fate": {
+    "Blue Card": "https://wiki.leagueoflegends.com/en-us/images/Twisted_Fate_Blue_Card_HD.png",
+    "Destiny": "https://wiki.leagueoflegends.com/en-us/images/Twisted_Fate_Destiny_HD.png",
+    "Gate": "https://wiki.leagueoflegends.com/en-us/images/Twisted_Fate_Gate_HD.png",
+    "Gold Card": "https://wiki.leagueoflegends.com/en-us/images/Twisted_Fate_Gold_Card_HD.png",
+    "Loaded Dice": "https://wiki.leagueoflegends.com/en-us/images/Twisted_Fate_Loaded_Dice_HD.png",
+    "Pick a Card": "https://wiki.leagueoflegends.com/en-us/images/Twisted_Fate_Pick_a_Card_HD.png",
+    "Red Card": "https://wiki.leagueoflegends.com/en-us/images/Twisted_Fate_Red_Card_HD.png",
+    "Stacked Deck": "https://wiki.leagueoflegends.com/en-us/images/Twisted_Fate_Stacked_Deck_HD.png",
+    "Wild Cards": "https://wiki.leagueoflegends.com/en-us/images/Twisted_Fate_Wild_Cards_HD.png"
+  },
+  "Twitch": {
+    "Ambush": "https://wiki.leagueoflegends.com/en-us/images/Twitch_Ambush_HD.png",
+    "Ambush 2": "https://wiki.leagueoflegends.com/en-us/images/Twitch_Ambush_2_HD.png",
+    "Ambush 3": "https://wiki.leagueoflegends.com/en-us/images/Twitch_Ambush_3_HD.png",
+    "Contaminate": "https://wiki.leagueoflegends.com/en-us/images/Twitch_Contaminate_HD.png",
+    "Deadly Venom": "https://wiki.leagueoflegends.com/en-us/images/Twitch_Deadly_Venom_HD.png",
+    "Spray and Pray": "https://wiki.leagueoflegends.com/en-us/images/Twitch_Spray_and_Pray_HD.png",
+    "Venom Cask": "https://wiki.leagueoflegends.com/en-us/images/Twitch_Venom_Cask_HD.png"
+  },
+  "Udyr": {
+    "Blazing Stampede": "https://wiki.leagueoflegends.com/en-us/images/Udyr_Blazing_Stampede_HD.png",
+    "Bridge Between": "https://wiki.leagueoflegends.com/en-us/images/Udyr_Bridge_Between_HD.png",
+    "Bridge Between 2": "https://wiki.leagueoflegends.com/en-us/images/Udyr_Bridge_Between_2_HD.png",
+    "Iron Mantle": "https://wiki.leagueoflegends.com/en-us/images/Udyr_Iron_Mantle_HD.png",
+    "Wilding Claw": "https://wiki.leagueoflegends.com/en-us/images/Udyr_Wilding_Claw_HD.png",
+    "Wingborne Storm": "https://wiki.leagueoflegends.com/en-us/images/Udyr_Wingborne_Storm_HD.png"
+  },
+  "Urgot": {
+    "Corrosive Charge": "https://wiki.leagueoflegends.com/en-us/images/Urgot_Corrosive_Charge_HD.jpg",
+    "Disdain": "https://wiki.leagueoflegends.com/en-us/images/Urgot_Disdain_HD.jpg",
+    "Echoing Flames": "https://wiki.leagueoflegends.com/en-us/images/Urgot_Echoing_Flames_HD.jpg",
+    "Fear Beyond Death": "https://wiki.leagueoflegends.com/en-us/images/Urgot_Fear_Beyond_Death_HD.jpg",
+    "Fear Beyond Death 2": "https://wiki.leagueoflegends.com/en-us/images/Urgot_Fear_Beyond_Death_2_HD.png",
+    "Purge": "https://wiki.leagueoflegends.com/en-us/images/Urgot_Purge_HD.jpg",
+    "Purge 2": "https://wiki.leagueoflegends.com/en-us/images/Urgot_Purge_2_HD.png"
+  },
+  "Varus": {
+    "Blighted Quiver": "https://wiki.leagueoflegends.com/en-us/images/Varus_Blighted_Quiver_HD.png",
+    "Blighted Quiver 2": "https://wiki.leagueoflegends.com/en-us/images/Varus_Blighted_Quiver_2_HD.png",
+    "Chain of Corruption": "https://wiki.leagueoflegends.com/en-us/images/Varus_Chain_of_Corruption_HD.png",
+    "Hail of Arrows": "https://wiki.leagueoflegends.com/en-us/images/Varus_Hail_of_Arrows_HD.png",
+    "Living Vengeance": "https://wiki.leagueoflegends.com/en-us/images/Varus_Living_Vengeance_HD.png",
+    "Piercing Arrow": "https://wiki.leagueoflegends.com/en-us/images/Varus_Piercing_Arrow_HD.png"
+  },
+  "Vayne": {
+    "Condemn": "https://wiki.leagueoflegends.com/en-us/images/Vayne_Condemn_HD.png",
+    "Final Hour": "https://wiki.leagueoflegends.com/en-us/images/Vayne_Final_Hour_HD.png",
+    "Night Hunter": "https://wiki.leagueoflegends.com/en-us/images/Vayne_Night_Hunter_HD.png",
+    "Silver Bolts": "https://wiki.leagueoflegends.com/en-us/images/Vayne_Silver_Bolts_HD.png",
+    "Tumble": "https://wiki.leagueoflegends.com/en-us/images/Vayne_Tumble_HD.png"
+  },
+  "Veigar": {
+    "Baleful Strike": "https://wiki.leagueoflegends.com/en-us/images/Veigar_Baleful_Strike_HD.png",
+    "Dark Matter": "https://wiki.leagueoflegends.com/en-us/images/Veigar_Dark_Matter_HD.png",
+    "Event Horizon": "https://wiki.leagueoflegends.com/en-us/images/Veigar_Event_Horizon_HD.png",
+    "Phenomenal Evil Power": "https://wiki.leagueoflegends.com/en-us/images/Veigar_Phenomenal_Evil_Power_HD.png",
+    "Primordial Burst": "https://wiki.leagueoflegends.com/en-us/images/Veigar_Primordial_Burst_HD.png"
+  },
+  "Vel'Koz": {
+    "Life Form Disintegration Ray": "https://wiki.leagueoflegends.com/en-us/images/Vel'Koz_Life_Form_Disintegration_Ray_HD.png",
+    "Organic Deconstruction": "https://wiki.leagueoflegends.com/en-us/images/Vel'Koz_Organic_Deconstruction_HD.png",
+    "Plasma Fission": "https://wiki.leagueoflegends.com/en-us/images/Vel'Koz_Plasma_Fission_HD.png",
+    "Plasma Fission 2": "https://wiki.leagueoflegends.com/en-us/images/Vel'Koz_Plasma_Fission_2_HD.png",
+    "Researched": "https://wiki.leagueoflegends.com/en-us/images/Vel'Koz_Researched_HD.png",
+    "Tectonic Disruption": "https://wiki.leagueoflegends.com/en-us/images/Vel'Koz_Tectonic_Disruption_HD.png",
+    "Void Rift": "https://wiki.leagueoflegends.com/en-us/images/Vel'Koz_Void_Rift_HD.png"
+  },
+  "Vex": {
+    "Doom 'n Gloom": "https://wiki.leagueoflegends.com/en-us/images/Vex_Doom_'n_Gloom_HD.png",
+    "Looming Darkness": "https://wiki.leagueoflegends.com/en-us/images/Vex_Looming_Darkness_HD.png",
+    "Looming Darkness 2": "https://wiki.leagueoflegends.com/en-us/images/Vex_Looming_Darkness_2_HD.png",
+    "Mistral Bolt": "https://wiki.leagueoflegends.com/en-us/images/Vex_Mistral_Bolt_HD.png",
+    "Mistral Bolt 2": "https://wiki.leagueoflegends.com/en-us/images/Vex_Mistral_Bolt_2_HD.png",
+    "Personal Space": "https://wiki.leagueoflegends.com/en-us/images/Vex_Personal_Space_HD.png",
+    "Personal Space 2": "https://wiki.leagueoflegends.com/en-us/images/Vex_Personal_Space_2_HD.png",
+    "Shadow Surge": "https://wiki.leagueoflegends.com/en-us/images/Vex_Shadow_Surge_HD.png",
+    "Shadow Surge 2": "https://wiki.leagueoflegends.com/en-us/images/Vex_Shadow_Surge_2_HD.png"
+  },
+  "Vi": {
+    "Blast Shield": "https://wiki.leagueoflegends.com/en-us/images/Vi_Blast_Shield_HD.png",
+    "Cease and Desist": "https://wiki.leagueoflegends.com/en-us/images/Vi_Cease_and_Desist_HD.png",
+    "Denting Blows": "https://wiki.leagueoflegends.com/en-us/images/Vi_Denting_Blows_HD.png",
+    "Denting Blows 2": "https://wiki.leagueoflegends.com/en-us/images/Vi_Denting_Blows_2_HD.png",
+    "Relentless Force": "https://wiki.leagueoflegends.com/en-us/images/Vi_Relentless_Force_HD.png",
+    "Relentless Force 2": "https://wiki.leagueoflegends.com/en-us/images/Vi_Relentless_Force_2_HD.png",
+    "Vault Breaker": "https://wiki.leagueoflegends.com/en-us/images/Vi_Vault_Breaker_HD.png"
+  },
+  "Viego": {
+    "Blade of the Ruined King": "https://wiki.leagueoflegends.com/en-us/images/Viego_Blade_of_the_Ruined_King_HD.png",
+    "Harrowed Path": "https://wiki.leagueoflegends.com/en-us/images/Viego_Harrowed_Path_HD.png",
+    "Harrowed Path 2": "https://wiki.leagueoflegends.com/en-us/images/Viego_Harrowed_Path_2_HD.png",
+    "Heartbreaker": "https://wiki.leagueoflegends.com/en-us/images/Viego_Heartbreaker_HD.png",
+    "Sovereign's Domination": "https://wiki.leagueoflegends.com/en-us/images/Viego_Sovereign's_Domination_HD.png",
+    "Sovereign's Domination 2": "https://wiki.leagueoflegends.com/en-us/images/Viego_Sovereign's_Domination_2_HD.png",
+    "Spectral Maw": "https://wiki.leagueoflegends.com/en-us/images/Viego_Spectral_Maw_HD.png"
+  },
+  "Viktor": {
+    "Arcane Storm": "https://wiki.leagueoflegends.com/en-us/images/Viktor_Arcane_Storm_HD.png",
+    "Arcane Storm 2": "https://wiki.leagueoflegends.com/en-us/images/Viktor_Glorious_Evolution_5_HD.png",
+    "Discharge": "https://wiki.leagueoflegends.com/en-us/images/Viktor_Discharge_HD.png",
+    "Glorious Evolution": "https://wiki.leagueoflegends.com/en-us/images/Viktor_Glorious_Evolution_HD.png",
+    "Glorious Evolution 2": "https://wiki.leagueoflegends.com/en-us/images/Viktor_Glorious_Evolution_2_HD.png",
+    "Glorious Evolution 3": "https://wiki.leagueoflegends.com/en-us/images/Viktor_Glorious_Evolution_3_HD.png",
+    "Glorious Evolution 4": "https://wiki.leagueoflegends.com/en-us/images/Viktor_Glorious_Evolution_4_HD.png",
+    "Glorious Evolution 5": "https://wiki.leagueoflegends.com/en-us/images/Viktor_Glorious_Evolution_5_HD.png",
+    "Gravity Field": "https://wiki.leagueoflegends.com/en-us/images/Viktor_Gravity_Field_HD.png",
+    "Hextech Ray": "https://wiki.leagueoflegends.com/en-us/images/Viktor_Hextech_Ray_HD.png",
+    "Siphon Power": "https://wiki.leagueoflegends.com/en-us/images/Viktor_Siphon_Power_HD.png"
+  },
+  "Vladimir": {
+    "Crimson Pact": "https://wiki.leagueoflegends.com/en-us/images/Vladimir_Crimson_Pact_HD.png",
+    "Crimson Rush": "https://wiki.leagueoflegends.com/en-us/images/Vladimir_Crimson_Rush_HD.png",
+    "Hemoplague": "https://wiki.leagueoflegends.com/en-us/images/Vladimir_Hemoplague_HD.png",
+    "Sanguine Pool": "https://wiki.leagueoflegends.com/en-us/images/Vladimir_Sanguine_Pool_HD.png",
+    "Tides of Blood": "https://wiki.leagueoflegends.com/en-us/images/Vladimir_Tides_of_Blood_HD.png",
+    "Transfusion": "https://wiki.leagueoflegends.com/en-us/images/Vladimir_Transfusion_HD.png"
+  },
+  "Volibear": {
+    "Frenzied Maul": "https://wiki.leagueoflegends.com/en-us/images/Volibear_Frenzied_Maul_HD.png",
+    "Sky Splitter": "https://wiki.leagueoflegends.com/en-us/images/Volibear_Sky_Splitter_HD.png",
+    "Sky Splitter 2": "https://wiki.leagueoflegends.com/en-us/images/Volibear_Sky_Splitter_2_HD.png",
+    "Stormbringer": "https://wiki.leagueoflegends.com/en-us/images/Volibear_Stormbringer_HD.png",
+    "The Relentless Storm": "https://wiki.leagueoflegends.com/en-us/images/Volibear_The_Relentless_Storm_HD.png",
+    "Thundering Smash": "https://wiki.leagueoflegends.com/en-us/images/Volibear_Thundering_Smash_HD.png"
+  },
+  "Warwick": {
+    "Blood Hunt": "https://wiki.leagueoflegends.com/en-us/images/Warwick_Blood_Hunt_HD.png",
+    "Eternal Hunger": "https://wiki.leagueoflegends.com/en-us/images/Warwick_Eternal_Hunger_HD.png",
+    "Infinite Duress": "https://wiki.leagueoflegends.com/en-us/images/Warwick_Infinite_Duress_HD.png",
+    "Jaws of the Beast": "https://wiki.leagueoflegends.com/en-us/images/Warwick_Jaws_of_the_Beast_HD.png",
+    "Primal Howl": "https://wiki.leagueoflegends.com/en-us/images/Warwick_Primal_Howl_HD.png",
+    "Primal Howl 2": "https://wiki.leagueoflegends.com/en-us/images/Warwick_Primal_Howl_2_HD.png"
+  },
+  "Wukong": {
+    "Crushing Blow": "https://wiki.leagueoflegends.com/en-us/images/Wukong_Crushing_Blow_HD.png",
+    "Cyclone": "https://wiki.leagueoflegends.com/en-us/images/Wukong_Cyclone_HD.png",
+    "Cyclone 2": "https://wiki.leagueoflegends.com/en-us/images/Wukong_Cyclone_2_HD.png",
+    "Nimbus Strike": "https://wiki.leagueoflegends.com/en-us/images/Wukong_Nimbus_Strike_HD.png",
+    "Stone Skin": "https://wiki.leagueoflegends.com/en-us/images/Wukong_Stone_Skin_HD.png",
+    "Warrior Trickster": "https://wiki.leagueoflegends.com/en-us/images/Wukong_Warrior_Trickster_HD.png"
+  },
+  "Xayah": {
+    "Bladecaller": "https://wiki.leagueoflegends.com/en-us/images/Xayah_Bladecaller_HD.png",
+    "Clean Cuts": "https://wiki.leagueoflegends.com/en-us/images/Xayah_Clean_Cuts_HD.png",
+    "Deadly Plumage": "https://wiki.leagueoflegends.com/en-us/images/Xayah_Deadly_Plumage_HD.png",
+    "Double Daggers": "https://wiki.leagueoflegends.com/en-us/images/Xayah_Double_Daggers_HD.png",
+    "Featherstorm": "https://wiki.leagueoflegends.com/en-us/images/Xayah_Featherstorm_HD.png"
+  },
+  "Xerath": {
+    "Arcanopulse": "https://wiki.leagueoflegends.com/en-us/images/Xerath_Arcanopulse_HD.png",
+    "Eye of Destruction": "https://wiki.leagueoflegends.com/en-us/images/Xerath_Eye_of_Destruction_HD.png",
+    "Mana Surge": "https://wiki.leagueoflegends.com/en-us/images/Xerath_Mana_Surge_HD.png",
+    "Rite of the Arcane": "https://wiki.leagueoflegends.com/en-us/images/Xerath_Rite_of_the_Arcane_HD.png",
+    "Shocking Orb": "https://wiki.leagueoflegends.com/en-us/images/Xerath_Shocking_Orb_HD.png"
+  },
+  "Xin Zhao": {
+    "Audacious Charge": "https://wiki.leagueoflegends.com/en-us/images/Xin_Zhao_Audacious_Charge_HD.jpg",
+    "Crescent Guard": "https://wiki.leagueoflegends.com/en-us/images/Xin_Zhao_Crescent_Guard_HD.jpg",
+    "Determination": "https://wiki.leagueoflegends.com/en-us/images/Xin_Zhao_Determination_HD.jpg",
+    "Three Talon Strike": "https://wiki.leagueoflegends.com/en-us/images/Xin_Zhao_Three_Talon_Strike_HD.jpg",
+    "Wind Becomes Lightning": "https://wiki.leagueoflegends.com/en-us/images/Xin_Zhao_Wind_Becomes_Lightning_HD.jpg"
+  },
+  "Yasuo": {
+    "Last Breath": "https://wiki.leagueoflegends.com/en-us/images/Yasuo_Last_Breath_HD.png",
+    "Steel Tempest": "https://wiki.leagueoflegends.com/en-us/images/Yasuo_Steel_Tempest_HD.png",
+    "Steel Tempest 2": "https://wiki.leagueoflegends.com/en-us/images/Yasuo_Steel_Tempest_2_HD.png",
+    "Steel Tempest 3": "https://wiki.leagueoflegends.com/en-us/images/Yasuo_Steel_Tempest_3_HD.png",
+    "Sweeping Blade": "https://wiki.leagueoflegends.com/en-us/images/Yasuo_Sweeping_Blade_HD.png",
+    "Way of the Wanderer": "https://wiki.leagueoflegends.com/en-us/images/Yasuo_Way_of_the_Wanderer_HD.png",
+    "Wind Wall": "https://wiki.leagueoflegends.com/en-us/images/Yasuo_Wind_Wall_HD.png"
+  },
+  "Yone": {
+    "Fate Sealed": "https://wiki.leagueoflegends.com/en-us/images/Yone_Fate_Sealed_HD.png",
+    "Mortal Steel": "https://wiki.leagueoflegends.com/en-us/images/Yone_Mortal_Steel_HD.png",
+    "Mortal Steel 2": "https://wiki.leagueoflegends.com/en-us/images/Yone_Mortal_Steel_2_HD.png",
+    "Soul Unbound": "https://wiki.leagueoflegends.com/en-us/images/Yone_Soul_Unbound_HD.png",
+    "Soul Unbound 2": "https://wiki.leagueoflegends.com/en-us/images/Yone_Soul_Unbound_2_HD.png",
+    "Spirit Cleave": "https://wiki.leagueoflegends.com/en-us/images/Yone_Spirit_Cleave_HD.png",
+    "Way of the Hunter": "https://wiki.leagueoflegends.com/en-us/images/Yone_Way_of_the_Hunter_HD.png"
+  },
+  "Yorick": {
+    "Awakening": "https://wiki.leagueoflegends.com/en-us/images/Yorick_Awakening_HD.png",
+    "Dark Procession": "https://wiki.leagueoflegends.com/en-us/images/Yorick_Dark_Procession_HD.jpg",
+    "Eulogy of the Isles": "https://wiki.leagueoflegends.com/en-us/images/Yorick_Eulogy_of_the_Isles_HD.jpg",
+    "Eulogy of the Isles 2": "https://wiki.leagueoflegends.com/en-us/images/Yorick_Eulogy_of_the_Isles_2_HD.png",
+    "Last Rites": "https://wiki.leagueoflegends.com/en-us/images/Yorick_Last_Rites_HD.jpg",
+    "Mourning Mist": "https://wiki.leagueoflegends.com/en-us/images/Yorick_Mourning_Mist_HD.jpg",
+    "Shepherd of Souls": "https://wiki.leagueoflegends.com/en-us/images/Yorick_Shepherd_of_Souls_HD.jpg"
+  },
+  "Yunara": {
+    "Arc of Judgment": "https://wiki.leagueoflegends.com/en-us/images/Yunara_Arc_of_Judgment_HD.png",
+    "Arc of Ruin": "https://wiki.leagueoflegends.com/en-us/images/Yunara_Arc_of_Ruin_HD.png",
+    "Cultivation of Spirit": "https://wiki.leagueoflegends.com/en-us/images/Yunara_Cultivation_of_Spirit_HD.png",
+    "Cultivation of Spirit 2": "https://wiki.leagueoflegends.com/en-us/images/Yunara_Cultivation_of_Spirit_2_HD.png",
+    "Kanmei's Steps": "https://wiki.leagueoflegends.com/en-us/images/Yunara_Kanmei's_Steps_HD.png",
+    "Transcend One's Self": "https://wiki.leagueoflegends.com/en-us/images/Yunara_Transcend_One's_Self_HD.png",
+    "Untouchable Shadow": "https://wiki.leagueoflegends.com/en-us/images/Yunara_Untouchable_Shadow_HD.png",
+    "Vow of the First Lands": "https://wiki.leagueoflegends.com/en-us/images/Yunara_Vow_of_the_First_Lands_HD.png"
+  },
+  "Yuumi": {
+    "Change of Plan": "https://wiki.leagueoflegends.com/en-us/images/Yuumi_Change_of_Plan_HD.png",
+    "Feline Friendship": "https://wiki.leagueoflegends.com/en-us/images/Yuumi_Feline_Friendship_HD.png",
+    "Final Chapter": "https://wiki.leagueoflegends.com/en-us/images/Yuumi_Final_Chapter_HD.jpg",
+    "Prowling Projectile": "https://wiki.leagueoflegends.com/en-us/images/Yuumi_Prowling_Projectile_HD.jpg",
+    "Prowling Projectile 2": "https://wiki.leagueoflegends.com/en-us/images/Yuumi_Prowling_Projectile_2_HD.png",
+    "You and Me!": "https://wiki.leagueoflegends.com/en-us/images/Yuumi_You_and_Me!_HD.jpg",
+    "Zoomies": "https://wiki.leagueoflegends.com/en-us/images/Yuumi_Zoomies_HD.jpg"
+  },
+  "Zaahen": {
+    "Aureate Rush": "https://wiki.leagueoflegends.com/en-us/images/Zaahen_Aureate_Rush_HD.png",
+    "Cultivation of War": "https://wiki.leagueoflegends.com/en-us/images/Zaahen_Cultivation_of_War_HD.png",
+    "Dreaded Return": "https://wiki.leagueoflegends.com/en-us/images/Zaahen_Dreaded_Return_HD.png",
+    "Grim Deliverance": "https://wiki.leagueoflegends.com/en-us/images/Zaahen_Grim_Deliverance_HD.png",
+    "The Darkin Glaive": "https://wiki.leagueoflegends.com/en-us/images/Zaahen_The_Darkin_Glaive_HD.png",
+    "The Darkin Glaive 2": "https://wiki.leagueoflegends.com/en-us/images/Zaahen_The_Darkin_Glaive_2_HD.png"
+  },
+  "Zac": {
+    "Cell Division": "https://wiki.leagueoflegends.com/en-us/images/Zac_Cell_Division_HD.jpg",
+    "Elastic Slingshot": "https://wiki.leagueoflegends.com/en-us/images/Zac_Elastic_Slingshot_HD.jpg",
+    "Let's Bounce!": "https://wiki.leagueoflegends.com/en-us/images/Zac_Let's_Bounce!_HD.jpg",
+    "Stretching Strikes": "https://wiki.leagueoflegends.com/en-us/images/Zac_Stretching_Strikes_HD.jpg",
+    "Unstable Matter": "https://wiki.leagueoflegends.com/en-us/images/Zac_Unstable_Matter_HD.jpg"
+  },
+  "Zed": {
+    "Contempt for the Weak": "https://wiki.leagueoflegends.com/en-us/images/Zed_Contempt_for_the_Weak_HD.png",
+    "Death Mark": "https://wiki.leagueoflegends.com/en-us/images/Zed_Death_Mark_HD.png",
+    "Death Mark 2": "https://wiki.leagueoflegends.com/en-us/images/Zed_Death_Mark_2_HD.png",
+    "Living Shadow": "https://wiki.leagueoflegends.com/en-us/images/Zed_Living_Shadow_HD.png",
+    "Living Shadow 2": "https://wiki.leagueoflegends.com/en-us/images/Zed_Living_Shadow_2_HD.png",
+    "Razor Shuriken": "https://wiki.leagueoflegends.com/en-us/images/Zed_Razor_Shuriken_HD.png",
+    "Shadow Slash": "https://wiki.leagueoflegends.com/en-us/images/Zed_Shadow_Slash_HD.png"
+  },
+  "Zeri": {
+    "Burst Fire": "https://wiki.leagueoflegends.com/en-us/images/Zeri_Burst_Fire_HD.png",
+    "Burst Fire 2": "https://wiki.leagueoflegends.com/en-us/images/Zeri_Burst_Fire_2_HD.png",
+    "Burst Fire 3": "https://wiki.leagueoflegends.com/en-us/images/Zeri_Burst_Fire_3_HD.png",
+    "Burst Fire 4": "https://wiki.leagueoflegends.com/en-us/images/Zeri_Burst_Fire_4_HD.png",
+    "Lightning Crash": "https://wiki.leagueoflegends.com/en-us/images/Zeri_Lightning_Crash_HD.png",
+    "Living Battery": "https://wiki.leagueoflegends.com/en-us/images/Zeri_Living_Battery_HD.png",
+    "Living Battery 2": "https://wiki.leagueoflegends.com/en-us/images/Zeri_Living_Battery_2_HD.png",
+    "Spark Surge": "https://wiki.leagueoflegends.com/en-us/images/Zeri_Spark_Surge_HD.png",
+    "Ultrashock Laser": "https://wiki.leagueoflegends.com/en-us/images/Zeri_Ultrashock_Laser_HD.png"
+  },
+  "Ziggs": {
+    "Bouncing Bomb": "https://wiki.leagueoflegends.com/en-us/images/Ziggs_Bouncing_Bomb_HD.png",
+    "Hexplosive Minefield": "https://wiki.leagueoflegends.com/en-us/images/Ziggs_Hexplosive_Minefield_HD.png",
+    "Mega Inferno Bomb": "https://wiki.leagueoflegends.com/en-us/images/Ziggs_Mega_Inferno_Bomb_HD.png",
+    "Satchel Charge": "https://wiki.leagueoflegends.com/en-us/images/Ziggs_Satchel_Charge_HD.png",
+    "Short Fuse": "https://wiki.leagueoflegends.com/en-us/images/Ziggs_Short_Fuse_HD.png"
+  },
+  "Zilean": {
+    "Chronoshift": "https://wiki.leagueoflegends.com/en-us/images/Zilean_Chronoshift_HD.png",
+    "Rewind": "https://wiki.leagueoflegends.com/en-us/images/Zilean_Rewind_HD.png",
+    "Time Bomb": "https://wiki.leagueoflegends.com/en-us/images/Zilean_Time_Bomb_HD.png",
+    "Time Warp": "https://wiki.leagueoflegends.com/en-us/images/Zilean_Time_Warp_HD.png",
+    "Time in a Bottle": "https://wiki.leagueoflegends.com/en-us/images/Zilean_Time_in_a_Bottle_HD.png"
+  },
+  "Zoe": {
+    "More Sparkles!": "https://wiki.leagueoflegends.com/en-us/images/Zoe_More_Sparkles!_HD.jpg",
+    "Paddle Star!": "https://wiki.leagueoflegends.com/en-us/images/Zoe_Paddle_Star!_HD.jpg",
+    "Paddle Star! 2": "https://wiki.leagueoflegends.com/en-us/images/Zoe_Paddle_Star!_2_HD.png",
+    "Portal Jump": "https://wiki.leagueoflegends.com/en-us/images/Zoe_Portal_Jump_HD.png",
+    "Sleepy Trouble Bubble": "https://wiki.leagueoflegends.com/en-us/images/Zoe_Sleepy_Trouble_Bubble_HD.jpg",
+    "Spell Thief": "https://wiki.leagueoflegends.com/en-us/images/Zoe_Spell_Thief_HD.jpg"
+  },
+  "Zyra": {
+    "Deadly Spines": "https://wiki.leagueoflegends.com/en-us/images/Zyra_Deadly_Spines_HD.png",
+    "Garden of Thorns": "https://wiki.leagueoflegends.com/en-us/images/Zyra_Garden_of_Thorns_HD.png",
+    "Grasping Roots": "https://wiki.leagueoflegends.com/en-us/images/Zyra_Grasping_Roots_HD.png",
+    "Rampant Growth": "https://wiki.leagueoflegends.com/en-us/images/Zyra_Rampant_Growth_HD.png",
+    "Stranglethorns": "https://wiki.leagueoflegends.com/en-us/images/Zyra_Stranglethorns_HD.png"
+  }
+}

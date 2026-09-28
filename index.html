@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LoL Ability Guesser</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect width='16' height='16' fill='%230a0a0a'/><circle cx='8' cy='8' r='4' fill='%23b30000'/></svg>">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-state="waiting">
+  <div class="app">
+    <aside class="side-panel">
+      <div class="panel-section">
+        <div class="panel-label">Display</div>
+        <div class="mode-selector" role="group" aria-label="Display mode">
+          <button class="mode-btn" data-mode="icon">Icon only</button>
+          <button class="mode-btn" data-mode="name">Name only</button>
+          <button class="mode-btn active" data-mode="both">Both</button>
+        </div>
+      </div>
+
+      <div class="panel-section">
+        <div class="panel-label">Stats</div>
+        <div class="scoreboard">
+          <div class="score-item">
+            <span class="score-label">Score</span>
+            <span class="score-value" id="scoreValue">0</span>
+          </div>
+          <div class="score-item">
+            <span class="score-label">Personal Best</span>
+            <span class="score-value" id="personalBestValue">0</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel-section">
+        <div class="panel-label">Lives</div>
+        <div class="config-block">
+          <div class="config-row">
+            <span class="config-row-label">Enabled</span>
+            <label class="switch">
+              <input type="checkbox" id="livesEnabled">
+              <span class="switch-track"></span>
+            </label>
+          </div>
+          <div class="config-row">
+            <span class="config-row-label">Count</span>
+            <div class="num-input">
+              <input type="number" id="livesCount" min="1" max="10" step="1" value="3">
+            </div>
+          </div>
+          <div class="config-row hidden" id="livesRow">
+            <span class="config-row-label">Current</span>
+            <span class="lives-display" id="livesDisplay">♥♥♥</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel-section">
+        <div class="panel-label">Timer</div>
+        <div class="config-block">
+          <div class="config-row">
+            <span class="config-row-label">Enabled</span>
+            <label class="switch">
+              <input type="checkbox" id="timerEnabled">
+              <span class="switch-track"></span>
+            </label>
+          </div>
+          <div class="config-row">
+            <span class="config-row-label">Duration</span>
+            <div class="num-input">
+              <input type="number" id="timerSeconds" min="3" max="300" step="1" value="15">
+              <span class="unit">s</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel-section">
+        <div class="panel-label">Gamemodes</div>
+
+        <div class="gamemode-block">
+          <div class="gamemode-title">100%</div>
+          <div class="config-block">
+            <div class="config-row">
+              <span class="config-row-label">Enabled</span>
+              <label class="switch">
+                <input type="checkbox" id="hundredEnabled">
+                <span class="switch-track"></span>
+              </label>
+            </div>
+            <div class="config-row hidden" id="guideRow">
+              <span class="config-row-label">Guide</span>
+              <label class="switch">
+                <input type="checkbox" id="guideEnabled">
+                <span class="switch-track"></span>
+              </label>
+            </div>
+            <div class="config-row hidden" id="hundredProgressRow">
+              <span class="config-row-label">Progress</span>
+              <span class="hundred-progress" id="hundredProgress">0 / 0</span>
+            </div>
+            <button class="restart-progress-btn hidden" id="restartProgressBtn">Restart Progress</button>
+          </div>
+        </div>
+
+        <div class="gamemode-block">
+          <div class="gamemode-title">Line%</div>
+          <div class="config-block">
+            <div class="config-row">
+              <span class="config-row-label">Enabled</span>
+              <label class="switch">
+                <input type="checkbox" id="lineEnabled">
+                <span class="switch-track"></span>
+              </label>
+            </div>
+            <div class="role-selector hidden" id="roleSelector">
+              <button class="role-btn active" data-role="top">
+                <img src="top.png" alt="" class="role-icon">
+                <span>Top</span>
+              </button>
+              <button class="role-btn" data-role="jungle">
+                <img src="jungle.png" alt="" class="role-icon">
+                <span>Jungle</span>
+              </button>
+              <button class="role-btn" data-role="mid">
+                <img src="mid.png" alt="" class="role-icon">
+                <span>Mid</span>
+              </button>
+              <button class="role-btn" data-role="bot">
+                <img src="bot.png" alt="" class="role-icon">
+                <span>Bot</span>
+              </button>
+              <button class="role-btn" data-role="support">
+                <img src="support.png" alt="" class="role-icon">
+                <span>Support</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <main class="game">
+      <div class="timer-wrap hidden" id="timerWrap" aria-hidden="true">
+        <div class="timer-bar" id="timerBar">
+          <div class="timer-fill" id="timerFill"></div>
+        </div>
+        <span class="timer-text" id="timerText">15.0s</span>
+      </div>
+
+      <div class="ability-display" id="abilityDisplay">
+        <div class="ability-icon-wrap" id="abilityIconWrap">
+          <img id="abilityIcon" src="" alt="Ability icon" />
+        </div>
+        <div class="ability-name" id="abilityName">Loading…</div>
+      </div>
+
+      <div class="controls">
+        <div class="search-wrap">
+          <input
+            type="text"
+            id="championInput"
+            placeholder="Type champion name…"
+            autocomplete="off"
+            spellcheck="false"
+          />
+          <ul class="autocomplete" id="autocomplete"></ul>
+        </div>
+
+        <div class="slots" id="slotRow">
+          <button class="slot" data-slot="P">P</button>
+          <button class="slot" data-slot="Q">Q</button>
+          <button class="slot" data-slot="W">W</button>
+          <button class="slot" data-slot="E">E</button>
+          <button class="slot" data-slot="R">R</button>
+        </div>
+
+        <button class="action-btn guess" id="guessBtn">GUESS</button>
+        <button class="action-btn next hidden" id="nextBtn">NEXT →</button>
+      </div>
+
+      <div class="feedback" id="feedback" aria-live="polite"></div>
+    </main>
+
+    <aside class="guide-panel hidden" id="guidePanel">
+      <div class="guide-header">
+        <div class="guide-title">Completed</div>
+        <div class="guide-progress" id="guideProgress">0 / 0</div>
+      </div>
+      <div class="guide-search-wrap">
+        <input
+          type="text"
+          class="guide-search"
+          id="guideSearch"
+          placeholder="Search champion…"
+          autocomplete="off"
+          spellcheck="false"
+        />
+      </div>
+      <div class="guide-champions" id="guideChampions"></div>
+    </aside>
+  </div>
+
+  <div class="gameover-overlay hidden" id="gameoverOverlay" aria-hidden="true">
+    <div class="gameover-text">GAME OVER</div>
+  </div>
+
+  <div class="dev-panel" id="devPanel">
+    <button class="dev-toggle" id="devToggle" title="Developer tools">DEV</button>
+    <div class="dev-body hidden" id="devBody">
+      <div class="dev-title">Unlock Champion Abilities</div>
+      <div class="dev-row">
+        <input
+          type="text"
+          class="dev-input"
+          id="devChampionInput"
+          placeholder="Champion name…"
+          autocomplete="off"
+          spellcheck="false"
+        />
+        <button class="dev-btn" id="devUnlockBtn">Unlock</button>
+      </div>
+      <div class="dev-status" id="devStatus"></div>
+    </div>
+  </div>
+
+  <script src="js/config.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/specialAbilities.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/timer.js"></script>
+  <script src="js/gamemodes.js"></script>
+  <script src="js/guide.js"></script>
+  <script src="js/dev.js"></script>
+  <script src="js/rounds.js"></script>
+  <script src="js/autocomplete.js"></script>
+  <script src="js/events.js"></script>
+  <script src="js/init.js"></script>
+</body>
+</html>
