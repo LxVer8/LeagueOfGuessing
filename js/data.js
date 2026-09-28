@@ -1,38 +1,49 @@
 // ============================================================
-//  data.js - DDragon loading, role map, ability pool building
-//  Load order: 4 (must run after specialAbilities.js)
+//  data.js - DDragon loading (EN + ES), role map, ability pool
+//  Load order: 5 (after specialAbilities.js)
 // ============================================================
 
 async function loadAllData() {
-  setFeedback('Loading champions...', 'info');
-  els.abilityName.textContent = 'Loading...';
+  setFeedback(t('loadingChampions'), 'info');
+  els.abilityName.textContent = t('loading');
 
   const versionsRes = await fetch(DDRAGON_VERSIONS);
   const versions = await versionsRes.json();
   state.version = versions[0];
   console.log(`[Guesser] DDragon version: ${state.version}`);
 
-  const [champListRes, iconMapRes, rolesRes] = await Promise.all([
+  const [champEnRes, champEsRes, iconMapRes, rolesRes] = await Promise.all([
     fetch(`${DDRAGON_CDN}/${state.version}/data/en_US/champion.json`),
+    fetch(`${DDRAGON_CDN}/${state.version}/data/es_MX/champion.json`),
     fetch(ICON_MAP_URL),
     fetch(ROLES_MAP_URL),
   ]);
 
-  if (!champListRes.ok) throw new Error('Failed to load champion list from Data Dragon');
-  if (!iconMapRes.ok) throw new Error(`Failed to load ${ICON_MAP_URL} (status ${iconMapRes.status})`);
-  if (!rolesRes.ok) throw new Error(`Failed to load ${ROLES_MAP_URL} (status ${rolesRes.status})`);
+  if (!champEnRes.ok) throw new Error(t('loadChampionsError'));
+  if (!champEsRes.ok) throw new Error(t('loadChampionsError'));
+  if (!iconMapRes.ok) throw new Error(t('loadIconMapError', iconMapRes.status));
+  if (!rolesRes.ok)    throw new Error(t('loadRolesError', rolesRes.status));
 
-  const champListJson = await champListRes.json();
+  const champEn = (await champEnRes.json()).data;
+  const champEs = (await champEsRes.json()).data;
   const iconMap = await iconMapRes.json();
   state.championRoles = await rolesRes.json();
 
-  console.log(`[Guesser] Summary: ${Object.keys(champListJson.data).length} champions`);
-  console.log(`[Guesser] Icon map: ${Object.keys(iconMap).length} champion entries`);
+  console.log(`[Guesser] Summary: ${Object.keys(champEn).length} champions`);
+  console.log(`[Guesser] Icon map: ${Object.keys(iconMap).length} entries`);
   console.log(`[Guesser] Role map: ${Object.keys(state.championRoles).length} entries`);
 
-  state.allChampions = Object.values(champListJson.data)
-    .map((c) => ({ key: c.id, name: c.name, ddragon: c }))
-    .sort((a, b) => a.name.localeCompare(b.name));
+  // Champion list — names per locale, key is locale-independent.
+  state.allChampions = Object.values(champEn)
+    .map((c) => ({
+      key: c.id,
+      names: {
+        en: c.name,
+        es: (champEs[c.id] && champEs[c.id].name) || c.name,
+      },
+      ddragon: c,
+    }))
+    .sort((a, b) => a.names.en.localeCompare(b.names.en));
 
   buildRoleChampionMap();
 
@@ -41,27 +52,32 @@ async function loadAllData() {
     iconMapByName.set(normalizeName(name), iconMap[name]);
   }
 
-  const wanted = state.allChampions.filter((c) =>
-    iconMapByName.has(normalizeName(c.name)) || SPECIAL_ABILITY_SETS[c.name]
+  const wanted = state.allChampions.filter(
+    (c) =>
+      iconMapByName.has(normalizeName(c.names.en)) ||
+      SPECIAL_ABILITY_SETS[c.names.en]
   );
 
-  console.log(`[Guesser] Fetching full data for ${wanted.length} champions...`);
+  console.log(`[Guesser] Fetching full data for ${wanted.length} champions…`);
 
-  const fullData = await fetchChampionsWithConcurrency(
-    wanted.map((c) => c.key),
-    12
-  );
+  const keys = wanted.map((c) => c.key);
+  const [fullEn, fullEs] = await Promise.all([
+    fetchChampionsWithConcurrency(keys, 12, 'en_US'),
+    fetchChampionsWithConcurrency(keys, 12, 'es_MX'),
+  ]);
 
-  buildAbilityPool(fullData, iconMapByName);
+  const esById = new Map(fullEs.map((c) => [c.id, c]));
+  const pairs = fullEn
+    .map((en) => ({ en, es: esById.get(en.id) }))
+    .filter((p) => p.en && p.es);
+
+  buildAbilityPool(pairs, iconMapByName);
 
   if (state.abilityPool.length === 0) {
-    throw new Error(
-      `No abilities matched. ${wanted.length} champions had icon entries, but no ability names matched. ` +
-      `Check the console for per-champion mismatch logs.`
-    );
+    throw new Error(t('noAbilitiesMatched'));
   }
 
-  console.log(`Ready - ${state.allChampions.length} champions, ${state.abilityPool.length} abilities.`);
+  console.log(`✅ Ready — ${state.allChampions.length} champions, ${state.abilityPool.length} abilities.`);
 }
 
 function buildRoleChampionMap() {
@@ -71,7 +87,7 @@ function buildRoleChampionMap() {
 
   const keyByNorm = new Map();
   for (const champ of state.allChampions) {
-    keyByNorm.set(normalizeName(champ.name), champ.key);
+    keyByNorm.set(normalizeName(champ.names.en), champ.key);
     keyByNorm.set(normalizeName(champ.key), champ.key);
   }
 
@@ -98,11 +114,11 @@ function buildRoleChampionMap() {
     .join(', ');
   console.log(`[Guesser] Roles resolved: ${resolved}/${Object.keys(state.championRoles).length} (${counts})`);
   if (unresolved.length > 0) {
-    console.warn(`[Guesser] Unresolved role entries (check spelling):`, unresolved);
+    console.warn(`[Guesser] Unresolved role entries:`, unresolved);
   }
 }
 
-async function fetchChampionsWithConcurrency(keys, concurrency) {
+async function fetchChampionsWithConcurrency(keys, concurrency, locale) {
   const results = new Array(keys.length);
   let nextIndex = 0;
 
@@ -113,17 +129,17 @@ async function fetchChampionsWithConcurrency(keys, concurrency) {
       const key = keys[i];
       try {
         const res = await fetch(
-          `${DDRAGON_CDN}/${state.version}/data/en_US/champion/${key}.json`
+          `${DDRAGON_CDN}/${state.version}/data/${locale}/champion/${key}.json`
         );
         if (!res.ok) {
-          console.warn(`[Guesser] Failed to fetch ${key}: HTTP ${res.status}`);
+          console.warn(`[Guesser] Failed to fetch ${key} (${locale}): HTTP ${res.status}`);
           results[i] = null;
           continue;
         }
         const json = await res.json();
         results[i] = json.data[key] || null;
       } catch (e) {
-        console.warn(`[Guesser] Failed to fetch ${key}:`, e);
+        console.warn(`[Guesser] Failed to fetch ${key} (${locale}):`, e);
         results[i] = null;
       }
     }
@@ -151,17 +167,30 @@ function findAbilityIcons(iconEntry, lookupName) {
   return { primary: findIconUrl(iconEntry, lookupName), secondary: null };
 }
 
-function buildAbilityPool(championDataList, iconMapByName) {
+function makeAbilityEntry(en, es, slot, keyName, enName, esName, icons, iconNames) {
+  return {
+    championKey: en.id,
+    slot,
+    championNames: { en: en.name, es: es.name },
+    abilityNames:  { en: enName, es: esName || enName },
+    // Legacy fields — kept so older code paths don't explode.
+    championName: en.name,
+    abilityName:  enName,
+    icons,
+    iconNames,
+    iconUrl: icons[0],
+  };
+}
+
+function buildAbilityPool(pairs, iconMapByName) {
   const SLOTS = ['Q', 'W', 'E', 'R'];
   let matchedChamps = 0;
   let multiIconCount = 0;
   const unmatchedDetails = [];
 
-  for (const champ of championDataList) {
-    if (!champ) continue;
-    const iconEntry = iconMapByName.get(normalizeName(champ.name));
-    const special = SPECIAL_ABILITY_SETS[champ.name] || {};
-
+  for (const { en, es } of pairs) {
+    const iconEntry = iconMapByName.get(normalizeName(en.name));
+    const special   = SPECIAL_ABILITY_SETS[en.name] || {};
     let addedAny = false;
 
     // ---------- Passive ----------
@@ -169,89 +198,72 @@ function buildAbilityPool(championDataList, iconMapByName) {
       const def = special.P;
       const built = buildSpecialAbility(def, iconEntry);
       if (built) {
-        state.abilityPool.push({
-          championKey: champ.id,
-          championName: champ.name,
-          abilityName: def.name,
-          slot: 'P',
-          icons: built.icons,
-          iconNames: built.iconNames,
-          iconUrl: built.icons[0],
-        });
+        state.abilityPool.push(makeAbilityEntry(
+          en, es, 'P', def.name,
+          en.passive ? en.passive.name : def.name,
+          es.passive ? es.passive.name : def.name,
+          built.icons, built.iconNames
+        ));
         if (built.icons.length > 1) multiIconCount++;
         addedAny = true;
       } else {
-        unmatchedDetails.push(`${champ.name} [P] special override produced 0 icons`);
+        unmatchedDetails.push(`${en.name} [P] special override produced 0 icons`);
       }
-    } else if (champ.passive && champ.passive.name && iconEntry) {
-      const { primary, secondary } = findAbilityIcons(iconEntry, champ.passive.name);
+    } else if (en.passive && en.passive.name && iconEntry) {
+      const { primary, secondary } = findAbilityIcons(iconEntry, en.passive.name);
       if (primary) {
         const icons = secondary ? [primary, secondary] : [primary];
-        state.abilityPool.push({
-          championKey: champ.id,
-          championName: champ.name,
-          abilityName: champ.passive.name,
-          slot: 'P',
-          icons,
-          iconNames: null,
-          iconUrl: primary,
-        });
+        state.abilityPool.push(makeAbilityEntry(
+          en, es, 'P', en.passive.name,
+          en.passive.name,
+          es.passive ? es.passive.name : en.passive.name,
+          icons, null
+        ));
         if (secondary) multiIconCount++;
         addedAny = true;
       } else {
-        unmatchedDetails.push(`${champ.name} [P] "${champ.passive.name}"`);
+        unmatchedDetails.push(`${en.name} [P] "${en.passive.name}"`);
       }
-    } else if (champ.passive && champ.passive.name) {
-      unmatchedDetails.push(`${champ.name} [P] "${champ.passive.name}" (no icon entry)`);
     }
 
     // ---------- Q / W / E / R ----------
     SLOTS.forEach((slot, idx) => {
-      const spell = (champ.spells || [])[idx];
-      if (!spell || !spell.name) return;
+      const enSpell = (en.spells || [])[idx];
+      const esSpell = (es.spells || [])[idx];
+      if (!enSpell || !enSpell.name) return;
 
       if (special[slot]) {
         const def = special[slot];
         const built = buildSpecialAbility(def, iconEntry);
         if (built) {
-          state.abilityPool.push({
-            championKey: champ.id,
-            championName: champ.name,
-            abilityName: def.name,
-            slot,
-            icons: built.icons,
-            iconNames: built.iconNames,
-            iconUrl: built.icons[0],
-          });
+          state.abilityPool.push(makeAbilityEntry(
+            en, es, slot, def.name,
+            enSpell.name,
+            esSpell ? esSpell.name : enSpell.name,
+            built.icons, built.iconNames
+          ));
           if (built.icons.length > 1) multiIconCount++;
           addedAny = true;
         } else {
-          unmatchedDetails.push(`${champ.name} [${slot}] special override produced 0 icons`);
+          unmatchedDetails.push(`${en.name} [${slot}] special override produced 0 icons`);
         }
         return;
       }
 
-      if (!iconEntry) {
-        unmatchedDetails.push(`${champ.name} [${slot}] "${spell.name}" (no icon entry)`);
-        return;
-      }
-
-      const { primary, secondary } = findAbilityIcons(iconEntry, spell.name);
+      if (!iconEntry) return;
+      const { primary, secondary } = findAbilityIcons(iconEntry, enSpell.name);
       if (primary) {
         const icons = secondary ? [primary, secondary] : [primary];
-        state.abilityPool.push({
-          championKey: champ.id,
-          championName: champ.name,
-          abilityName: spell.name,
-          slot,
-          icons,
-          iconNames: null,
-          iconUrl: primary,
-        });
+        state.abilityPool.push(makeAbilityEntry(
+          en, es, slot, enSpell.name,
+          enSpell.name,
+          esSpell ? esSpell.name : enSpell.name,
+          icons, null
+        ));
         if (secondary) multiIconCount++;
         addedAny = true;
       } else {
-        unmatchedDetails.push(`${champ.name} [${slot}] "${spell.name}"`);
+        unmatchedDetails.push(`${en.name} [${slot}] "${enSpell.name}"`);
       }
     });
 

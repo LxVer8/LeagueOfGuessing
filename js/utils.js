@@ -1,6 +1,6 @@
 // ============================================================
 //  utils.js — Pure helpers, storage, image preloading
-//  Load order: 2
+//  Load order: 3
 // ============================================================
 
 function normalizeName(str) {
@@ -25,20 +25,43 @@ function setFeedbackHtml(html, cls = '') {
   els.feedback.className = 'feedback ' + cls;
 }
 
+// ---------- Localized name helpers ----------
+function displayChampionName(champ) {
+  if (!champ) return '???';
+  if (champ.names) return champ.names[state.locale] || champ.names.en || champ.name || '???';
+  return champ.name || '???';
+}
+
+function displayAbilityName(ability) {
+  if (!ability) return '';
+  if (ability.abilityNames) {
+    return ability.abilityNames[state.locale] || ability.abilityNames.en || ability.abilityName || '';
+  }
+  return ability.abilityName || '';
+}
+
+function displayAbilityChampion(ability) {
+  if (!ability) return '???';
+  if (ability.championNames) {
+    return ability.championNames[state.locale] || ability.championNames.en || ability.championName || '???';
+  }
+  return ability.championName || '???';
+}
+
+function findChampionByKey(key) {
+  return state.allChampions.find((c) => c.key === key) || null;
+}
+
+// ---------- Ability pill ----------
 function buildAbilityPill(ability) {
   if (!ability) return '';
   const iconUrl = ability.iconUrl || (ability.icons && ability.icons[0]) || '';
   const icon = escapeHtml(iconUrl);
-  const name = escapeHtml(ability.abilityName);
+  const name = escapeHtml(displayAbilityName(ability));
   return `<span class="ability-pill">` +
     `<img class="ability-pill-icon" src="${icon}" alt="${name}" loading="eager">` +
     `<span class="ability-pill-name">(${name})</span>` +
   `</span>`;
-}
-
-function findChampionNameByKey(key) {
-  const c = state.allChampions.find((c) => c.key === key);
-  return c ? c.name : '???';
 }
 
 function findAbilityByChampionAndSlot(championKey, slot) {

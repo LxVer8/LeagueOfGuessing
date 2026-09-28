@@ -1,6 +1,6 @@
 // ============================================================
 //  gamemodes.js — Lives, 100% mode, Line% mode, Game Over
-//  Load order: 5
+//  Load order: 6
 // ============================================================
 
 function updateLivesUI() {

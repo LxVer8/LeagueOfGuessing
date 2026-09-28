@@ -1,6 +1,6 @@
 // ============================================================
 //  guide.js - Right-side guide panel
-//  Load order: 6
+//  Load order: 7
 // ============================================================
 
 function setGuideEnabled(enabled) {
@@ -22,11 +22,6 @@ function restartHundredProgress() {
   startNewRound();
 }
 
-/**
- * Create an <img> for a guide slot with a graceful fallback.
- * If the URL 404s, remove the img and revert the slot to its
- * default grey placeholder appearance.
- */
 function createGuideImage(url, alt, slotEl) {
   const img = document.createElement('img');
   img.src = url;
@@ -53,7 +48,7 @@ function buildGuide() {
     if (!byChampion.has(ability.championKey)) {
       byChampion.set(ability.championKey, {
         championKey: ability.championKey,
-        championName: ability.championName,
+        championName: displayAbilityChampion(ability),
         abilities: {},
       });
     }
@@ -61,10 +56,9 @@ function buildGuide() {
   }
 
   const champions = [...byChampion.values()].sort((a, b) =>
-    a.championName.localeCompare(b.championName)
+    a.championName.localeCompare(b.championName, state.locale)
   );
 
-  // P/Q/W/E/R - the column order used by the game's own slot row.
   const SLOTS = ['P', 'Q', 'W', 'E', 'R'];
   const fragment = document.createDocumentFragment();
 
@@ -87,16 +81,12 @@ function buildGuide() {
     const slotsWrap = document.createElement('div');
     slotsWrap.className = 'guide-slots-wrap';
 
-    // Find the tallest ability column - that's how many rows we need.
     let maxRows = 1;
     for (const slot of SLOTS) {
       const a = champ.abilities[slot];
       if (a && a.icons && a.icons.length > maxRows) maxRows = a.icons.length;
     }
 
-    // Build each row with exactly 5 slots. Missing slots in a given row
-    // render as invisible placeholders so icons stay column-aligned with
-    // the row above (P | Q | W | E | R).
     for (let rowIdx = 0; rowIdx < maxRows; rowIdx++) {
       const rowEl = document.createElement('div');
       rowEl.className = 'guide-slots';
@@ -106,7 +96,6 @@ function buildGuide() {
         const url = ability && ability.icons ? ability.icons[rowIdx] : null;
 
         if (!url) {
-          // Invisible placeholder occupying this column for this row.
           const ph = document.createElement('div');
           ph.className = 'guide-slot';
           ph.style.visibility = 'hidden';
@@ -120,7 +109,7 @@ function buildGuide() {
         const displayName =
           ability.iconNames && ability.iconNames[rowIdx]
             ? ability.iconNames[rowIdx]
-            : ability.abilityName;
+            : displayAbilityName(ability);
         slotEl.dataset.abilityName = displayName;
 
         const k = abilityKey(ability);

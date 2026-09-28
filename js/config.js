@@ -7,9 +7,17 @@ const DDRAGON_VERSIONS = 'https://ddragon.leagueoflegends.com/api/versions.json'
 const DDRAGON_CDN = 'https://ddragon.leagueoflegends.com/cdn';
 const ICON_MAP_URL = 'abilityIcons.json';
 const ROLES_MAP_URL = 'championRoles.json';
-const STORAGE_KEY_PB = 'lolGuesser.personalBest';
+
+const STORAGE_KEY_PB     = 'lolGuesser.personalBest';
 const STORAGE_KEY_HUNDRED = 'lolGuesser.hundredMode';
-const STORAGE_KEY_LINE = 'lolGuesser.lineMode';
+const STORAGE_KEY_LINE    = 'lolGuesser.lineMode';
+const STORAGE_KEY_LOCALE  = 'lolGuesser.locale';
+
+// Display locale → DDragon locale code
+const LOCALES = {
+  en: 'en_US',
+  es: 'es_MX',
+};
 
 const state = {
   version: '',
@@ -33,6 +41,7 @@ const state = {
   lineRole: 'top',
   championRoles: {},
   roleChampionMap: { top: new Set(), jungle: new Set(), mid: new Set(), bot: new Set(), support: new Set() },
+  locale: 'en',              // 'en' | 'es'
 };
 
 const timerState = {
@@ -43,7 +52,7 @@ const timerState = {
   startedAt: 0,
 };
 
-const guideSlotMap = new Map(); // abilityKey -> { primary, secondary }
+const guideSlotMap = new Map(); // abilityKey -> [{ el, url, name }]
 
 const $ = (id) => document.getElementById(id);
 const bodyEl = document.body;
@@ -62,6 +71,7 @@ const els = {
   scoreValue: $('scoreValue'),
   personalBestValue: $('personalBestValue'),
   modeButtons: document.querySelectorAll('.mode-btn'),
+  langButtons: document.querySelectorAll('.lang-btn'),
   timerWrap: $('timerWrap'),
   timerBar: $('timerBar'),
   timerFill: $('timerFill'),

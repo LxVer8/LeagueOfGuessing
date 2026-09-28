@@ -1,6 +1,6 @@
 // ============================================================
 //  rounds.js — Round flow, guessing, answer handling
-//  Load order: 8
+//  Load order: 9
 // ============================================================
 
 function pickRandomAbility() {
@@ -57,15 +57,15 @@ async function startNewRound() {
     if (state.hundredPercentEnabled) {
       handleHundredPercentComplete();
     } else if (state.lineEnabled) {
-      els.abilityName.textContent = 'No abilities available for this role.';
+      els.abilityName.textContent = t('noAbilitiesForRole');
       els.guessBtn.disabled = true;
       els.nextBtn.classList.add('hidden');
     }
     return;
   }
 
-const primaryIcon = ability.iconUrl || (ability.icons && ability.icons[0]) || '';
-const loadPromise = preloadImage(primaryIcon).catch(() => null);
+  const primaryIcon = ability.iconUrl || (ability.icons && ability.icons[0]) || '';
+  const loadPromise = preloadImage(primaryIcon).catch(() => null);
 
   state.isAnswered = false;
   state.selectedSlot = null;
@@ -86,9 +86,9 @@ const loadPromise = preloadImage(primaryIcon).catch(() => null);
   await loadPromise;
 
   state.currentAbility = ability;
-  els.abilityIcon.src = ability.iconUrl || (ability.icons && ability.icons[0]) || '';
-  els.abilityIcon.alt = ability.abilityName;
-  els.abilityName.textContent = ability.abilityName;
+  els.abilityIcon.src = primaryIcon;
+  els.abilityIcon.alt = displayAbilityName(ability);
+  els.abilityName.textContent = displayAbilityName(ability);
   els.abilityIcon.classList.remove('loading');
 
   applyMode();
@@ -107,9 +107,9 @@ function handleHundredPercentComplete() {
   els.guessBtn.classList.add('hidden');
   els.nextBtn.classList.add('hidden');
   els.abilityIcon.classList.add('loading');
-  els.abilityName.textContent = '100% Complete!';
+  els.abilityName.textContent = t('hundredComplete');
   setRoundState('correct');
-  setFeedbackHtml(`🎉 You mastered every ability! Final score: ${state.score}`, 'correct');
+  setFeedbackHtml(t('hundredCompleteMsg', state.score), 'correct');
 }
 
 function applyMode() {
@@ -178,20 +178,25 @@ function handleGuess() {
   if (!champKey) {
     const typed = els.championInput.value.trim();
     if (!typed) {
-      setFeedback('Type a champion name first.', 'wrong');
+      setFeedback(t('typeChampionFirst'), 'wrong');
       return;
     }
     const norm = normalizeName(typed);
-    const match = state.allChampions.find((c) => normalizeName(c.name) === norm);
+    const match = state.allChampions.find(
+      (c) =>
+        normalizeName(c.names.en) === norm ||
+        normalizeName(c.names.es) === norm ||
+        normalizeName(c.key) === norm
+    );
     if (!match) {
-      setFeedback('Champion not recognized. Pick from the list.', 'wrong');
+      setFeedback(t('championNotRecognized'), 'wrong');
       return;
     }
     champKey = match.key;
   }
 
   if (!state.selectedSlot) {
-    setFeedback('Pick an ability slot (P / Q / W / E / R).', 'wrong');
+    setFeedback(t('pickSlot'), 'wrong');
     return;
   }
 
@@ -209,21 +214,18 @@ function handleGuess() {
 
   state.isAnswered = true;
 
-  const correctLabel = `${escapeHtml(correct.championName)}'s ${correct.slot}`;
-  const guessedChampionName = findChampionNameByKey(champKey);
-  const guessedLabel = `${escapeHtml(guessedChampionName)}'s ${state.selectedSlot}`;
+  const correctLabel = `${escapeHtml(displayAbilityChampion(correct))}'s ${correct.slot}`;
+  const guessedChampion = findChampionByKey(champKey);
+  const guessedLabel = `${escapeHtml(displayChampionName(guessedChampion))}'s ${state.selectedSlot}`;
   const guessedAbility = findAbilityByChampionAndSlot(champKey, state.selectedSlot);
   const guessedPill = guessedAbility ? buildAbilityPill(guessedAbility) : '';
 
   if (bothCorrect) {
     registerCorrectAnswer();
-    setFeedbackHtml(`Correct. It was ${correctLabel}`, 'correct');
+    setFeedbackHtml(t('correct', correctLabel), 'correct');
   } else {
     registerWrongAnswer();
-    setFeedbackHtml(
-      `Wrong. It was ${correctLabel}. You picked ${guessedLabel} ${guessedPill}`,
-      'wrong'
-    );
+    setFeedbackHtml(t('wrong', correctLabel, guessedLabel, guessedPill), 'wrong');
   }
 }
 
@@ -238,9 +240,9 @@ function handleTimeout() {
   state.isAnswered = true;
 
   const correct = state.currentAbility;
-  const correctLabel = `${escapeHtml(correct.championName)}'s ${correct.slot}`;
+  const correctLabel = `${escapeHtml(displayAbilityChampion(correct))}'s ${correct.slot}`;
   const pill = buildAbilityPill(correct);
 
   registerWrongAnswer();
-  setFeedbackHtml(`Time's up! It was ${correctLabel} ${pill}`, 'wrong');
+  setFeedbackHtml(t('timesUp', correctLabel, pill), 'wrong');
 }

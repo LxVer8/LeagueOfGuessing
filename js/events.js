@@ -1,9 +1,10 @@
 // ============================================================
 //  events.js — All DOM event listeners
-//  Load order: 10
+//  Load order: 11
 // ============================================================
 
 function wireEvents() {
+  // Champion search
   els.championInput.addEventListener('input', (e) => {
     state.selectedChampionKey = null;
     showAutocomplete(e.target.value);
@@ -32,6 +33,7 @@ function wireEvents() {
     if (!e.target.closest('.search-wrap')) hideAutocomplete();
   });
 
+  // Slots
   els.slotRow.addEventListener('click', (e) => {
     const btn = e.target.closest('.slot');
     if (!btn || state.isAnswered) return;
@@ -40,9 +42,11 @@ function wireEvents() {
     state.selectedSlot = btn.dataset.slot;
   });
 
+  // Guess / Next
   els.guessBtn.addEventListener('click', handleGuess);
   els.nextBtn.addEventListener('click', startNewRound);
 
+  // Display mode
   els.modeButtons.forEach((btn) => {
     btn.addEventListener('click', () => {
       els.modeButtons.forEach((b) => b.classList.remove('active'));
@@ -50,6 +54,11 @@ function wireEvents() {
       state.mode = btn.dataset.mode;
       applyMode();
     });
+  });
+
+  // Language toggle
+  els.langButtons.forEach((btn) => {
+    btn.addEventListener('click', () => setLocale(btn.dataset.locale));
   });
 
   // Timer

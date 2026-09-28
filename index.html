@@ -10,64 +10,75 @@
 <body data-state="waiting">
   <div class="app">
     <aside class="side-panel">
+
+      <!-- ============ DISPLAY (mode + language) ============ -->
       <div class="panel-section">
-        <div class="panel-label">Display</div>
+        <div class="panel-label" data-i18n="display">Display</div>
+
         <div class="mode-selector" role="group" aria-label="Display mode">
-          <button class="mode-btn" data-mode="icon">Icon only</button>
-          <button class="mode-btn" data-mode="name">Name only</button>
-          <button class="mode-btn active" data-mode="both">Both</button>
+          <button class="mode-btn" data-mode="icon" data-i18n="modeIcon">Icon only</button>
+          <button class="mode-btn" data-mode="name" data-i18n="modeName">Name only</button>
+          <button class="mode-btn active" data-mode="both" data-i18n="modeBoth">Both</button>
+        </div>
+
+        <div class="lang-selector" role="group" aria-label="Language">
+          <button class="lang-btn active" data-locale="en">EN</button>
+          <button class="lang-btn" data-locale="es">ES</button>
         </div>
       </div>
 
+      <!-- ============ STATS ============ -->
       <div class="panel-section">
-        <div class="panel-label">Stats</div>
+        <div class="panel-label" data-i18n="stats">Stats</div>
         <div class="scoreboard">
           <div class="score-item">
-            <span class="score-label">Score</span>
+            <span class="score-label" data-i18n="score">Score</span>
             <span class="score-value" id="scoreValue">0</span>
           </div>
           <div class="score-item">
-            <span class="score-label">Personal Best</span>
+            <span class="score-label" data-i18n="personalBest">Personal Best</span>
             <span class="score-value" id="personalBestValue">0</span>
           </div>
         </div>
       </div>
 
+      <!-- ============ LIVES ============ -->
       <div class="panel-section">
-        <div class="panel-label">Lives</div>
+        <div class="panel-label" data-i18n="lives">Lives</div>
         <div class="config-block">
           <div class="config-row">
-            <span class="config-row-label">Enabled</span>
+            <span class="config-row-label" data-i18n="enabled">Enabled</span>
             <label class="switch">
               <input type="checkbox" id="livesEnabled">
               <span class="switch-track"></span>
             </label>
           </div>
           <div class="config-row">
-            <span class="config-row-label">Count</span>
+            <span class="config-row-label" data-i18n="count">Count</span>
             <div class="num-input">
               <input type="number" id="livesCount" min="1" max="10" step="1" value="3">
             </div>
           </div>
           <div class="config-row hidden" id="livesRow">
-            <span class="config-row-label">Current</span>
+            <span class="config-row-label" data-i18n="current">Current</span>
             <span class="lives-display" id="livesDisplay">♥♥♥</span>
           </div>
         </div>
       </div>
 
+      <!-- ============ TIMER ============ -->
       <div class="panel-section">
-        <div class="panel-label">Timer</div>
+        <div class="panel-label" data-i18n="timer">Timer</div>
         <div class="config-block">
           <div class="config-row">
-            <span class="config-row-label">Enabled</span>
+            <span class="config-row-label" data-i18n="enabled">Enabled</span>
             <label class="switch">
               <input type="checkbox" id="timerEnabled">
               <span class="switch-track"></span>
             </label>
           </div>
           <div class="config-row">
-            <span class="config-row-label">Duration</span>
+            <span class="config-row-label" data-i18n="duration">Duration</span>
             <div class="num-input">
               <input type="number" id="timerSeconds" min="3" max="300" step="1" value="15">
               <span class="unit">s</span>
@@ -76,39 +87,42 @@
         </div>
       </div>
 
+      <!-- ============ GAMEMODES ============ -->
       <div class="panel-section">
-        <div class="panel-label">Gamemodes</div>
+        <div class="panel-label" data-i18n="gamemodes">Gamemodes</div>
 
+        <!-- 100% mode -->
         <div class="gamemode-block">
           <div class="gamemode-title">100%</div>
           <div class="config-block">
             <div class="config-row">
-              <span class="config-row-label">Enabled</span>
+              <span class="config-row-label" data-i18n="enabled">Enabled</span>
               <label class="switch">
                 <input type="checkbox" id="hundredEnabled">
                 <span class="switch-track"></span>
               </label>
             </div>
             <div class="config-row hidden" id="guideRow">
-              <span class="config-row-label">Guide</span>
+              <span class="config-row-label" data-i18n="guide">Guide</span>
               <label class="switch">
                 <input type="checkbox" id="guideEnabled">
                 <span class="switch-track"></span>
               </label>
             </div>
             <div class="config-row hidden" id="hundredProgressRow">
-              <span class="config-row-label">Progress</span>
+              <span class="config-row-label" data-i18n="progress">Progress</span>
               <span class="hundred-progress" id="hundredProgress">0 / 0</span>
             </div>
-            <button class="restart-progress-btn hidden" id="restartProgressBtn">Restart Progress</button>
+            <button class="restart-progress-btn hidden" id="restartProgressBtn" data-i18n="restartProgress">Restart Progress</button>
           </div>
         </div>
 
+        <!-- Line% mode -->
         <div class="gamemode-block">
           <div class="gamemode-title">Line%</div>
           <div class="config-block">
             <div class="config-row">
-              <span class="config-row-label">Enabled</span>
+              <span class="config-row-label" data-i18n="enabled">Enabled</span>
               <label class="switch">
                 <input type="checkbox" id="lineEnabled">
                 <span class="switch-track"></span>
@@ -117,30 +131,32 @@
             <div class="role-selector hidden" id="roleSelector">
               <button class="role-btn active" data-role="top">
                 <img src="top.png" alt="" class="role-icon">
-                <span>Top</span>
+                <span data-i18n="roleTop">Top</span>
               </button>
               <button class="role-btn" data-role="jungle">
                 <img src="jungle.png" alt="" class="role-icon">
-                <span>Jungle</span>
+                <span data-i18n="roleJungle">Jungle</span>
               </button>
               <button class="role-btn" data-role="mid">
                 <img src="mid.png" alt="" class="role-icon">
-                <span>Mid</span>
+                <span data-i18n="roleMid">Mid</span>
               </button>
               <button class="role-btn" data-role="bot">
                 <img src="bot.png" alt="" class="role-icon">
-                <span>Bot</span>
+                <span data-i18n="roleBot">Bot</span>
               </button>
               <button class="role-btn" data-role="support">
                 <img src="support.png" alt="" class="role-icon">
-                <span>Support</span>
+                <span data-i18n="roleSupport">Support</span>
               </button>
             </div>
           </div>
         </div>
       </div>
+
     </aside>
 
+    <!-- ============ GAME ============ -->
     <main class="game">
       <div class="timer-wrap hidden" id="timerWrap" aria-hidden="true">
         <div class="timer-bar" id="timerBar">
@@ -153,7 +169,7 @@
         <div class="ability-icon-wrap" id="abilityIconWrap">
           <img id="abilityIcon" src="" alt="Ability icon" />
         </div>
-        <div class="ability-name" id="abilityName">Loading…</div>
+        <div class="ability-name" id="abilityName" data-i18n="loading">Loading…</div>
       </div>
 
       <div class="controls">
@@ -162,6 +178,7 @@
             type="text"
             id="championInput"
             placeholder="Type champion name…"
+            data-i18n-placeholder="placeholderChampion"
             autocomplete="off"
             spellcheck="false"
           />
@@ -176,16 +193,17 @@
           <button class="slot" data-slot="R">R</button>
         </div>
 
-        <button class="action-btn guess" id="guessBtn">GUESS</button>
-        <button class="action-btn next hidden" id="nextBtn">NEXT →</button>
+        <button class="action-btn guess" id="guessBtn" data-i18n="guess">GUESS</button>
+        <button class="action-btn next hidden" id="nextBtn" data-i18n="next">NEXT →</button>
       </div>
 
       <div class="feedback" id="feedback" aria-live="polite"></div>
     </main>
 
+    <!-- ============ GUIDE ============ -->
     <aside class="guide-panel hidden" id="guidePanel">
       <div class="guide-header">
-        <div class="guide-title">Completed</div>
+        <div class="guide-title" data-i18n="guideCompleted">Completed</div>
         <div class="guide-progress" id="guideProgress">0 / 0</div>
       </div>
       <div class="guide-search-wrap">
@@ -194,6 +212,7 @@
           class="guide-search"
           id="guideSearch"
           placeholder="Search champion…"
+          data-i18n-placeholder="placeholderSearch"
           autocomplete="off"
           spellcheck="false"
         />
@@ -202,40 +221,45 @@
     </aside>
   </div>
 
+  <!-- ============ GAME OVER ============ -->
   <div class="gameover-overlay hidden" id="gameoverOverlay" aria-hidden="true">
-    <div class="gameover-text">GAME OVER</div>
+    <div class="gameover-text" data-i18n="gameOver">GAME OVER</div>
   </div>
 
+  <!-- ============ DEV PANEL ============ -->
   <div class="dev-panel" id="devPanel">
     <button class="dev-toggle" id="devToggle" title="Developer tools">DEV</button>
     <div class="dev-body hidden" id="devBody">
-      <div class="dev-title">Unlock Champion Abilities</div>
+      <div class="dev-title" data-i18n="devTitle">Unlock Champion Abilities</div>
       <div class="dev-row">
         <input
           type="text"
           class="dev-input"
           id="devChampionInput"
           placeholder="Champion name…"
+          data-i18n-placeholder="devPlaceholder"
           autocomplete="off"
           spellcheck="false"
         />
-        <button class="dev-btn" id="devUnlockBtn">Unlock</button>
+        <button class="dev-btn" id="devUnlockBtn" data-i18n="devUnlock">Unlock</button>
       </div>
       <div class="dev-status" id="devStatus"></div>
     </div>
   </div>
 
-  <script src="js/config.js"></script>
-  <script src="js/utils.js"></script>
-  <script src="js/specialAbilities.js"></script>
-  <script src="js/data.js"></script>
-  <script src="js/timer.js"></script>
-  <script src="js/gamemodes.js"></script>
-  <script src="js/guide.js"></script>
-  <script src="js/dev.js"></script>
-  <script src="js/rounds.js"></script>
-  <script src="js/autocomplete.js"></script>
-  <script src="js/events.js"></script>
-  <script src="js/init.js"></script>
+  <!-- ============ SCRIPTS ============ -->
+  <script src="js/config.js?v=2"></script>
+  <script src="js/i18n.js?v=2"></script>
+  <script src="js/utils.js?v=2"></script>
+  <script src="js/specialAbilities.js?v=2"></script>
+  <script src="js/data.js?v=2"></script>
+  <script src="js/timer.js?v=2"></script>
+  <script src="js/gamemodes.js?v=2"></script>
+  <script src="js/guide.js?v=2"></script>
+  <script src="js/dev.js?v=2"></script>
+  <script src="js/rounds.js?v=2"></script>
+  <script src="js/autocomplete.js?v=2"></script>
+  <script src="js/events.js?v=2"></script>
+  <script src="js/init.js?v=2"></script>
 </body>
 </html>

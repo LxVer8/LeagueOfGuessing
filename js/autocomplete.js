@@ -1,6 +1,6 @@
 // ============================================================
 //  autocomplete.js — Champion search box
-//  Load order: 9
+//  Load order: 10
 // ============================================================
 
 let autocompleteIndex = -1;
@@ -16,7 +16,11 @@ function showAutocomplete(query) {
   if (!q) { hideAutocomplete(); return; }
 
   const matches = state.allChampions
-    .filter((c) => normalizeName(c.name).includes(q))
+    .filter((c) =>
+      normalizeName(c.names.en).includes(q) ||
+      normalizeName(c.names.es).includes(q) ||
+      normalizeName(c.key).includes(q)
+    )
     .slice(0, 8);
 
   if (matches.length === 0) { hideAutocomplete(); return; }
@@ -26,7 +30,7 @@ function showAutocomplete(query) {
       const iconUrl = `${DDRAGON_CDN}/${state.version}/img/champion/${c.key}.png`;
       return `<li data-key="${c.key}" data-index="${i}">
         <img src="${iconUrl}" alt="">
-        <span>${escapeHtml(c.name)}</span>
+        <span>${escapeHtml(displayChampionName(c))}</span>
       </li>`;
     })
     .join('');
@@ -37,9 +41,9 @@ function showAutocomplete(query) {
 
 function commitAutocompleteSelection(li) {
   const key = li.dataset.key;
-  const champ = state.allChampions.find((c) => c.key === key);
+  const champ = findChampionByKey(key);
   if (!champ) return;
-  els.championInput.value = champ.name;
+  els.championInput.value = displayChampionName(champ);
   state.selectedChampionKey = champ.key;
   hideAutocomplete();
 }
