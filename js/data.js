@@ -77,7 +77,7 @@ async function loadAllData() {
     throw new Error(t('noAbilitiesMatched'));
   }
 
-  console.log(`✅ Ready — ${state.allChampions.length} champions, ${state.abilityPool.length} abilities.`);
+  console.log(`Ready — ${state.allChampions.length} champions, ${state.abilityPool.length} abilities.`);
 }
 
 function buildRoleChampionMap() {

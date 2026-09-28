@@ -5,7 +5,7 @@
 
 const STRINGS = {
   en: {
-    title: 'LoL Ability Guesser',
+    title: 'League of Guessing',
 
     // Panel labels
     display: 'Display',
@@ -51,7 +51,7 @@ const STRINGS = {
 
     // Round messages
     hundredComplete: '100% Complete!',
-    hundredCompleteMsg: (score) => `🎉 You mastered every ability! Final score: ${score}`,
+    hundredCompleteMsg: (score) => `You mastered every ability! Final score: ${score}`,
     noAbilitiesForRole: 'No abilities available for this role.',
     typeChampionFirst: 'Type a champion name first.',
     championNotRecognized: 'Champion not recognized. Pick from the list.',
@@ -81,17 +81,17 @@ const STRINGS = {
   },
 
   es: {
-    title: 'Adivina la Habilidad del LoL',
+    title: 'League of Guessing',
 
-    display: 'Visualización',
-    stats: 'Estadísticas',
+    display: 'Visual',
+    stats: 'Stats',
     lives: 'Vidas',
-    timer: 'Temporizador',
+    timer: 'Tiempo',
     gamemodes: 'Modos de juego',
 
     modeIcon: 'Solo icono',
     modeName: 'Solo nombre',
-    modeBoth: 'Ambos',
+    modeBoth: 'Todo',
 
     score: 'Puntuación',
     personalBest: 'Mejor puntuación',
@@ -104,10 +104,10 @@ const STRINGS = {
     progress: 'Progreso',
     restartProgress: 'Reiniciar progreso',
 
-    roleTop: 'Superior',
+    roleTop: 'Top',
     roleJungle: 'Jungla',
-    roleMid: 'Central',
-    roleBot: 'Inferior',
+    roleMid: 'Mid',
+    roleBot: 'Bot',
     roleSupport: 'Soporte',
 
     loading: 'Cargando…',
@@ -121,7 +121,7 @@ const STRINGS = {
 
     hundredComplete: '¡100% completado!',
     hundredCompleteMsg: (score) =>
-      `🎉 ¡Dominaste todas las habilidades! Puntuación final: ${score}`,
+      `¡Dominaste todas las habilidades! Puntuación final: ${score}`,
     noAbilitiesForRole: 'No hay habilidades disponibles para este rol.',
     typeChampionFirst: 'Escribe el nombre de un campeón primero.',
     championNotRecognized: 'Campeón no reconocido. Elige uno de la lista.',
